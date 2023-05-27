@@ -1,0 +1,21 @@
+name: Update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * 1-5'
+permissions: write-all
+jobs:
+  build:
+    name: Update
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update
+        run: |
+          .\Update.ps1
+          git config --global user.email "spynetgirl@outlook"
+          git config --global user.name "HotCakeX"
+          git add --all
+          git commit -m "Automated Update"
+          git push
+        shell: pwsh
