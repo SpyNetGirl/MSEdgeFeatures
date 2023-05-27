@@ -1,4 +1,4 @@
-﻿$Version = (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/main/last.txt").Trim()
+$Version = (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/main/last.txt").Trim()
 $split = $Version.split('.')
 $Added = (Invoke-RestMethod -Uri "https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/main/Edge%20Canary/$($split[0])/$Version/added.txt") -replace ("`n", ",")
 
