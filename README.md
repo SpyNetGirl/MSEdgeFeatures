@@ -6,7 +6,7 @@ These features are [Controlled Feature Rollouts](https://techcommunity.microsoft
 
 By identifying the changes, you can enable and experience specific new features in Edge canary before anyone else, or before the feature is even officially enabled for anyone.
 
-The GitHub action runs every 12 hours and only during weekdays since Edge Canary channel doesn't get updates during weekends.
+The GitHub action runs every 12 hours.
 
 ## How to use ?
 
