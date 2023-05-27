@@ -1,6 +1,6 @@
 # What is this repository ?
 
-This is a fully automated repository, tasked with identifying the features added or removed in each Edge canary channel update.
+This is a fully automated repository, tasked with identifying the features added or removed in each [Edge canary channel update.](https://www.microsoftedgeinsider.com/en-us/download/)
 
 These features are [Controlled Feature Rollouts](https://techcommunity.microsoft.com/t5/articles/controlled-feature-roll-outs-in-microsoft-edge/m-p/763678).
 
