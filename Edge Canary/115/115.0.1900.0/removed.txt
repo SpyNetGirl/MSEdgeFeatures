@@ -1,0 +1,2 @@
+msBackfillThumbnailsOnHubOpen
+msShorelineSearchFindOnPageShortcut
