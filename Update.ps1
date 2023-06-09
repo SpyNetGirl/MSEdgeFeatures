@@ -51,6 +51,7 @@ do {
 }
 while ($true)
 
+
 Write-Host "Accepting Strings64's EULA via Registry"
 
 # Add the necessary registry key to accept the EULA of the Strings from SysInternals
@@ -64,7 +65,6 @@ else {
     New-Item -Path $RegistryPath -Force | Out-Null
     New-ItemProperty -Path $RegistryPath -Name $Name -Value $Value -PropertyType DWORD -Force | Out-Null
 }
-
 
 # Finding the latest version of the Edge Canary from its installation directory's name
 Write-Host "Searching for the Edge Canary version that was just downloaded"
@@ -103,6 +103,11 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
                 continue
             }          
         }
+    }
+    # if the current Edge canary version is not the first release in a major version
+    else {        
+        $PreviousVersion = (Get-ChildItem ".\Edge Canary\$($Split[0])" -Directory | Sort-Object -Descending | Select-Object -Skip 1 -First 1).Name
+        $PreviousVersionSplit = $PreviousVersion.Split('.')
     }
 
     Write-Host "Comparing version: $version with version: $PreviousVersion" -ForegroundColor Cyan
