@@ -141,3 +141,8 @@ else {
     Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red
     Exit 0
 }
+
+
+$readme = Get-Content -Raw -Path "README.md"
+$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $Version
+Set-Content -Path "README.md" -Value $readme.TrimEnd()

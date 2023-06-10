@@ -8,6 +8,13 @@ By identifying the changes, you can enable and experience specific new features 
 
 The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github/workflows/Update.yml) runs every 12 hours.
 
+## Latest Edge Canary version
+
+<!-- Edge-Canary-Version:START -->
+<!-- Edge-Canary-Version:END -->
+
+<br>
+
 ## How to use ? <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/Nyan%20cat.gif">
 
 Run this in PowerShell (No admin privileges required) without downloading
