@@ -141,13 +141,13 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     
     $DetailsToReplace = @"
 `n### Latest Edge Canary version: $Version`n
-### Last processed at: $(Get-Date -AsUTC) (UTC)`n
+### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 <details>
 <summary>$($added.count) new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-$($($added | ForEach-Object {"* $_`n"}))
+$($added | ForEach-Object {"* $_`n"})
 </details>`n
 "@
 
