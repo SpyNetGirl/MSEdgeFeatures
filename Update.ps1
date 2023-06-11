@@ -143,7 +143,7 @@ else {
 
 $DetailsToReplace = @"
 `n### Latest Edge Canary version: $Version`n
-### Last processed Edge Canary version: $(Get-Date -AsUTC)`n
+### Last processed at: $(Get-Date -AsUTC) (UTC)`n
 "@
 
 $readme = Get-Content -Raw -Path "README.md"
