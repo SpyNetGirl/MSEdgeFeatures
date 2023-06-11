@@ -8,12 +8,11 @@ By identifying the changes, you can enable and experience specific new features 
 
 The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github/workflows/Update.yml) runs every 12 hours.
 
-## Latest Edge Canary version
+<br>
 
+## Last run details
 <!-- Edge-Canary-Version:START -->
-116.0.1908.0
 <!-- Edge-Canary-Version:END -->
-
 <br>
 
 ## How to use ? <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/Nyan%20cat.gif">
@@ -29,6 +28,8 @@ Or [download](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/Shortcut.ps1)
 It will create an Edge canary shortcut in your Downloads folder. This shortcut includes all of the new features that were added in the latest Edge canary update. You can verify it by right-clicking on it and viewing the Target of the shortcut.
 
 Once you launch Edge canary using the shortcut, you can check out more info about what features are enabled in Edge canary by visiting this page: `edge://version/` and looking at the **Command-line** section.
+
+<br>
 
 ## Feel free to share your findings <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/hand%20love%20gesture.gif">
 

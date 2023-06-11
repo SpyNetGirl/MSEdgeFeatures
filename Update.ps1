@@ -141,9 +141,13 @@ else {
     Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red    
 }
 
+$DetailsToReplace = @"
+`n### Latest Edge Canary version: $Version`n
+### Last processed Edge Canary version: $(Get-Date -AsUTC)`n
+"@
 
 $readme = Get-Content -Raw -Path "README.md"
-$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", "`n$Version`n"
+$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $DetailsToReplace
 Set-Content -Path "README.md" -Value $readme.TrimEnd()
 
 Exit 0
