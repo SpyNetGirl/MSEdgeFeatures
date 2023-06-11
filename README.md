@@ -14,7 +14,45 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 <!-- Edge-Canary-Version:START -->
 ### Latest Edge Canary version: 116.0.1908.0
 
-### Last processed at: 06/11/2023 08:45:32 (UTC)
+### Last processed at: 06/11/2023 10:02:42 (UTC)
+
+<details>
+<summary>30 new features were added in the latest Edge Canary update</summary>
+
+<br>
+
+* MSADegra
+ * msAutofillEdgeProfilePopupV2
+ * msCryptoWalletHelpCenter
+ * msDesktopModeNewBingOptin
+ * msDisablePageActionIcon
+ * msEdgeAskCopilot
+ * msEdgeAutofillSsTrigger
+ * msEdgeIndiaGrowthExperience
+ * msEdgeNotificationOverrideShowCountsForTesting
+ * msEdgeReadingViewMSNArticleWithShadowDOM
+ * msEdgeReadingViewWithShadowDOM
+ * msEdgeSaveOrUpdatePasswordFlyoutFiltering
+ * msEdgeShoppingSetDefaultJourneyStageIfNoAOC
+ * msEdgeSyncRecommitOnServerErrors
+ * msEnableCWSLongInfoBarV2InHoldoutGroup
+ * msEnablePSP
+ * msFavoritesV2ObserveEntityExtraction
+ * msFloatingTabRoundedCornerRadius
+ * msGuidedSwitchToSmartSwitch
+ * msHubAppsNotificationsTriggeringObserver
+ * msNurturingCampaignControl
+ * msOmniboxDisablePageActionIcons
+ * msPasswordBreachDetectionV2
+ * msShorelineToolbarWinCopilot
+ * msStandaloneSidebarFramework
+ * MST7A3
+ * msWalletFrequentFlyerAutofillV2
+ * msWalletHubAadUsers
+ * msWalletNotificationCardTokenizationEligibleIntroductionForRewards
+ * msWalletNotificationsAADUsers
+
+</details>
 <!-- Edge-Canary-Version:END -->
 <br>
 
