@@ -135,24 +135,29 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     Write-Host "Added features .\Edge Canary\$($Split[0])\$Version\added.txt ($($Added.count) entries)"
     Write-Host "Removed features .\Edge Canary\$($Split[0])\$Version\removed.txt ($($Removed.count) entries)"
 
+    # Storing the latest version in a file
     $Version | Out-File .\last.txt
-}
-else {
-    Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red    
-}
 
-$DetailsToReplace = @"
+    
+    $DetailsToReplace = @"
 `n### Latest Edge Canary version: $Version`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC)`n
 <details>
-<summary>New features added in the latest version</summary>
+<summary>$($added.count) new features were added in the latest Edge Canary update</summary>
+
+<br>
 
 $($($added | ForEach-Object {"* $_`n"}))
 </details>`n
 "@
 
-$readme = Get-Content -Raw -Path "README.md"
-$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $DetailsToReplace
-Set-Content -Path "README.md" -Value $readme.TrimEnd()
+    # Showing extra details on the Readme page of the repository about the latest Edge Canary version
+    $readme = Get-Content -Raw -Path "README.md"
+    $readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $DetailsToReplace
+    Set-Content -Path "README.md" -Value $readme.TrimEnd()
 
-Exit 0
+}
+else {
+    Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red
+    Exit 0    
+}
