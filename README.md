@@ -12,6 +12,9 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details
 <!-- Edge-Canary-Version:START -->
+### Latest Edge Canary version: 116.0.1908.0
+
+### Last processed Edge Canary version: 06/11/2023 08:17:49
 <!-- Edge-Canary-Version:END -->
 <br>
 
