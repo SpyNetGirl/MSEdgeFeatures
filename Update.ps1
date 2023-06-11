@@ -144,6 +144,11 @@ else {
 $DetailsToReplace = @"
 `n### Latest Edge Canary version: $Version`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC)`n
+<details>
+<summary>New features added in the latest version</summary>
+
+$($($added | ForEach-Object {"* $_`n"}))
+</details>`n
 "@
 
 $readme = Get-Content -Raw -Path "README.md"
