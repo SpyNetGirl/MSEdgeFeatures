@@ -138,11 +138,12 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     $Version | Out-File .\last.txt
 }
 else {
-    Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red
-    Exit 0
+    Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red    
 }
 
 
 $readme = Get-Content -Raw -Path "README.md"
-$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $Version
+$readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", "`n$Version`n"
 Set-Content -Path "README.md" -Value $readme.TrimEnd()
+
+Exit 0
