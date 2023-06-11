@@ -140,7 +140,7 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
     
     $DetailsToReplace = @"
-`n### <img width="40" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Latest Edge Canary version: $Version`n
+`n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $Version`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 <details>
 <summary>$($added.count) new features were added in the latest Edge Canary update</summary>

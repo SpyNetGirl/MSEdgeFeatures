@@ -8,7 +8,7 @@ By identifying the changes, you can enable and experience specific new features 
 
 The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github/workflows/Update.yml) runs every 12 hours.
 
-<br>
+<img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
 ## Last run details
 <!-- Edge-Canary-Version:START -->
@@ -54,11 +54,12 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 </details>
 <!-- Edge-Canary-Version:END -->
-<br>
+
+<img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
 ## How to use ? <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/Nyan%20cat.gif">
 
-Run this in PowerShell (No admin privileges required) without downloading
+Run this in PowerShell without downloading *(No admin privileges required)*
 
 ```powershell
 Invoke-RestMethod 'https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/main/Shortcut.ps1' | Invoke-Expression
@@ -70,8 +71,8 @@ It will create an Edge canary shortcut in your Downloads folder. This shortcut i
 
 Once you launch Edge canary using the shortcut, you can check out more info about what features are enabled in Edge canary by visiting this page: `edge://version/` and looking at the **Command-line** section.
 
-<br>
+<img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
-## Feel free to share your findings <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/hand%20love%20gesture.gif">
+## Feel free to share your findings ! <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/hand%20love%20gesture.gif">
 
 I might sometimes post new notable features I come across [in the Discussions section](https://github.com/HotCakeX/MSEdgeFeatures/discussions), You can do the same and let us know what you find!
