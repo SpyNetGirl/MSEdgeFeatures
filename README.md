@@ -55,3 +55,13 @@ Once you launch Edge canary using the shortcut, you can check out more info abou
 ## Feel free to share your findings ! <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/hand%20love%20gesture.gif">
 
 I might sometimes post new notable features I come across [in the Discussions section](https://github.com/HotCakeX/MSEdgeFeatures/discussions), You can do the same and let us know what you find!
+
+<img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
+
+## Things to note
+
+* The max number of characters the feature flags can consume is roughly `1000`, if they exceed that number, they will be ignored.
+
+* Sometimes feature flags with similar names should be used together in order to activate a certain feature, using them individually might not activate anything.
+
+<br>
