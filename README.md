@@ -12,45 +12,24 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1908.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1914.0
 
-### Last processed at: 06/11/2023 10:33:38 (UTC+00:00)
+### Last processed at: 06/12/2023 18:44:53 (UTC+00:00)
 
 <details>
-<summary>30 new features were added in the latest Edge Canary update</summary>
+<summary>9 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MSADegra
- * msAutofillEdgeProfilePopupV2
- * msCryptoWalletHelpCenter
- * msDesktopModeNewBingOptin
- * msDisablePageActionIcon
- * msEdgeAskCopilot
- * msEdgeAutofillSsTrigger
- * msEdgeIndiaGrowthExperience
- * msEdgeNotificationOverrideShowCountsForTesting
- * msEdgeReadingViewMSNArticleWithShadowDOM
- * msEdgeReadingViewWithShadowDOM
- * msEdgeSaveOrUpdatePasswordFlyoutFiltering
- * msEdgeShoppingSetDefaultJourneyStageIfNoAOC
- * msEdgeSyncRecommitOnServerErrors
- * msEnableCWSLongInfoBarV2InHoldoutGroup
- * msEnablePSP
- * msFavoritesV2ObserveEntityExtraction
- * msFloatingTabRoundedCornerRadius
- * msGuidedSwitchToSmartSwitch
- * msHubAppsNotificationsTriggeringObserver
- * msNurturingCampaignControl
- * msOmniboxDisablePageActionIcons
- * msPasswordBreachDetectionV2
- * msShorelineToolbarWinCopilot
- * msStandaloneSidebarFramework
- * MST7A3
- * msWalletFrequentFlyerAutofillV2
- * msWalletHubAadUsers
- * msWalletNotificationCardTokenizationEligibleIntroductionForRewards
- * msWalletNotificationsAADUsers
+* msEdgeAskCopilotVerticalChips
+ * msEdgeSdchAdditionalInfoInRefreshUrl
+ * msEgressDrop
+ * msForegroundWatcher
+ * msNurturingRecommendedSettingsExplicitLaunch
+ * msSegmentationPlatformToolbarPersonalization
+ * msShowOfflineGameEntrance
+ * msUSSingleListDesign
+ * msUSTabbedDesign
 
 </details>
 <!-- Edge-Canary-Version:END -->
