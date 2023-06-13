@@ -41,7 +41,7 @@ Invoke-RestMethod 'https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/mai
 
 Or [download](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/Shortcut.ps1) it on your system and then run.
 
-It will create an Edge canary shortcut in your Downloads folder. This shortcut includes all of the new features that were added in the latest Edge canary update. You can verify it by right-clicking on it and viewing the Target of the shortcut.
+It will create an Edge canary shortcut in your Downloads folder. This shortcut includes all the new features that were added in the latest Edge canary update. You can verify it by right-clicking on it and viewing the Target of the shortcut.
 
 Once you launch Edge canary using the shortcut, you can check out more info about what features are enabled in Edge canary by visiting this page: `edge://version/` and looking at the **Command-line** section.
 
@@ -49,7 +49,7 @@ Once you launch Edge canary using the shortcut, you can check out more info abou
 
 ## Feel free to share your findings ! <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/hand%20love%20gesture.gif">
 
-I might sometimes post new notable features I come across [in the Discussions section](https://github.com/HotCakeX/MSEdgeFeatures/discussions), You can do the same and let us know what you find!
+I might sometimes post notable new features I come across [in the Discussions section](https://github.com/HotCakeX/MSEdgeFeatures/discussions), you can do the same and let us know what you find!
 
 <img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
