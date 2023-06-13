@@ -1,0 +1,7 @@
+msCombineStartHomeNTP
+msDeviceMemoryGE0LT2GB
+msDeviceMemoryGE16GB
+msDeviceMemoryGE2LT4GB
+msDeviceMemoryGE4LT8GB
+msDeviceMemoryGE8LT12GB
+msDeviceMemoryGE8LT16GB
