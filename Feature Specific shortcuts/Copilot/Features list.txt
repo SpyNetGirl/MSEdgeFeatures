@@ -1,0 +1,4 @@
+The following are the Copilot feature flags found in Edge canary until version 116.0.1917.0
+When more flags are found, they will be added to the list.
+
+msEdgeAskCopilot,msShorelineToolbarWinCopilot,msEdgeAskCopilotVerticalChips
