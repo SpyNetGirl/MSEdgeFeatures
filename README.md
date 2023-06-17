@@ -12,18 +12,54 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1917.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1923.0
 
-### Last processed at: 06/14/2023 06:37:15 (UTC+00:00)
+### Last processed at: 06/17/2023 06:34:06 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>39 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeEduPdfFeatures
- * msIEModeGuessInitiatorOriginForEdgeNav
- * msOverridePBComputationTimeToLive
+* msAutofillEdgeLimitVoteUploadBasedOnHeuristicsML
+ * msEdgeAutofillNewTableSchemaCheck
+ * msEdgeAutoLaunchRestartStartupBoostDuringBackOff
+ * msEdgeContinuity
+ * msEdgeMouseGestureDefaultEnabledWW
+ * msEdgeMouseGestureSupportedWW
+ * msEdgeShoppingInEdgeBar
+ * msEdgeSplitWindowPromotion
+ * msEdgeSyncHubAppUsageEncrypted
+ * msEdgeUseCachedThumbnailData
+ * msHubAppDefaultOnCleanup
+ * msHubAppRevertDefaultOnCleanup
+ * msHubAppUsageVisibleRecord
+ * mskAutofillEdgeDisableVoteUploadViaRestAPI
+ * msMediaFoundationAV1Decoding
+ * msOmniboxChatWithBingZISuggestion
+ * msOmniboxPromoteBingChatZeroInputScore
+ * msPhoenixEdgeFrameColor
+ * msPhoenixEdgeFrameColorConfig
+ * msPhoenixScrollInMargins
+ * msPhoenixUseDarkShadowsForTabs
+ * msProactiveServiceFeature1
+ * msProactiveServiceFeature2
+ * msProactiveServiceFeature3
+ * msProactiveServiceFeature4
+ * msProactiveServiceFeature5
+ * msProactiveServiceFeature6
+ * msProjectKodiakOrganizationalBranding
+ * msReinstallMissingWebApps
+ * msShorelineToolbarWinCopilotIcon
+ * msSuperResolution
+ * msTokenizationMasterCardPostTransactionEnrollment
+ * msTokenizationMasterCardPostTransactionEnrollmentTrigger
+ * msWalletHomePageURL
+ * msWalletPersonalinfoPageURL
+ * msWalletPromotionLinkEligible
+ * msWalletSettingsMigrationTreatment1
+ * msWalletSettingsMigrationTreatment2
+ * msWalletTestTraffic
 
 </details>
 <!-- Edge-Canary-Version:END -->
