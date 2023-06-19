@@ -1,0 +1,10 @@
+msDesktopModeExcludeHoldout
+msNtpInPageLocationPrompt
+msNtpLocBanner
+msNtpLocFlyout
+msNtpLocNurturingPrompt
+msNtpLocNurturingPromptEligible
+msNtpLocNurturingPromptTrigger
+msNurturingNtpLocationUpsell
+msOmniboxRelatedSearchesOnZeroInputForBingSerp
+msPCManagerPromotionBannerStringOrigin

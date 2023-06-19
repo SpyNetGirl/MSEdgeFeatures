@@ -12,54 +12,25 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1923.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1928.0
 
-### Last processed at: 06/17/2023 06:34:06 (UTC+00:00)
+### Last processed at: 06/19/2023 18:38:20 (UTC+00:00)
 
 <details>
-<summary>39 new features were added in the latest Edge Canary update</summary>
+<summary>10 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAutofillEdgeLimitVoteUploadBasedOnHeuristicsML
- * msEdgeAutofillNewTableSchemaCheck
- * msEdgeAutoLaunchRestartStartupBoostDuringBackOff
- * msEdgeContinuity
- * msEdgeMouseGestureDefaultEnabledWW
- * msEdgeMouseGestureSupportedWW
- * msEdgeShoppingInEdgeBar
- * msEdgeSplitWindowPromotion
- * msEdgeSyncHubAppUsageEncrypted
- * msEdgeUseCachedThumbnailData
- * msHubAppDefaultOnCleanup
- * msHubAppRevertDefaultOnCleanup
- * msHubAppUsageVisibleRecord
- * mskAutofillEdgeDisableVoteUploadViaRestAPI
- * msMediaFoundationAV1Decoding
- * msOmniboxChatWithBingZISuggestion
- * msOmniboxPromoteBingChatZeroInputScore
- * msPhoenixEdgeFrameColor
- * msPhoenixEdgeFrameColorConfig
- * msPhoenixScrollInMargins
- * msPhoenixUseDarkShadowsForTabs
- * msProactiveServiceFeature1
- * msProactiveServiceFeature2
- * msProactiveServiceFeature3
- * msProactiveServiceFeature4
- * msProactiveServiceFeature5
- * msProactiveServiceFeature6
- * msProjectKodiakOrganizationalBranding
- * msReinstallMissingWebApps
- * msShorelineToolbarWinCopilotIcon
- * msSuperResolution
- * msTokenizationMasterCardPostTransactionEnrollment
- * msTokenizationMasterCardPostTransactionEnrollmentTrigger
- * msWalletHomePageURL
- * msWalletPersonalinfoPageURL
- * msWalletPromotionLinkEligible
- * msWalletSettingsMigrationTreatment1
- * msWalletSettingsMigrationTreatment2
- * msWalletTestTraffic
+* msClearBrowsingDataIcon
+ * msDisablePopups
+ * msEdge38030169
+ * msEdgePasswordManagerSaveBubbleNotNowExp
+ * msEdgePreLaunchFREAfterOOBE
+ * msEdgeShoppingCheckValidReplacedEntryOnResetForNav
+ * msNurturingCIAdvanceConversionPasswords
+ * msNurturingCIAllDataTypesEnabled
+ * msWalletCheckoutRewardsUnlock
+ * msWorkspacesEmailInvites
 
 </details>
 <!-- Edge-Canary-Version:END -->
