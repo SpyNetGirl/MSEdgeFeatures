@@ -12,18 +12,22 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1930.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1931.0
 
-### Last processed at: 06/20/2023 18:34:35 (UTC+00:00)
+### Last processed at: 06/21/2023 06:35:56 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>7 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeAutoPictureInPictureTrigger
- * msEdgeLocalSurfFallbackForTesting
- * MSTDE1
+* msNurturingRecommendedSettingsBulletPointUI
+ * msNurturingTimedTrigger
+ * msPhoenixFullBlackBackground
+ * msQuickSearchSearchDisabled
+ * msUACompatibilityFixDisabledForVMs
+ * msWalletPasswordsPromotionLinkEligible
+ * msWalletSettingsSetAsDefault
 
 </details>
 <!-- Edge-Canary-Version:END -->

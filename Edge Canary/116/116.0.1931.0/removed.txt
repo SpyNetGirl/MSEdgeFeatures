@@ -1,0 +1,3 @@
+msCryptoWalletMFAEnable
+msEdgeAutofillNewTableSchemaCheck
+MSTDE1
