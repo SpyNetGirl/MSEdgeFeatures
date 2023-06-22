@@ -1,0 +1,5 @@
+msEdgeAutoShowTabLifetime
+msForcedAutoShowOnboardedOnWPO
+msNativeUIAutomation
+msSmartScreenProtection
+msWebView2EnableCustomScheme
