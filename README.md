@@ -12,25 +12,17 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1934.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 116.0.1935.0
 
-### Last processed at: 06/22/2023 18:34:38 (UTC+00:00)
+### Last processed at: 06/23/2023 06:41:36 (UTC+00:00)
 
 <details>
-<summary>10 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAutofillEdgeEnableDownstreamDOB
- * msBrowserCustomThemeTrigger
- * msBrowserDarkModeTrigger
- * msBrowserHighContrastModeTrigger
- * msBrowserHorizontalTabsTrigger
- * msBrowserLightModeTrigger
- * msBrowserVerticalTabsTrigger
- * msEdgeAutofillContextualSuggestions
- * msEdgeDisableTabGroupEditorCloseGroupOnFirstShowing
- * msEdgeSDSMPageInfoIntegrationEnabled
+* msEdgeDiscoverWindowsActions
+ * msSmartScreenProtection
 
 </details>
 <!-- Edge-Canary-Version:END -->
