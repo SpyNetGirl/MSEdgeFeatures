@@ -12,38 +12,21 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1945.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1947.0
 
-### Last processed at: 06/27/2023 18:26:18 (UTC+00:00)
+### Last processed at: 06/28/2023 18:39:47 (UTC+00:00)
 
 <details>
-<summary>23 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAbydosGestureSupport
- * msEdgeBEShowCarrousel
- * msEdgeBrowserTypeApp
- * msEdgeBrowserTypeAppPopup
- * msEdgeBrowserTypeDevtools
- * msEdgeBrowserTypeEmbedded
- * msEdgeBrowserTypeNormal
- * msEdgeBrowserTypePictureInPicture
- * msEdgeBrowserTypePopup
- * msEdgeBrowserTypeStandaloneSidebar
- * msEdgeShoppingTestDMA
- * msEEUseVersion3Config
- * msEnableOmniboxOCVFeedback
- * msImportOpenTabsFromChromeWithFileLocked
- * msM365LinksEnableRePrompt
- * msNtpOrPostFreDhpNavigation
- * msNurturingBrowserEssentialsAwareness
- * msWalletCheckoutSiteAllowedForSE
- * msWebAppInstallDescriptionA
- * msWebAppInstallDescriptionB
- * msWebAppInstallDescriptionC
- * msWebAppInstallDescTrigger
- * msworklinks
+* msAbydosHandwritingAttr
+ * msEdgeAutofillApiV2Post
+ * msEdgeSyncAutofillFormFieldSsData
+ * MsHTMLElementHandwriting
+ * msNurturingFrameworkV3HistogramUpdate
+ * msWalletNotificationRebatesCashoutAmountDescription
 
 </details>
 <!-- Edge-Canary-Version:END -->
