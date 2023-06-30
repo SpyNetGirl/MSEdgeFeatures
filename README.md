@@ -12,23 +12,23 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1948.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1951.0
 
-### Last processed at: 06/29/2023 06:41:22 (UTC+00:00)
+### Last processed at: 06/30/2023 18:26:52 (UTC+00:00)
 
 <details>
 <summary>8 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MSADEGRAH
- * msCppgcExpandedHeap
- * msOmniboxSuggestionRatioDropdown
- * msSmartScreenWebSocketThrottle
- * msWebAssistHistorySearchIndexRebuildTrigger
- * msWebAssistIndexRebuildFromHubAndOmniboxTrigger
- * msWebAssistSHSHandleShutdownBehaviour
- * msWebView2NotificationHandling
+* msEdgeCopilotChataDataInFeedback
+ * msEdgeDetectInjectedKeyEvent
+ * msEdgeDiscoverBizChatClientUI
+ * msEdgeRewardsFeedbackV2
+ * msEdgeVerticalTabsPromoNoFlyoutWhenOmniboxFocused
+ * msManagedSiteIndicatorDLPPolicyView
+ * msUndersideChatSelectedTextListenerDisabled
+ * msUndersideFrontLoadServerExp
 
 </details>
 <!-- Edge-Canary-Version:END -->
