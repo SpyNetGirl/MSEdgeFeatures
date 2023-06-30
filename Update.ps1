@@ -172,7 +172,7 @@ $($added | ForEach-Object {"* $_`n"})
     $GitHubReleaseBodyContent = @"
 # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
     
-## Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
+## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 
 ### $($added.count) New features were added
     
