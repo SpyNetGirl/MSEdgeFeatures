@@ -1,4 +1,4 @@
-﻿$ProgressPreference = 'SilentlyContinue'
+$ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
 $URL1 = "https://go.microsoft.com/fwlink/?linkid=2084706&Channel=Canary&language=en"
 $URL2 = "https://c2rsetup.edog.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeInsiderPage&Channel=Canary&language=en"
@@ -138,7 +138,7 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     # Storing the latest version in a file
     $Version | Out-File .\last.txt
 
-    
+    #region ReadMe-Updater   
     $DetailsToReplace = @"
 `n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $Version`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
@@ -155,6 +155,51 @@ $($added | ForEach-Object {"* $_`n"})
     $readme = Get-Content -Raw -Path "README.md"
     $readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $DetailsToReplace
     Set-Content -Path "README.md" -Value $readme.TrimEnd()
+    #endregion ReadMe-Updater  
+ 
+    #region GitHub-Committing
+    # Committing the changes back to the repository
+    git config --global user.email "spynetgirl@outlook"
+    git config --global user.name "HotCakeX"
+    git add --all
+    git commit -m "Automated Update"
+    git push
+    #endregion GitHub-Committing
+
+
+    #region GitHub-Release-Publishing
+
+    $GitHubReleaseBodyContent = @"
+# <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
+    
+## Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
+
+### $($added.count) New features were added
+    
+$($added | ForEach-Object {"* $_`n"})
+
+<br>
+
+### $($Removed.count) Features were removed
+
+$($Removed | ForEach-Object {"* $_`n"})
+
+<br>
+
+"@
+
+    # Get the latest commit SHA
+    $LATEST_SHA = git rev-parse HEAD
+    # Create a release with the latest commit as tag and target
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent" } | ConvertTo-Json)
+    # Extract the upload_url from the response
+    $UPLOAD_URL = $RELEASE_RESPONSE.upload_url.Split("{")[0]
+    # Upload any zip files as assets
+    foreach ($file in Get-ChildItem *.zip) {
+        Invoke-RestMethod -Uri "$UPLOAD_URL?name=$file" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN"; "Content-Type" = "application/zip" } -InFile $file.FullName
+    }
+
+    #endregion GitHub-Release-Publishing
 
 }
 else {
