@@ -13,9 +13,6 @@ jobs:
       - name: Update
         run: |
           .\Update.ps1
-          git config --global user.email "spynetgirl@outlook"
-          git config --global user.name "HotCakeX"
-          git add --all
-          git commit -m "Automated Update"
-          git push
         shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
