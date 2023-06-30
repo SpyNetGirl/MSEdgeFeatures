@@ -8,6 +8,8 @@ By identifying the changes, you can enable and experience specific new features 
 
 The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github/workflows/Update.yml) runs every 12 hours.
 
+[Releases](https://github.com/HotCakeX/MSEdgeFeatures/releases) are published for each update automatically, giving an overview of what features were added and removed in each version. Continuing to improve the user experience of this repository.
+
 <img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
