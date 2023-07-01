@@ -158,22 +158,96 @@ $($added | ForEach-Object {"* $_`n"})
     #endregion ReadMe-Updater  
  
     #region GitHub-Committing
+
     # Committing the changes back to the repository
     git config --global user.email "spynetgirl@outlook"
     git config --global user.name "HotCakeX"
     git add --all
     git commit -m "Automated Update"
     git push
+
     #endregion GitHub-Committing
 
 
+    #region Edge-Canary-ShortCut-Maker-Code
+
+    # Putting the Edge canary shortcut maker's code in the EdgeCanaryShortcutMaker.ps1 file
+
+    New-Item -Path ".\EdgeCanaryShortcutMaker.ps1" -Force
+
+
+    $AddedArray = $Added -join ","
+    $PreArguments = "--enable-features=$AddedArray"
+    $PreArguments = $PreArguments.TrimEnd(",")
+    
+    $contenttoadd = @"
+    
+    `$arguments = `"$PreArguments`"
+    
+    function New-Shortcut {
+        [CmdletBinding()]
+        param (
+            [Parameter(Mandatory = `$true)][ValidateNotNullOrEmpty()][string]`$Path,
+            [Parameter(Mandatory = `$true)][ValidateNotNullOrEmpty()][string]`$Target,
+            [Parameter(Mandatory = `$true)][ValidateNotNullOrEmpty()][string]`$Description,
+            [Parameter(Mandatory = `$true)][ValidateNotNullOrEmpty()][string]`$WorkingDirectory,
+            [string]`$Arguments,
+            [string]`$Icon
+        )
+        if (!(Test-Path `$Path)) {
+            if (!(Test-Path `$Path)) {
+                `$WshShell = New-Object -ComObject WScript.Shell
+                `$Shortcut = `$WshShell.CreateShortcut(`$Path)
+                `$Shortcut.TargetPath = `$Target
+                if (![string]::IsNullOrEmpty(`$Arguments)) { `$Shortcut.Arguments = `$Arguments }
+                if (![string]::IsNullOrEmpty(`$Icon)) { `$Shortcut.IconLocation = `$Icon }
+                `$Shortcut.Description = `$Description
+                `$Shortcut.WorkingDirectory = `$WorkingDirectory
+                `$Shortcut.Save()
+            }
+        }
+    }
+    if (Test-Path "C:\Users\`$env:USERNAME\Downloads\EDGECAN.lnk") { Remove-Item "C:\Users\`$env:USERNAME\Downloads\EDGECAN.lnk" }
+    New-Shortcut -Path "C:\Users\`$env:USERNAME\Downloads\EDGECAN.lnk" ``
+        -Target "C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe" ``
+        -Description "Microsoft Edge" ``
+        -WorkingDirectory "C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application" ``
+        -Icon "C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\User Data\Default\Edge Profile.ico" ``
+        -Arguments `$arguments
+    
+"@
+    
+    Set-Content -Value $contenttoadd -Path ".\EdgeCanaryShortcutMaker.ps1" -Force
+
+    #endregion Edge-Canary-ShortCut-Maker-Code
+
     #region GitHub-Release-Publishing
 
+    # Publishing the Release without Body of the Release (i.e. text)
+
+    # Get the latest commit SHA
+    $LATEST_SHA = git rev-parse HEAD
+    # Create a release with the latest commit as tag and target
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; draft = $false; prerelease = $false } | ConvertTo-Json)
+
+    # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
+    gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber      
+
+    # Get the URL of the uploaded EdgeCanaryShortcutMaker.ps1 file
+    $RELEASE_URL = $RELEASE_RESPONSE.html_url
+    $ASSET_URL = "$RELEASE_URL/assets"
+    $ASSET_NAME = "EdgeCanaryShortcutMaker.ps1"
+  
+    # Making sure the download link is direct
+    $ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$Version/$ASSET_NAME"
+
+
+    # Body of the Release that is going to be added via a patch method
     $GitHubReleaseBodyContent = @"
 # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
-    
+        
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
-
+    
 ### $($added.count) New features were added
     
 $($added | ForEach-Object {"* $_`n"})
@@ -186,19 +260,23 @@ $($Removed | ForEach-Object {"* $_`n"})
 
 <br>
 
+### How to use the new features in this Edge canary update
+
+1. First make sure your Edge canary is up to date
+
+2. Copy and paste the code below in your PowerShell. NO admin privileges required. An Edge canary shortcut will be created in your Downloads folder. Double-click/tap on it to launch Edge canary with the features added in this update.
+
+<br>
+
+``````powershell
+invoke-restMethod '$ASSET_DOWNLOAD_URL' | Invoke-Expression
+``````
+
 "@
 
-    # Get the latest commit SHA
-    $LATEST_SHA = git rev-parse HEAD
-    # Create a release with the latest commit as tag and target
-    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent" } | ConvertTo-Json)
-    # Extract the upload_url from the response
-    $UPLOAD_URL = $RELEASE_RESPONSE.upload_url.Split("{")[0]
-    # Upload any zip files as assets
-    foreach ($file in Get-ChildItem *.zip) {
-        Invoke-RestMethod -Uri "$UPLOAD_URL?name=$file" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN"; "Content-Type" = "application/zip" } -InFile $file.FullName
-    }
-
+    # Add the body of the Release with the link to the EdgeCanaryShortcutMaker.ps1 asset file included  
+    Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method PATCH -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json)
+ 
     #endregion GitHub-Release-Publishing
 
 }
