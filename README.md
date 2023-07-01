@@ -20,7 +20,7 @@ Continuing to improve the user experience of this repository.
 <!-- Edge-Canary-Version:START -->
 ### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1953.0
 
-### Last processed at: 07/01/2023 06:42:33 (UTC+00:00)
+### Last processed at: 07/01/2023 20:10:28 (UTC+00:00)
 
 <details>
 <summary>12 new features were added in the latest Edge Canary update</summary>
