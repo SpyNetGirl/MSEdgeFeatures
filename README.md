@@ -18,23 +18,27 @@ Continuing to improve the user experience of this repository.
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1951.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1953.0
 
-### Last processed at: 06/30/2023 18:34:58 (UTC+00:00)
+### Last processed at: 07/01/2023 06:42:33 (UTC+00:00)
 
 <details>
-<summary>8 new features were added in the latest Edge Canary update</summary>
+<summary>12 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeCopilotChataDataInFeedback
- * msEdgeDetectInjectedKeyEvent
- * msEdgeDiscoverBizChatClientUI
- * msEdgeRewardsFeedbackV2
- * msEdgeVerticalTabsPromoNoFlyoutWhenOmniboxFocused
- * msManagedSiteIndicatorDLPPolicyView
- * msUndersideChatSelectedTextListenerDisabled
- * msUndersideFrontLoadServerExp
+* MSb2E1
+ * msEdgeAskCopilotSearchChips
+ * msFavoritesV2SmallBreadcrumbView
+ * msNurturingGlobalSitePinningCustomTrigger
+ * msNurturingGlobalSitePinningOnCloseModal
+ * msNurturingWorkspacesMsaOnRestorePrompt
+ * msRNTP
+ * msSmartScreenSubResourceThrottle
+ * msWalletAddMembershipRewardIncentive
+ * msWalletChecoutDAFPaymentsOnly
+ * msWAMAADSignOut
+ * msWdagAutoCloseNavigatedTabs
 
 </details>
 <!-- Edge-Canary-Version:END -->
