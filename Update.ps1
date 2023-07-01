@@ -225,17 +225,40 @@ $($added | ForEach-Object {"* $_`n"})
 
     # Publishing the Release without Body of the Release (i.e. text)
 
+    # Doing this first so that people watching the repository will see this in the Emails that they get
+    # But won't see the PowerShell link because it will be added to the Release body using the Patch method, after this
+    # Without this, the email would have empty content for the body of the Release
+
+    $GitHubReleaseBodyContent = @"
+# <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
+        
+## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
+
+Visit the GitHub's release section for full details on how to use it:
+https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$Version
+    
+### $($added.count) New features were added
+    
+$($added | ForEach-Object {"* $_`n"})
+
+<br>
+
+### $($Removed.count) Features were removed
+
+$($Removed | ForEach-Object {"* $_`n"})
+
+<br>
+
+"@
+
     # Get the latest commit SHA
     $LATEST_SHA = git rev-parse HEAD
     # Create a release with the latest commit as tag and target
-    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; draft = $false; prerelease = $false } | ConvertTo-Json)
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
 
     # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
     gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber      
 
-    # Get the URL of the uploaded EdgeCanaryShortcutMaker.ps1 file
-    $RELEASE_URL = $RELEASE_RESPONSE.html_url
-    $ASSET_URL = "$RELEASE_URL/assets"
     $ASSET_NAME = "EdgeCanaryShortcutMaker.ps1"
   
     # Making sure the download link is direct
