@@ -9,11 +9,11 @@ $StringsExe = "$env:tmp\strings64.exe"
 #Region Downloading-Stuff
 Write-Host "Downloading Edge Canary"
 try {
-    $null = Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath
+    Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath | Out-Null
 }
 catch {
     try {
-        $null = Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath
+        Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath | Out-Null
     }
     catch {
         Write-Host "Failed to download Edge from both URLs. Exiting..."
@@ -23,7 +23,7 @@ catch {
 
 Write-Host "Downloading Strings64.exe"
 try {
-    $null = Invoke-RestMethod -Uri "https://live.sysinternals.com/strings64.exe" -OutFile $StringsExe
+    Invoke-RestMethod -Uri "https://live.sysinternals.com/strings64.exe" -OutFile $StringsExe | Out-Null
 }
 catch {
     Write-Host "Failed to download Strings64. Exiting..."
@@ -74,13 +74,13 @@ $DllPath = "$AppPath\$Version\msedge.dll"
 Write-Host "DLL PATH = $DllPath"
 
 # Expanding the current directory structure that is in GitHub repository to include the new Edge Canary version
-if (!(Test-Path ".\Edge Canary")) { $null = New-Item ".\Edge Canary" -ItemType Directory -Force }
-if (!(Test-Path ".\Edge Canary\$($Split[0])")) { $null = New-Item ".\Edge Canary\$($Split[0])" -ItemType Directory -Force }
+if (!(Test-Path ".\Edge Canary")) { New-Item ".\Edge Canary" -ItemType Directory -Force | Out-Null }
+if (!(Test-Path ".\Edge Canary\$($Split[0])")) { New-Item ".\Edge Canary\$($Split[0])" -ItemType Directory -Force | Out-Null }
 # Check to make sure there is no directory with the same name as the current Edge Canary version and it's not empty
 if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
     # Creating a new directory for the new available Edge Canary version
-    $null = New-Item ".\Edge Canary\$($Split[0])\$Version" -ItemType Directory -Force    
+    New-Item ".\Edge Canary\$($Split[0])\$Version" -ItemType Directory -Force | Out-Null    
 
     # Check whether the current Edge Canary version is the first release in a new major version. If it is, then some actions will be triggered
     if ((Get-ChildItem ".\Edge Canary\$($Split[0])" -Directory).count -eq 1) {
