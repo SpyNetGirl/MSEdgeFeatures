@@ -12,8 +12,6 @@ The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github
 
 Make sure you select the ***Watch*** option at the top of this page to receive notifications on your GitHub and Email whenever a new version of Edge Canary is released.
 
-Continuing to improve the user experience of this repository.
-
 <img src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/Gifs/1pxRainbowLine.gif" width= "300000" alt="horizontal super thin rainbow RGB line">
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
@@ -47,15 +45,11 @@ Continuing to improve the user experience of this repository.
 
 ## How to use ? <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/Nyan%20cat.gif">
 
-Run this in PowerShell without downloading *(No admin privileges required)*
+Navigate to the [Releases section](https://github.com/HotCakeX/MSEdgeFeatures/releases) of this GitHub repository, find the latest update which is at the top, or any other previous update/version that you are looking for, copy the PowerShell code in that release, paste it in your PowerShell window (no admin required), it will create the Edge canary shortcut for you in the Downloads folder. 
 
-```powershell
-Invoke-RestMethod 'https://raw.githubusercontent.com/HotCakeX/MSEdgeFeatures/main/Shortcut.ps1' | Invoke-Expression
-```
+You can start Edge canary with that shortcut and try out the new features added in that specific Edge canary update.
 
-Or [download](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/Shortcut.ps1) it on your system and then run.
-
-It will create an Edge canary shortcut in your Downloads folder. This shortcut includes all the new features that were added in the latest Edge canary update. You can verify it by right-clicking on it and viewing the Target of the shortcut.
+You can verify it by right-clicking on the shortcut and viewing the Target of it.
 
 Once you launch Edge canary using the shortcut, you can check out more info about what features are enabled in Edge canary by visiting this page: `edge://version/` and looking at the **Command-line** section.
 
