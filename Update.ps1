@@ -58,7 +58,7 @@ Write-Host "Accepting Strings64's EULA via Registry"
 $RegistryPath = "HKCU:\Software\Sysinternals\Strings"
 $Name = "EulaAccepted"
 $Value = 1
-if (Test-Path $RegistryPath) {
+if (Test-Path -Path $RegistryPath) {
     Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
 }
 else {
@@ -254,7 +254,10 @@ $($Removed | ForEach-Object {"* $_`n"})
     # Get the latest commit SHA
     $LATEST_SHA = git rev-parse HEAD
     # Create a release with the latest commit as tag and target
-    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" -Method POST -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" `
+        -Method POST `
+        -Headers @{Authorization = "token $env:GITHUB_TOKEN" } `
+        -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
 
     # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
     gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber      
