@@ -1,0 +1,2 @@
+MSb2E1
+msEdgeAutoLaunchRestartStartupBoostDuringBackOff
