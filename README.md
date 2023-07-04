@@ -16,18 +16,19 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1958.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1959.0
 
-### Last processed at: 07/03/2023 17:37:47 (UTC+00:00)
+### Last processed at: 07/04/2023 06:46:44 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>4 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAutoLaunchRestartOnSuppression
- * msCodecFallbackUsingMFClear
- * msNurturingFullSurfaceNotCreatedDueToTest
+* msEdgeMouseGestureDisableInCN
+ * msEdgeSyncDataConsistency
+ * msEdgeTabOption
+ * msIEModeSetForegroundWhenActive
 
 </details>
 <!-- Edge-Canary-Version:END -->
