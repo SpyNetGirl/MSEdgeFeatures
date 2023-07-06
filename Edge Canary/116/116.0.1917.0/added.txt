@@ -1,0 +1,3 @@
+msEdgeEduPdfFeatures
+msIEModeGuessInitiatorOriginForEdgeNav
+msOverridePBComputationTimeToLive

@@ -1,0 +1,2 @@
+msBreachDetectionRestrictedChecks
+msFavoritesV2ExistingFavoritesThumbnails

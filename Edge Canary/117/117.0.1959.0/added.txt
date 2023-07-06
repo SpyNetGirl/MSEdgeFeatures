@@ -1,0 +1,4 @@
+msEdgeMouseGestureDisableInCN
+msEdgeSyncDataConsistency
+msEdgeTabOption
+msIEModeSetForegroundWhenActive

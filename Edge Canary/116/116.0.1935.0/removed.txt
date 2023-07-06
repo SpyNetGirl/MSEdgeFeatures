@@ -1,0 +1,2 @@
+msImportOpenTabsFromChromeWithFileLocked
+msWalletCheckoutSiteAllowedForSE

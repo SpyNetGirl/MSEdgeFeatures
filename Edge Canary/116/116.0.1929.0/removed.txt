@@ -1,0 +1,3 @@
+msEdgeMouseGestureDefaultEnabledWW
+msEdgeMouseGestureSupportedWW
+msWalletCheckoutNativeAutofill
