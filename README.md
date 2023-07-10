@@ -16,18 +16,53 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1966.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1972.0
 
-### Last processed at: 07/07/2023 18:42:55 (UTC+00:00)
+### Last processed at: 07/10/2023 18:43:37 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>38 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* mS2tc1
- * msEdgeSyncDiagnostic
- * msOmniboxGroupingURLsFirst
+* MSAARenderToSingleSampled
+ * msFavoritesV2EnableRecentFoldersSection
+ * msNurturingSitePinningCITopSites
+ * msNurturingSitePinningCITopSitesCustomTrigger
+ * msPrimaryScreenResolution1024X768
+ * msPrimaryScreenResolution1152X864
+ * msPrimaryScreenResolution1220X800
+ * msPrimaryScreenResolution1280X1024
+ * msPrimaryScreenResolution1280X720
+ * msPrimaryScreenResolution1280X800
+ * msPrimaryScreenResolution1280X960
+ * msPrimaryScreenResolution1360X768
+ * msPrimaryScreenResolution1366X768
+ * msPrimaryScreenResolution1400X1050
+ * msPrimaryScreenResolution1440X900
+ * msPrimaryScreenResolution1536X864
+ * msPrimaryScreenResolution1600X1200
+ * msPrimaryScreenResolution1600X900
+ * msPrimaryScreenResolution1648X1080
+ * msPrimaryScreenResolution1680X1050
+ * msPrimaryScreenResolution1792X1344
+ * msPrimaryScreenResolution1830X1200
+ * msPrimaryScreenResolution1856X1392
+ * msPrimaryScreenResolution1920X1080
+ * msPrimaryScreenResolution1920X1200
+ * msPrimaryScreenResolution2048X1152
+ * msPrimaryScreenResolution2048X1536
+ * msPrimaryScreenResolution2400X1600
+ * msPrimaryScreenResolution2560X1440
+ * msPrimaryScreenResolution640X360
+ * msPrimaryScreenResolution768X1024
+ * msPrimaryScreenResolution800X600
+ * msPrimaryScreenResolution810X1080
+ * msPrimaryScreenResolutionDefault
+ * MST7MDT
+ * msTokenizationExportCardEnrollment
+ * msWebView2NoTabForScreenShare
+ * msWhatsNewPageOptimizations
 
 </details>
 <!-- Edge-Canary-Version:END -->
