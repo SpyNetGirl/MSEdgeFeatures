@@ -1,0 +1,2 @@
+msSystemCaptionStyleReadFromRegistry
+msWalletETree
