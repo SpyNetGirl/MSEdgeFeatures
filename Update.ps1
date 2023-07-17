@@ -267,7 +267,7 @@ $($Removed | ForEach-Object {"* $_`n"})
 
 1. First make sure your Edge canary is up to date
 
-2. Copy and paste the code below in your PowerShell. NO admin privileges required. An Edge canary shortcut will be created in your Downloads folder. Double-click/tap on it to launch Edge canary with the features added in this update.
+2. Copy and paste the code below in your PowerShell. NO admin privileges required. An Edge canary `.bat` file will be created in your Downloads folder. Double-click/tap on it to launch Edge canary with the features added in this update.
 
 <br>
 
