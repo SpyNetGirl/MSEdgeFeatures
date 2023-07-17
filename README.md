@@ -18,7 +18,7 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 <!-- Edge-Canary-Version:START -->
 ### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1986.0
 
-### Last processed at: 07/17/2023 18:41:56 (UTC+00:00)
+### Last processed at: 07/17/2023 21:59:56 (UTC+00:00)
 
 <details>
 <summary>12 new features were added in the latest Edge Canary update</summary>
