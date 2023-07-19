@@ -1,0 +1,4 @@
+msDirectNavMaxCandidatesParam
+msDirectNavVariantParam
+msEnableDirectNavProvider
+msShowDirectNavUI

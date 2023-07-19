@@ -16,17 +16,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1989.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.1990.0
 
-### Last processed at: 07/19/2023 06:40:44 (UTC+00:00)
+### Last processed at: 07/19/2023 18:40:09 (UTC+00:00)
 
 <details>
 <summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAutofillEdgePruneFieldTables
- * msEdgeEpubReaderEnabled
+* msChatPlugins
+ * msCryptoWalletPreExecution
 
 </details>
 <!-- Edge-Canary-Version:END -->
