@@ -181,15 +181,15 @@ $($added | ForEach-Object {"* $_`n"})
     # Content to add the PowerShell script that creates the bat script that launches Edge with new features
     $ContentToAdd = @"
 
-    `$VersionToUse = `"$Version`"
+`$VersionToUse = `"$Version`"
     
-    `$arguments = `"$PreArguments`"
+`$arguments = `"$PreArguments`"
     
 `$content = @`"
 powershell.exe -WindowStyle hidden -Command "& \"C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\" --enable-features=`$arguments"
 `"@
 
-    `$content | Out-File -FilePath "C:\Users\`$env:USERNAME\Downloads\EDGECAN Launcher `$VersionToUse.bat"
+`$content | Out-File -FilePath "C:\Users\`$env:USERNAME\Downloads\EDGECAN Launcher `$VersionToUse.bat"
     
 "@
     
@@ -207,11 +207,12 @@ powershell.exe -WindowStyle hidden -Command "& \"C:\Users\`$env:USERNAME\AppData
     # Without this, the email would have empty content for the body of the Release
 
     $GitHubReleaseBodyContent = @"
-    # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
-        
-    ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 
-    Visit the GitHub's release section for full details on how to use it:
+# <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
+        
+## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
+
+Visit the GitHub's release section for full details on how to use it:
 https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$Version
     
 ### $($added.count) New features were added
@@ -247,6 +248,7 @@ $($Removed | ForEach-Object {"* $_`n"})
 
     # Body of the Release that is going to be added via a patch method
     $GitHubReleaseBodyContent = @"
+
 # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
         
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
