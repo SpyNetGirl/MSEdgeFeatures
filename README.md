@@ -16,57 +16,19 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.2005.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 117.0.2007.0
 
-### Last processed at: 07/27/2023 06:39:56 (UTC+00:00)
+### Last processed at: 07/27/2023 18:39:50 (UTC+00:00)
 
 <details>
-<summary>42 new features were added in the latest Edge Canary update</summary>
+<summary>4 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msArbitrationServiceExperienceRequested
- * msArbitrationServiceInterceptExperienceRequested
- * msArbitrationServiceShoppingExperienceRequested
- * msArbitrationServiceUncategorizedExperienceRequested
- * MsceE1
- * msCryptoWalletCertPin
- * msEdgeAIExplainConsoleError
- * msEdgeAutofillExcludePasswordFromCoreLogger
- * msEdgeAutofillFieldVoteDynamic
- * msEdgeAutoGroupingSuggestionsEntryTitleNoPreview
- * msEdgeBrowserEssentialsShowPasswordCard
- * msEdgeCloseTeamsGreaterThanMaxInstances
- * msEdgeDiscoverUnionDesktop
- * msEdgeEnclavePrefsPartnerCode
- * msedgeenterpriseprovider
- * msEdgeMaxInstancesCountOfTeamsForHighEndDevicesParam
- * msEdgeMaxInstancesCountOfTeamsForLowEndDevicesParam
- * msEdgeSyncSavedTabGroup
- * msFavoritesV2MediumBreadcrumbView
- * msFavoritesV2ShowScreenshotInSmallView
- * msNurturingAsynchronousFCMetaDataFromDisk
- * msNurturingCIAdvanceConversionCookies
- * msNurturingFeatureBrowserLaunchCooldown
- * msNurturingMitigateSuspiciousDSE
- * msNurturingRecommendedSettingsLongDesc
- * msNurturingRecommendedSettingsLongTitle
- * msNurturingRecommendedSettingsNoImage
- * msNurturingRecommendedSettingsShortDesc
- * msNurturingServerDrivenCampaignMetaDataForENP
- * msOmniboxHistoryScopeUseHub
- * msOmniboxTypedAtLeastFourWords
- * msOmniboxTypedAtLeastTwoWords
- * msOptimizeForPhoenixPerf
- * msPageUnderstanding
- * msPersonalizedTopSites
- * msPUTier1And2Prediction
- * msPUUseShoppingPredictionThreshold
- * msSAIAPIEnabled
- * msSandboxStartupDiagnostic
- * msTokenizationExportCardEnrollmentTrigger
- * msUseSnrProactiveServiceEndpoint
- * msWinCopilotWithTowerView
+* msEdgeDownloadFromFaviconUrl
+ * msM365LinksWebpageSummary
+ * msOmniboxTrendingSuggestionsToggle
+ * msWalletCashbackAadUsers
 
 </details>
 <!-- Edge-Canary-Version:END -->
