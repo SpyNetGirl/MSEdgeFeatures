@@ -1,0 +1,2 @@
+msFavoritesV2ShowViewModeNurturing
+msUseMicrosoftTuringForTextPredictionInEUPlus
