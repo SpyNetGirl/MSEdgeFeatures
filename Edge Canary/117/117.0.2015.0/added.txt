@@ -1,0 +1,4 @@
+msEdgeShoppingGenericDealsService
+msPdfShiftStraightLineInking
+msShorelineToolbarWinCopilotIconAnimate
+msShorelineToolbarWinCopilotIconSwap
