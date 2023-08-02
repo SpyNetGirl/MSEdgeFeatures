@@ -1,0 +1,6 @@
+msEdgeAutoSaveToggleInSavePasswordFlyout
+msHistoryThumbnailEnabledNotice
+msIEModeConfigurableIntranet
+MSUBE1
+msWalletCheckoutDismissInvalidPane
+msWalletPasswordV2
