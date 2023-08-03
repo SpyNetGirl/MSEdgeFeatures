@@ -1,0 +1,5 @@
+msEdgeCanShowBrowserEssentialsNotification
+msEnableTroubleshooterInternals
+msNtpNavigationRequestFailed
+msNtpNavigationResponseFailed
+msShorelineContextSearchDisabled
