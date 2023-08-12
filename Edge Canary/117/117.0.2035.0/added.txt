@@ -1,0 +1,6 @@
+msEdgeNewTabDropDownQuickActionHistory
+msLargerAddressBarHeight
+msNewRegexForOtpFieldsEdge
+msOtpFieldsDetectionImprovementEdge
+msUndersideWinCopilotUtilityProcess
+msWorkspacesClosePushConnectionWhenIdle
