@@ -1,0 +1,2 @@
+msEdgeSplitWindowLinkMode
+msOmniboxTriggeredPageActionsDisabled
