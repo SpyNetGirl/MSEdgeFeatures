@@ -1,0 +1,5 @@
+msAXShoppingNavigationHub
+msEdgeSyncSavedTabGroup
+msEdgeTabStripOrientationFRE
+msForceAXShoppingNavigationToolbarButton
+msworkpromosearch
