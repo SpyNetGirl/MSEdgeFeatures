@@ -1,13 +1,13 @@
 $ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
-$URL1 = "https://go.microsoft.com/fwlink/?linkid=2084706&Channel=Canary&language=en"
-$URL2 = "https://c2rsetup.edog.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeInsiderPage&Channel=Canary&language=en"
+$URL1 = 'https://go.microsoft.com/fwlink/?linkid=2084706&Channel=Canary&language=en'
+$URL2 = 'https://c2rsetup.edog.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeInsiderPage&Channel=Canary&language=en'
 $EdgeCanaryInstallerPath = "$env:tmp\MicrosoftEdgeSetupCanary.exe"
 $AppPath = "C:\Users\$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application"
 $StringsExe = "$env:tmp\strings64.exe"
 
 #Region Downloading-Stuff
-Write-Host "Downloading Edge Canary"
+Write-Host 'Downloading Edge Canary'
 try {
     Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath | Out-Null
 }
@@ -16,36 +16,36 @@ catch {
         Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath | Out-Null
     }
     catch {
-        Write-Host "Failed to download Edge from both URLs. Exiting..."
+        Write-Host 'Failed to download Edge from both URLs. Exiting...'
         exit
     }
 }
 
-Write-Host "Downloading Strings64.exe"
+Write-Host 'Downloading Strings64.exe'
 try {
-    Invoke-RestMethod -Uri "https://live.sysinternals.com/strings64.exe" -OutFile $StringsExe | Out-Null
+    Invoke-RestMethod -Uri 'https://live.sysinternals.com/strings64.exe' -OutFile $StringsExe | Out-Null
 }
 catch {
-    Write-Host "Failed to download Strings64. Exiting..."
+    Write-Host 'Failed to download Strings64. Exiting...'
     exit
 }
 #EndRegion Downloading-Stuff
 
-Write-Host "Installing Edge Canary"
+Write-Host 'Installing Edge Canary'
 Start-Process -FilePath $EdgeCanaryInstallerPath
 
-Write-Host "Waiting for Edge Canary to be downloaded and installed" -ForegroundColor Green
+Write-Host 'Waiting for Edge Canary to be downloaded and installed' -ForegroundColor Green
 
 # Checking for completion of the Edge Canary online installer by actively checking for the presence of the dll file that we need, every 5 seconds
 do {
-    $file = Get-ChildItem -Path $AppPath -Filter "msedge.dll" -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
+    $file = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($file) {
         Write-Host "File found: $($file.FullName)"
         Start-Sleep -Seconds 5
         break
     }
     else {
-        Write-Host "File not found. Waiting for 5 second..."
+        Write-Host 'File not found. Waiting for 5 second...'
         Start-Sleep -Seconds 5
     }
 }
@@ -55,8 +55,8 @@ while ($true)
 Write-Host "Accepting Strings64's EULA via Registry"
 
 # Add the necessary registry key to accept the EULA of the Strings from SysInternals
-$RegistryPath = "HKCU:\Software\Sysinternals\Strings"
-$Name = "EulaAccepted"
+$RegistryPath = 'HKCU:\Software\Sysinternals\Strings'
+$Name = 'EulaAccepted'
 $Value = 1
 if (Test-Path -Path $RegistryPath) {
     Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
@@ -67,14 +67,14 @@ else {
 }
 
 # Finding the latest version of the Edge Canary from its installation directory's name
-Write-Host "Searching for the Edge Canary version that was just downloaded"
+Write-Host 'Searching for the Edge Canary version that was just downloaded'
 $Version = (Get-ChildItem $AppPath -Directory | Where-Object { $_.Name -like '1*' } | Select-Object -First 1).Name
 $Split = $Version.Split('.')
 $DllPath = "$AppPath\$Version\msedge.dll"
 Write-Host "DLL PATH = $DllPath"
 
 # Expanding the current directory structure that is in GitHub repository to include the new Edge Canary version
-if (!(Test-Path ".\Edge Canary")) { New-Item ".\Edge Canary" -ItemType Directory -Force | Out-Null }
+if (!(Test-Path '.\Edge Canary')) { New-Item '.\Edge Canary' -ItemType Directory -Force | Out-Null }
 if (!(Test-Path ".\Edge Canary\$($Split[0])")) { New-Item ".\Edge Canary\$($Split[0])" -ItemType Directory -Force | Out-Null }
 # Check to make sure there is no directory with the same name as the current Edge Canary version and it's not empty
 if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
@@ -86,7 +86,7 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     if ((Get-ChildItem ".\Edge Canary\$($Split[0])" -Directory).count -eq 1) {
 
         # Loop through each directory of major Edge canary versions and get the directory that belongs to the last previous version
-        foreach ($CurrentPipelineVersion in ((Get-ChildItem ".\Edge Canary\" -Directory | Where-Object { $_.Name -match '^\d\d\d$' } | Sort-Object Name -Descending).Name | Select-Object -Skip 1)) {     
+        foreach ($CurrentPipelineVersion in ((Get-ChildItem '.\Edge Canary\' -Directory | Where-Object { $_.Name -match '^\d\d\d$' } | Sort-Object Name -Descending).Name | Select-Object -Skip 1)) {     
 
             # Make sure the directory is not empty (which is kinda impossible to be empty, but just in case)
             if ((Get-ChildItem ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object Name -Descending | Select-Object -First 1).count -ne 0) {
@@ -112,7 +112,7 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
     Write-Host "Comparing version: $version with version: $PreviousVersion" -ForegroundColor Cyan
     
-    Write-Host "Strings64 Running..."    
+    Write-Host 'Strings64 Running...'    
 
     # Storing the output of the Strings64 in an object
     $Objs = & $StringsExe $DllPath |
@@ -152,18 +152,18 @@ $($added | ForEach-Object {"* $_`n"})
 "@
 
     # Showing extra details on the Readme page of the repository about the latest Edge Canary version
-    $readme = Get-Content -Raw -Path "README.md"
-    $readme = $readme -replace "(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)", $DetailsToReplace
-    Set-Content -Path "README.md" -Value $readme.TrimEnd()
+    $readme = Get-Content -Raw -Path 'README.md'
+    $readme = $readme -replace '(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)', $DetailsToReplace
+    Set-Content -Path 'README.md' -Value $readme.TrimEnd()
     #endregion ReadMe-Updater  
  
     #region GitHub-Committing
 
     # Committing the changes back to the repository
-    git config --global user.email "spynetgirl@outlook"
-    git config --global user.name "HotCakeX"
+    git config --global user.email 'spynetgirl@outlook'
+    git config --global user.name 'HotCakeX'
     git add --all
-    git commit -m "Automated Update"
+    git commit -m 'Automated Update'
     git push
 
     #endregion GitHub-Committing
@@ -173,12 +173,12 @@ $($added | ForEach-Object {"* $_`n"})
 
     # Putting the Edge canary shortcut maker's code in the EdgeCanaryShortcutMaker.ps1 file
 
-    New-Item -Path ".\EdgeCanaryShortcutMaker.ps1" -Force
+    New-Item -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
 
 
-    $AddedArray = $Added -join ","
+    $AddedArray = $Added -join ','
     $PreArguments = "--enable-features=$AddedArray"
-    $PreArguments = $PreArguments.TrimEnd(",")
+    $PreArguments = $PreArguments.TrimEnd(',')
     
     $contenttoadd = @"
     
@@ -217,7 +217,7 @@ $($added | ForEach-Object {"* $_`n"})
     
 "@
     
-    Set-Content -Value $contenttoadd -Path ".\EdgeCanaryShortcutMaker.ps1" -Force
+    Set-Content -Value $contenttoadd -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
 
     #endregion Edge-Canary-ShortCut-Maker-Code
 
@@ -254,7 +254,7 @@ $($Removed | ForEach-Object {"* $_`n"})
     # Get the latest commit SHA
     $LATEST_SHA = git rev-parse HEAD
     # Create a release with the latest commit as tag and target
-    $RELEASE_RESPONSE = Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases" `
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri 'https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases' `
         -Method POST `
         -Headers @{Authorization = "token $env:GITHUB_TOKEN" } `
         -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
@@ -262,7 +262,7 @@ $($Removed | ForEach-Object {"* $_`n"})
     # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
     gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber      
 
-    $ASSET_NAME = "EdgeCanaryShortcutMaker.ps1"
+    $ASSET_NAME = 'EdgeCanaryShortcutMaker.ps1'
   
     # Making sure the download link is direct
     $ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$Version/$ASSET_NAME"
@@ -307,6 +307,6 @@ invoke-restMethod '$ASSET_DOWNLOAD_URL' | Invoke-Expression
 
 }
 else {
-    Write-Host "BUILD ALREADY EXISTS, EXITING." -ForegroundColor Red
+    Write-Host 'BUILD ALREADY EXISTS, EXITING.' -ForegroundColor Red
     Exit 0    
 }
