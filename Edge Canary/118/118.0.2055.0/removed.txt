@@ -1,0 +1,5 @@
+msAuthorProvidedTranslate
+msEdgeAesPrefs
+msEdgeEnclavePrefs
+msEESendProductOGMetadataToUAPI
+msEnable3PTelemetryObserver
