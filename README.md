@@ -59,11 +59,4 @@ I might sometimes post notable new features I come across [in the Discussions se
 
 * Sometimes feature flags with similar names should be used together in order to activate a certain feature, using them individually might not activate anything.
 
-* You can run this in an elevated PowerShell to increase the [Maximum Path Length Limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell)
-
-```powershell
-New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
--Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
-```
-
 <br>
