@@ -16,21 +16,30 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 118.0.2057.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 118.0.2058.0
 
-### Last processed at: 08/24/2023 06:40:11 (UTC+00:00)
+### Last processed at: 08/24/2023 18:42:04 (UTC+00:00)
 
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>15 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeShoppingObservePrerenderLcp
- * msLaunchEdgeBarInSettingsFlyoutMenu
- * msReadAloudMicrofeedback
- * msSegmentationPlatformToolbarPersonalizationExecutionCadenceSeconds
- * msSegmentationPlatformToolbarPersonalizationInitialExecutionDelaySeconds
- * msVisualThemeRemoveWebStoreLink
+* msCustomPBComputationsStartupTimeHoursInterval
+ * msEdgeIncludeBrowserErrorCodeInFeedback
+ * msEdgeShoppingSettingsInPane
+ * msSegmentationPlatformCustomInputOverridesForTesting
+ * msSegmentationPlatformIsChromeDefaultOverrideForTesting
+ * msSegmentationPlatformIsCIEnabledOverrideForTesting
+ * msSegmentationPlatformIsMSAAccountOverrideForTesting
+ * msSegmentationPlatformTamRewardsHvaPitch
+ * msSegmentationPlatformTamRewardsHvaPitchBrowserUsageFetchDurationInDays
+ * msSegmentationPlatformTamRewardsHvaPitchBrowserUsageFreshnessInMinutes
+ * msSegmentationPlatformTamRewardsHvaPitchExecutionCadenceSeconds
+ * msSegmentationPlatformTamRewardsHvaPitchInitialExecutionDelaySeconds
+ * msSegmentationPlatformTamRewardsHvaPitchMinChromeUsagePercent
+ * msSegmentationPlatformTamRewardsHvaPitchMinDaysSinceFre
+ * msSegmentationPlatformTamRewardsHvaPitchMinSignalLengthInMinutes
 
 </details>
 <!-- Edge-Canary-Version:END -->
