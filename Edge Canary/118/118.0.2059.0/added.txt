@@ -1,0 +1,5 @@
+msEdgeNewTabDropDownTabGroupSection
+msEdgeSoftFRERemovePinSites
+msSkypeSharePopupTrigger
+msStoreEventsForRetroactiveUpload
+MST7C3
