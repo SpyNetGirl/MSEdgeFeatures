@@ -1,0 +1,2 @@
+msCryptoWalletKeyringEnclaveV2MigrationEnabled
+MST7C3
