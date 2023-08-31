@@ -1,0 +1,9 @@
+msEdgeAutoGroupingSuggestionsCollapseGroupsOnAccept
+msEdgeNewTabDropDownDedupeEntries
+msPdfOpenInEdge
+msRevampedPasswordManagementBubbleForEdge
+msRightSideWorkspacesButton
+msSandboxRenderAcFallback
+msSandboxRenderCiFallback
+msWalletNewEntry
+msWalletPasswordsNewEntry
