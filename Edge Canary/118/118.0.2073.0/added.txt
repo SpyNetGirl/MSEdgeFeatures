@@ -1,0 +1,2 @@
+msEdgeAutofillLoggingPreferencesSpecific
+msEdgeBrowserEssentialsVNext
