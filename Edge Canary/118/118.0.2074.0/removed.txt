@@ -1,0 +1,2 @@
+msProjectKodiakInfobar
+msShouldShowFloatyWidget
