@@ -16,21 +16,18 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 118.0.2076.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 118.0.2080.0
 
-### Last processed at: 09/03/2023 00:34:48 (UTC+00:00)
+### Last processed at: 09/04/2023 16:10:22 (UTC+00:00)
 
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeExcelAvoidFlicker
- * msEnableMultipleCustomPBComputations
- * msMediaFoundationClearBatteryExclusiveStart
- * msMultipleCustomPBComputationsConfigurations
- * msOmniboxBingChatNudgeTrigger
- * msPriceComparisonCombineMissingEntity
+* msContinuousMigrationDMACompliance
+ * msDisableGpuShaderDiskCache
+ * msEdgeSkypeHandleTelProtocol
 
 </details>
 <!-- Edge-Canary-Version:END -->
