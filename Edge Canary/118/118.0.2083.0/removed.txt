@@ -1,0 +1,6 @@
+msCryptoWalletAddressBook
+msCryptoWalletEnsService
+msCryptoWalletMultiAccounts
+msCryptoWalletRegionCheck
+msCryptoWalletTokenApproval
+msEdgeEDropShorelineNotification
