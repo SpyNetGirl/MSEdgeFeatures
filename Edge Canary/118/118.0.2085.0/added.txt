@@ -1,0 +1,7 @@
+msAutofillEdgeSmartCopyPaste
+msEdgeExcelAutofillSettingsToggle
+msEdgeSyncTabGroupsInteractively
+msFavoritesV2ImageAndVideo
+msFavoritesV2ImageAndVideoHoverMenu
+msGoogleDocsNavigationTrigger
+msGoogleDriveNavigationTrigger
