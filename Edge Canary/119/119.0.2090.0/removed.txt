@@ -1,0 +1,7 @@
+msNotificationPermissionForFamiliarSites
+msRequiredGestureForNotificationPermissions
+msRewardsCoachmarkFlyoutsInHubs
+msRewardsNurf
+msRewardsNurfTest
+msShowPermaEdgeDismissConfirmationMicroFeedback
+msWindowTabManager
