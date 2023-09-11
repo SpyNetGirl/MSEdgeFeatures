@@ -1,0 +1,2 @@
+msEdgeAutofillLogTelemetryOnlyOnUserInteraction
+msIsPWACheckEnabled

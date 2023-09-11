@@ -16,37 +16,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## Last run details <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 119.0.2090.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 119.0.2094.0
 
-### Last processed at: 09/09/2023 16:09:40 (UTC+00:00)
+### Last processed at: 09/11/2023 16:10:56 (UTC+00:00)
 
 <details>
-<summary>22 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeAutofillLevoSkipFilledFields
- * msEdgeAutofillLevoSkipOverlappingProfileSuggestions
- * msEdgeAutofillLogTelemetryOnFrameDestruction
- * msEdgeShoppingSettingsInPaneNotificationBottomToggle
- * msEdgeSunflowerOneTimeImport
- * msEdgeWebContentFiltering
- * msFrameRateThrottlingDisableOverride
- * msHandleUIRSecondaryScopes
- * msHandleUIRSecondaryScopeSubstrate
- * msInsertBaiduNav
- * msLowerThresholdLikeTriggerForLadderUpDownExperiment
- * msNurturingEnableDMAChecks
- * msNurturingOnboardShoppingToCE
- * msResetFromOtherDSEAndBingRemoved
- * msShowDialogPostStartup
- * msShowExtensionsFeedbackUI
- * msStandaloneSidepaneMultiMonitorSupport
- * msTriggerAdvanceConsentUser
- * msTriggeringUseChromeDownloadThankyouPageTestConfig
- * msWorkspacesPreviewMenuVariantCollab
- * msWorkspacesPreviewMenuVariantCollabTravel
- * msWorkspacesPreviewMenuVariantNormal
+* msEdgeAutofillLogTelemetryOnlyOnUserInteraction
+ * msIsPWACheckEnabled
 
 </details>
 <!-- Edge-Canary-Version:END -->
