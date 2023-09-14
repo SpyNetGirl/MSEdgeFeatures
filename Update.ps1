@@ -9,6 +9,7 @@ $StringsExe = "$env:tmp\strings64.exe"
 #Region Downloading-Stuff
 Write-Host 'Downloading Edge Canary'
 try {
+    Write-Host 'Trying the primary URL'
     Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath | Out-Null
 }
 catch {
