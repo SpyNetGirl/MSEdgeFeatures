@@ -13,6 +13,7 @@ try {
 }
 catch {
     try {
+        Write-Host 'Downloading from the primary URL failed, trying the secondary URL'
         Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath | Out-Null
     }
     catch {
