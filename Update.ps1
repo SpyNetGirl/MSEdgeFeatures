@@ -38,10 +38,13 @@ Start-Process -FilePath $EdgeCanaryInstallerPath
 Write-Host 'Waiting for Edge Canary to be downloaded and installed' -ForegroundColor Green
 
 # Checking for completion of the Edge Canary online installer by actively checking for the presence of the dll file that we need, every 5 seconds
+# Setting a timer for 60 minutes
+$Timer = New-TimeSpan -Minutes 60
+$StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 do {
-    $file = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($file) {
-        Write-Host "File found: $($file.FullName)"
+    $File = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($File) {
+        Write-Host "File found: $($File.FullName)"
         Start-Sleep -Seconds 5
         break
     }
@@ -50,8 +53,9 @@ do {
         Start-Sleep -Seconds 5
     }
 }
-while ($true)
-
+# Breaking the loop if the timer expires
+while ($StopWatch.Elapsed -lt $Timer)
+$StopWatch.Stop()
 
 Write-Host "Accepting Strings64's EULA via Registry"
 
