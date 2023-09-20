@@ -1,0 +1,9 @@
+MSADegra
+msAlwaysShowBriefcaseIcon
+MSAUserFL
+msAutoLaunchBoostingUsingEnhancedBackoff
+msEdgeGamerModeAlwaysOpenModal
+msEdgeShoppingRefresh
+msSilentCleanupCandidateListPrefsForDebugEnabled
+msTranslateSelectionInPDFOOUI
+msTriggerAutoLaunchOnStartup
