@@ -1,0 +1,5 @@
+msEdgeShoppingMyShopping
+msFloatyWidgetShowPinFutureMatches
+msRenderViewMenuRemoveLowUsageItems3
+msShoppingUapiExp4
+msWorkspacesForceMenuInactive
