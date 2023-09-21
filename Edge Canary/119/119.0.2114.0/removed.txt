@@ -1,0 +1,4 @@
+MSADegra
+MSAUserFL
+msWebAppDiscoverPage
+msWebAppStaticAppSuggestionsList
