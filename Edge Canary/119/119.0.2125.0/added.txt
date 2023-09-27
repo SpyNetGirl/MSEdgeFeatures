@@ -1,0 +1,4 @@
+msEdgeBrowserEssentialsShowUpdateSection
+msEdgeShoppingAddressBarIconBadgeHidden
+msNurturingBingNonChromePBCapping
+msReadAloudSDExtractionEnabled
