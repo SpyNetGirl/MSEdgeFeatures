@@ -1,0 +1,5 @@
+ms9117
+msIEModeExternalConsumerList
+msIEModePromptExternalConsumerList
+msWorkspacesEmailInvites
+msWorkspacesInviteEdgeShare
