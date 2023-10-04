@@ -192,7 +192,7 @@ $($added | ForEach-Object {"* $_`n"})
 `$arguments = `"$PreArguments`"
     
 `$content = @`"
-powershell.exe -WindowStyle hidden -Command "& \"C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\" --enable-features=`$arguments"
+powershell.exe -WindowStyle hidden -Command "& \"C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\" `$arguments"
 `"@
 
 `$content | Out-File -FilePath "C:\Users\`$env:USERNAME\Downloads\EDGECAN Launcher `$VersionToUse.bat"
