@@ -1,0 +1,6 @@
+msDiscardExpiredTabs
+msDiscardExpiredTabsThresholdSeconds
+msEdgeBackgroundTabSummaryPage
+msEdgeBarV2Enabled
+msEdgePrewarmRoboto
+msWorkScopeZQSuggestions
