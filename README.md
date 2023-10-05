@@ -8,6 +8,8 @@ By identifying the changes, you can enable and experience specific new features 
 
 The [GitHub action](https://github.com/HotCakeX/MSEdgeFeatures/blob/main/.github/workflows/Update.yml) runs every 8 hours.
 
+[![Update](https://github.com/HotCakeX/MSEdgeFeatures/actions/workflows/Update.yml/badge.svg)](https://github.com/HotCakeX/MSEdgeFeatures/actions/workflows/Update.yml)
+
 [Releases](https://github.com/HotCakeX/MSEdgeFeatures/releases) are published for each update automatically, giving an overview of what features were added and removed in each version.
 
 Make sure you select the ***Watch*** option at the top of this page to receive notifications on your GitHub and Email whenever a new version of Edge Canary is released.
