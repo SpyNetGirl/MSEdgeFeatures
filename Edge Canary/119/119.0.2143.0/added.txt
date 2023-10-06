@@ -1,0 +1,3 @@
+msEdgeCopilotV2Enabled
+msEdgeInboxRoboto
+msWorkspacesVerticalTabsDefault
