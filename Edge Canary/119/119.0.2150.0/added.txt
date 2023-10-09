@@ -1,0 +1,3 @@
+msAutoEnableChromeMigratedExtension
+msVideoSuperResolutionOverlayButton
+msWalletPasswordV2B
