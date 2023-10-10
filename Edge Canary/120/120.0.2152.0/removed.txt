@@ -1,0 +1,4 @@
+msAutofillEdgeExtraAttributesForPasswordHeuristics
+msEdgeAutofillContextualSuggestions
+msOmniboxDontShowLocalSearchHistoryMSA
+msReducedAdsForNewDevice
