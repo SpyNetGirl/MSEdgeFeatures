@@ -1,0 +1,5 @@
+msEdgeTabDocumentBodyInSessionFile
+msKasperkyCheckPerfFix
+msMigrateScpFilterstoSegmentation
+msTokenizationEligibilityAlwaysOnEnabled
+msWalletCheckoutFillDetailsV2
