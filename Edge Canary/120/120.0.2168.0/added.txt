@@ -1,0 +1,4 @@
+msDiscardExpiredTabsAction
+msDiscardExpiredTabsExtraTrigger
+msFloatyMicroFeedbackEnabled
+msWalletHubSignInUpsellV2
