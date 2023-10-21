@@ -1,0 +1,8 @@
+msAvatarToolBarButtonUIState
+msCryptoWalletE2ETest
+msEdgeShoppingCJKProductUpsell
+msEdgeTransientAppAutoOpen
+msFavoritesHubWebComponent
+msOmniboxInteractionMSALoggedIn
+msWalletBuyNow
+msWorkspacesReducedClickCreateNew
