@@ -1,0 +1,4 @@
+msDeleteFREProfileAllowed
+msEdge3PGShoppingSerpLogging
+msRealTimeMonitoringTelemetry
+msWalletPWAPromotionNotification
