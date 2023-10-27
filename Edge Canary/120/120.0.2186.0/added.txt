@@ -1,0 +1,4 @@
+msDecoupleSettingsMigrationAndAutofillEntryMigration
+msEdgeCopilotV2DefaultModeEnabled
+msEdgeHJBrowserWindowFocusTelemetry
+msWinCopilotAutoOpenLargeScreens
