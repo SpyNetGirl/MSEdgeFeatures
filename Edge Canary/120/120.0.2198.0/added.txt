@@ -1,0 +1,7 @@
+msEdgeImageMagnifyUI
+msEESetProactiveCompleteDataFidelityForPICLOrONNXEntity
+msMagnifyImageInteractedWith
+msMagnifyImageSeen
+msTriggerAutoLaunchBasedLaunch
+msTriggerEdgeLaunch
+msWinQueryRoutingTableForP2pSockets
