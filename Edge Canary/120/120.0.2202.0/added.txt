@@ -1,0 +1,7 @@
+msCacheCompressionForceAllow
+msEdge3PBaiduWebSerpLogging
+msEdgeAutoGroupingSuggestionsStreaming
+msFloatyShouldHonorIndiaHoldout
+msNurturingSettingsWindowResizeIfMaximized
+msTopSitesNearDuplicates
+msTranslateSelectionOnNewPDFViewer
