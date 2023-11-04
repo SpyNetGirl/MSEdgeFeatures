@@ -1,0 +1,4 @@
+msAllowAccessTokenFetchForAllSovereignties
+msPdfFreeTextForCJK
+msQuickSearchChatConsent
+msSettingsStartupPageTakeoverPolicyProvider
