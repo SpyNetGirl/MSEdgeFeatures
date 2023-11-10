@@ -1,0 +1,3 @@
+MSADegra
+msEdgeAutofillExtendedBlocklist
+msEdgeTabMenuImprovedTabOrientationToggle
