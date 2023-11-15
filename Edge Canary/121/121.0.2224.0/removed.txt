@@ -1,0 +1,9 @@
+msDMASettingsWebSSOToggleSubtitle
+msDMASettingsWebSSOToggleTitle
+msDMAWebSSOOffDialogConfirmButton
+msDMAWebSSOOffDialogMessage
+msDMAWebSSOOffDialogTitle
+msEdgePasswordUKMLogging
+msLogoutURL
+msPdfFreeTextForCJK
+msRecordSuspiciousExtensionInfo

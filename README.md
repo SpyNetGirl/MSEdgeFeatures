@@ -18,47 +18,23 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2220.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2224.0
 
-### Last processed at: 11/14/2023 00:05:34 (UTC+00:00)
+### Last processed at: 11/15/2023 16:03:34 (UTC+00:00)
 
 <details>
-<summary>32 new features were added in the latest Edge Canary update</summary>
+<summary>8 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAutoInstallCwsExtensionsFromBingShortAnswers
- * msEdgeAutofillLastUsedSkipFilledFields
- * msEdgeCopilotContextualAppTowerEnabled
- * msEdgeDefaultBingDefaultTrigger
- * msEdgeDefaultBingNotDefaultTrigger
- * msEdgeNewTabDropDownSubMenuSupport
- * msEdgeNotDefaultBingDefaultTrigger
- * msEdgeNotDefaultBingNotDefaultTrigger
- * msEdgePhoto
- * msEdgeSelfLinkClickToPinEnabled
- * msEnableFloatyThrottle
- * msLocalNtpNavigation
- * msNurturing
- * msNurturingFeatureFlagRefactor
- * msPrivacyAndSecurityPage
- * msSmartReadExperienceChangesEnabled
- * msUndersideWinCopilotUrl
- * msWalletGeneralSearchFromEdgeSettingsTriggered
- * msWalletNotificationEtreeEnrolledDescriptionV1
- * msWalletNotificationEtreeEnrolledDescriptionV2
- * msWalletNotificationEtreeEnrolledLinkTextV1
- * msWalletNotificationEtreeEnrolledLinkTextV2
- * msWalletNotificationEtreeEnrolledTitleV1
- * msWalletNotificationEtreeEnrolledTitleV2
- * msWalletNotificationEtreeNonEnrolledDescriptionV1
- * msWalletNotificationEtreeNonEnrolledDescriptionV2
- * msWalletNotificationEtreeNonEnrolledLinkTextV1
- * msWalletNotificationEtreeNonEnrolledLinkTextV2
- * msWalletNotificationEtreeNonEnrolledTitleV1
- * msWalletNotificationEtreeNonEnrolledTitleV2
- * msWalletSearchFromEdgeSettings
- * msWalletSettingsPageURL
+* msEdgeAutofillSsApi
+ * msEdgeDeprecateInsights
+ * msEdgeShoppingUseHubVisibleCheckForTest
+ * msReadAloudNewIcon
+ * msReadAloudOnWebTrigger
+ * msSendMostVisitedTopSitesEvents
+ * msStopCuidCookieWatchdog
+ * msWalletCheckoutHumanInMiddle
 
 </details>
 <!-- Edge-Canary-Version:END -->
