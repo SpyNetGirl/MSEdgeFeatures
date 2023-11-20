@@ -1,0 +1,2 @@
+msEdgeNewTabRecording
+msWebView2CancellableAboutNavigations
