@@ -1,0 +1,2 @@
+msWalletCheckoutCouponsOnly
+msWalletCheckoutTemplateV2
