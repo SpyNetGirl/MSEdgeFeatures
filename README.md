@@ -18,24 +18,18 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2236.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2237.0
 
-### Last processed at: 11/21/2023 16:03:45 (UTC+00:00)
+### Last processed at: 11/22/2023 08:03:19 (UTC+00:00)
 
 <details>
-<summary>9 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeAutofillCrowdSourcePasswordField
- * msEdgeAutofillCrowdSourcePasswordFieldDontKnow
- * msEdgeAutofillCrowdSourcePasswordFieldFalse
- * msEdgeAutofillCrowdSourcePasswordFieldTrue
- * msEdgeAutofillCrowdSourceUsernameField
- * msEdgeAutofillCrowdSourceUsernameFieldDontKnow
- * msEdgeAutofillCrowdSourceUsernameFieldFalse
- * msEdgeAutofillCrowdSourceUsernameFieldTrue
- * msNurturingCIForEnterpriseBanner
+* msGamingRewardsHvaPitchSkipRewardsReportingForTesting
+ * msNurturingRetriggerFREOnExplicitProtocolPDFLaunchForEdgePostDMA
+ * msUndersideChatForceFrontload
 
 </details>
 <!-- Edge-Canary-Version:END -->
