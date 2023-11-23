@@ -1,0 +1,7 @@
+msDMASettingsSectionSubTitle
+msDMASettingsSectionTitle
+msDMASettingsSigninAndShareToggleSubtitle
+msDMASettingsSigninAndShareToggleTitle
+msDMASigninOffDialogConfirmButton
+msDMASigninOffDialogMessage
+msDMASigninOffDialogTitle
