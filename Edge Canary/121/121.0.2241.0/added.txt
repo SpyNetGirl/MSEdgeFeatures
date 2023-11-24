@@ -1,0 +1,11 @@
+MSADegra
+msBingCwsSingleClickInstall
+msCardRoamingLocalSaveCvv
+msEdgeDMAInterrupt
+msEdgeWebCaptureIconChange
+msEdgeWebCaptureLabelChange
+msEdgeWebCapturePerfTesting
+msHhE1
+msShorelineSearchFindOnPageCopilotUpsell
+msWalletBuyNowSubscription
+msWalletBuyNowTrigger

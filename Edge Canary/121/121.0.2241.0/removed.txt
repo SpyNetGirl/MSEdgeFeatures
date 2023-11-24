@@ -1,0 +1,3 @@
+msAutoInstallCwsExtensionsFromBingShortAnswers
+msContinuousImportUndoCI
+msUseSnrProactiveServiceEndpoint
