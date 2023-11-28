@@ -1,0 +1,3 @@
+msExtensionToastCollection
+msGroupNotificationsByDomainWinrt
+msNotificationPlatformBridgeWinrt
