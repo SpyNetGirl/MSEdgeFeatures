@@ -1,0 +1,3 @@
+msBingChatDlpConsent
+msEdgeAutoGroupingSuggestionsPrefetchResultsSeenTrigger
+msSitePinningLaunchObserverEnabled
