@@ -1,0 +1,5 @@
+msNurturingBingYGCompeteJP
+msNurturingBingYGCompeteJPImgWithText
+msNurturingBingYGCompeteJPTextOnly
+msVisualRejuvConnectedTabs
+msVisualRejuvHoverForConnectedTabs
