@@ -1,0 +1,2 @@
+msEdgeReadingViewAutoChooseTextWidth
+msEnableReducedPVMByCOFF
