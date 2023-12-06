@@ -1,0 +1,7 @@
+msCommitRequestTrigger
+msEdgeDiscoverGlobalTitleLang
+msEdgeProtocolSupportsPrenav
+msPdfQuickSearchMenu
+msPrenavIgnoredDuringStartup
+msPrenavNoStatePrefetchRequestTrigger
+msPrenavOverrideForTests

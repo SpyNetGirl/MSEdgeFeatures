@@ -1,0 +1,4 @@
+msEdgeCopilotAltTabWorkaroundEnabled
+msPdfReadAloud
+msPrerenderIgnoreErrorPageNavigationsForTesting
+msRemoteNtpNavigation
