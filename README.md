@@ -18,48 +18,25 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2272.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2274.0
 
-### Last processed at: 12/11/2023 16:03:26 (UTC+00:00)
+### Last processed at: 12/12/2023 16:03:36 (UTC+00:00)
 
 <details>
-<summary>33 new features were added in the latest Edge Canary update</summary>
+<summary>10 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAllowAIGeneratedWorkspaces
- * msAssetStoreEdgeInternalAudience
- * msEdgeContinueToRecreateLocalDBOnCopyFailure
- * msEdgeCopilotForegroundContextEnabled
- * msEdgeForceSignOutAutoRecovery
- * msEdgePreinstalledAppMaxNumberOfRedirects
- * msEdgePreinstalledAppMaxWaitForManifestSeconds
- * msEdgeRecreateLocalDBOnInitializationFailure
- * msEdgeShoppingSettingsInPaneNavigationFromFlyout
- * msEdgeSyncBypassHomeCloud
- * msEdgeWorkSearchPrewarmup
- * msHubAppsAutoOpenV2
- * msImportEnded
- * msNurturingBingTravelCompeteJP
- * msNurturingBingWeatherCompeteJP
- * msNurturingOnboardTranslateFNToCE
- * msNurturingRewardsRedemptionCoachmark16
- * msNurturingRewardsRedemptionCoachmark17
- * msNurturingRewardsRedemptionCoachmark18
- * msNurturingRewardsRedemptionCoachmark19
- * msNurturingRewardsRedemptionCoachmark20
- * msNurturingRewardsRedemptionCoachmark21
- * msNurturingRewardsRedemptionCoachmark22
- * msNurturingRewardsRedemptionCoachmark23
- * msNurturingRewardsRedemptionCoachmark24
- * msNurturingRewardsRedemptionCoachmark25
- * msPdfQuickSearchMenu
- * msPdfUserInitiatedZoom
- * msRendererAppContainerPermissiveLearningModeFallback
- * msSpawnNtpOnLastTabClose
- * msStrictPrimaryAccountCheck
- * msTargetingWithPinningConsent
- * msWalletETreeRowNewString
+* msDomainActionsHuffmanTreeSearch
+ * msEdgeBrowserEssentialsOnTitleBar
+ * msEdgeSuperDragDefaultEnabled
+ * msEdgeSuperDragDropSupported
+ * msIEModeSiteListMemoryOptimization
+ * msOmniboxSearchGlyphInToolbarWaitForMouseRelease
+ * msPdfWetInkPersistanceOnDcpdf
+ * msSettingsThemesEdgeColorPicker
+ * msShowHubButtonsOnTitleBar
+ * msSkipDomainActionsOnECS
 
 </details>
 <!-- Edge-Canary-Version:END -->
