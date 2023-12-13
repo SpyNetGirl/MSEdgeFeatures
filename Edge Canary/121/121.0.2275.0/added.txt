@@ -1,0 +1,6 @@
+msCryptoWalletUsePpl
+msEdgeSuperDragHintEnabled
+msShoppingExp21Success
+msWalletNotificationDonationTrendNpoDescription
+msWalletNotificationDonationTrendNpoLink
+msWalletNotificationDonationTrendNpoTitle
