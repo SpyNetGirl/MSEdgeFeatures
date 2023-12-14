@@ -18,21 +18,24 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2275.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 121.0.2277.0
 
-### Last processed at: 12/13/2023 08:03:34 (UTC+00:00)
+### Last processed at: 12/14/2023 08:03:41 (UTC+00:00)
 
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>9 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msCryptoWalletUsePpl
- * msEdgeSuperDragHintEnabled
- * msShoppingExp21Success
- * msWalletNotificationDonationTrendNpoDescription
- * msWalletNotificationDonationTrendNpoLink
- * msWalletNotificationDonationTrendNpoTitle
+* msPageInfoManagedSiteIndicator
+ * msPdfCaretMode
+ * msPdfPrint
+ * msPdfPrintPreview
+ * msPdfSharedLibraryMinCPUCores
+ * msTranslateServerSideScriptExperiment
+ * msUpsellBingAtSidebar
+ * msUpsellBingAtSidebarIgnoreRegionRestrictForTest
+ * msVisualRejuvMicaForConnectedTabs
 
 </details>
 <!-- Edge-Canary-Version:END -->
