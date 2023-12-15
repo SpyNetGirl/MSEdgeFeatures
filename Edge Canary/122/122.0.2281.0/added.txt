@@ -1,0 +1,7 @@
+msCopilotContextEnabledOverride
+msEdgeCopilotAnimation
+msEdgeCopilotOpaqueBackground
+msEdgeCopilotResizeViaTransparentWindow
+msPdfToolbarSummarize
+msWebAssistHistorySearchCopilot
+msWindowsCopilotLaunch
