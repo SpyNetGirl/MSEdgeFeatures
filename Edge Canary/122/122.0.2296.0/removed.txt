@@ -1,0 +1,15 @@
+msAdPlatformAutoShowWithoutCap
+msAllowSingleSourceThrottling
+msEdgeSuperRes
+msEdgeSuperResAdCheck
+msEdgeSuperResAllowLocalhostForTesting
+msEdgeSuperResCounterFactual
+msEdgeSuperResFiltering
+msEdgeSuperResImageDwellTime
+msEdgeSuperResProtobufAPI
+msEdgeSuperResSafeSites
+msEdgeSuperResSettings
+msEdgeSuperResSitesPage
+msEdgeSuperResWebUIPopup
+msFileHandlerTriggers
+msOperationRecorder
