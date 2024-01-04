@@ -1,0 +1,4 @@
+msCloudMessagingChannelV2
+msEdgeWebAppSidebarV2
+msNumberOfSitesToPin
+msSitePinningWithoutUi
