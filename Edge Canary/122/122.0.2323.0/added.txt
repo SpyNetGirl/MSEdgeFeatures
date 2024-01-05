@@ -1,0 +1,9 @@
+msEdgeChatAutoOpenUseV2Framework
+msEdgeSessionFourOnwardsTrigger
+msEdgeSessionOneOnwardsTrigger
+msEdgeSessionOneTrigger
+msEdgeSessionThreeOnwardsTrigger
+msEdgeSessionThreeTrigger
+msEdgeSessionTwoOnwardsTrigger
+msEdgeSessionTwoTrigger
+msEdgeSessionZeroTrigger
