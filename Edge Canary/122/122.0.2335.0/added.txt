@@ -1,0 +1,6 @@
+msCardRoamingAlwaysVerify
+msCryptoWalletSuspension
+msCryptoWalletSuspensionQuickCall
+msCryptoWalletSuspensionTest
+msDesktopModeAutoFocusOnDesktop
+msEdgeSyncEnableHistoryDataType
