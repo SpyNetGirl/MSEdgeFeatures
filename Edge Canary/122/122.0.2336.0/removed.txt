@@ -1,0 +1,6 @@
+msEdgeHubAppNewSyncUsed
+msEdgeShoppingDebuggerEnabled
+msEdgeSyncEdgeHubApp
+msPartnerBackgroundContentOffNTP
+msPartnerContentOffNTP
+msPartnerFeedHeadingsNTP
