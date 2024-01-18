@@ -1,0 +1,5 @@
+msBubbleH
+msFavoritesOpenAllNewTabGroup
+msGetLoginsCallOnBootupCached
+msSettingsStartupPageTakeoverPolicyProviderV2
+msShoppingTestExp7
