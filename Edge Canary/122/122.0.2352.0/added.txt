@@ -1,0 +1,4 @@
+msCloudMessagingThreadPool
+msEdgeWebUIWebVitals
+msHoverButtonSendImageToCopilotIconType
+msRTreeRectangleDataCollection
