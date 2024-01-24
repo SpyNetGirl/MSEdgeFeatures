@@ -1,0 +1,4 @@
+msEdgeScreenshotWithVisualSearch
+msGamingRewardsHvaPitchMinChromeUsageMB
+msGamingRewardsHvaPitchMinOverwatchNetworkUsageBytes
+msWorkspacesButtonClick
