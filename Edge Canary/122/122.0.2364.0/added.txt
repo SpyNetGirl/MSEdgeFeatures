@@ -1,0 +1,9 @@
+msContextMenuSendImageToCopilot
+msEdgeChurnBrowserNotOpenDays
+msEdgeWebAppSidebarV2FindOnPage
+msForceBreadcrumbsDisabled
+msForceBreadcrumbsEnabled
+msiqiyiNavigatedTrigger
+msPdfMipViewLabel
+msSendTelemetryForProcessIntegrity
+msSendTelemetryForProcessIntegrityV2
