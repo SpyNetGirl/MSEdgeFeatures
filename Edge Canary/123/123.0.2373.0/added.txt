@@ -1,0 +1,4 @@
+msEdgeAutofillSkipSectionForProfileImprovements
+msEdgeCircleToSearchDefaultEnabled
+msEdgeCircleToSearchSupported
+msEdgeFREThemesEdgeColorPickerIconLastPosition
