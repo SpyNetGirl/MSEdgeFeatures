@@ -1,0 +1,5 @@
+msBrowseStreakV2Trigger
+msEdgeAutoGroupingSuggestionsEntryTitleNoPreview
+msEdgeHubAppReorder
+msEdgeSDSMOptOutUXEnabled
+msRewardsOffersCanOpenActionCenter
