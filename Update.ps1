@@ -43,7 +43,7 @@ Write-Host -Object 'Waiting for Edge Canary to be downloaded and installed' -For
 [System.TimeSpan]$Timer = New-TimeSpan -Minutes 60
 $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 do {
-    $File = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
+    [System.IO.FileInfo]$File = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($File) {
         Write-Host -Object "File found: $($File.FullName)"
         Start-Sleep -Seconds 5
@@ -74,14 +74,14 @@ else {
 
 # Finding the latest version of the Edge Canary from its installation directory's name
 Write-Host -Object 'Searching for the Edge Canary version that was just downloaded'
-$Version = (Get-ChildItem -Path $AppPath -Directory | Where-Object -FilterScript { $_.Name -like '1*' } | Select-Object -First 1).Name
-$Split = $Version.Split('.')
-$DllPath = "$AppPath\$Version\msedge.dll"
+[System.String]$Version = (Get-ChildItem -Path $AppPath -Directory | Where-Object -FilterScript { $_.Name -like '1*' } | Select-Object -First 1).Name
+[System.String[]]$Split = $Version.Split('.')
+[System.String]$DllPath = "$AppPath\$Version\msedge.dll"
 Write-Host -Object "DLL PATH = $DllPath"
 
 # Expanding the current directory structure that is in GitHub repository to include the new Edge Canary version
-if (!(Test-Path '.\Edge Canary')) { New-Item -Path '.\Edge Canary' -ItemType Directory -Force | Out-Null }
-if (!(Test-Path ".\Edge Canary\$($Split[0])")) { New-Item -Path ".\Edge Canary\$($Split[0])" -ItemType Directory -Force | Out-Null }
+if (!(Test-Path -Path '.\Edge Canary')) { New-Item -Path '.\Edge Canary' -ItemType Directory -Force | Out-Null }
+if (!(Test-Path -Path ".\Edge Canary\$($Split[0])")) { New-Item -Path ".\Edge Canary\$($Split[0])" -ItemType Directory -Force | Out-Null }
 # Check to make sure there is no directory with the same name as the current Edge Canary version and it's not empty
 if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
