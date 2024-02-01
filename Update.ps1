@@ -63,33 +63,38 @@ Write-Host -Object "Accepting Strings64's EULA via Registry"
 # Add the necessary registry key to accept the EULA of the Strings from SysInternals
 [System.String]$RegistryPath = 'HKCU:\Software\Sysinternals\Strings'
 [System.String]$Name = 'EulaAccepted'
-$Value = 1
+
 if (Test-Path -Path $RegistryPath) {
-    Set-ItemProperty -Path $RegistryPath -Name $Name -Value $Value
+    Set-ItemProperty -Path $RegistryPath -Name $Name -Value '1'
 }
 else {
     New-Item -Path $RegistryPath -Force | Out-Null
-    New-ItemProperty -Path $RegistryPath -Name $Name -Value $Value -PropertyType DWORD -Force | Out-Null
+    New-ItemProperty -Path $RegistryPath -Name $Name -Value '1' -PropertyType 'DWORD' -Force | Out-Null
 }
 
 # Finding the latest version of the Edge Canary from its installation directory's name
-Write-Host -Object 'Searching for the Edge Canary version that was just downloaded'
-[System.String]$Version = (Get-ChildItem -Path $AppPath -Directory | Where-Object -FilterScript { $_.Name -like '1*' } | Select-Object -First 1).Name
-[System.String[]]$Split = $Version.Split('.')
-[System.String]$DllPath = "$AppPath\$Version\msedge.dll"
-Write-Host -Object "DLL PATH = $DllPath"
+Write-Host -Object 'Searching for the Edge Canary version that was just downloaded' -ForegroundColor Yellow
+[System.String]$FullVersion = (Get-ChildItem -Path $AppPath -Directory | Where-Object -FilterScript { $_.Name -like '1*' } | Select-Object -First 1).Name
+[System.Int32]$MajorVersion = $FullVersion.Split('.')[0]
+[System.String]$DllPath = "$AppPath\$FullVersion\msedge.dll"
+Write-Host -Object "DLL PATH: $DllPath" -ForegroundColor Yellow
 
 # Expanding the current directory structure that is in GitHub repository to include the new Edge Canary version
-if (!(Test-Path -Path '.\Edge Canary')) { New-Item -Path '.\Edge Canary' -ItemType Directory -Force | Out-Null }
-if (!(Test-Path -Path ".\Edge Canary\$($Split[0])")) { New-Item -Path ".\Edge Canary\$($Split[0])" -ItemType Directory -Force | Out-Null }
-# Check to make sure there is no directory with the same name as the current Edge Canary version and it's not empty
-if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
-    # Creating a new directory for the new available Edge Canary version
-    New-Item -Path ".\Edge Canary\$($Split[0])\$Version" -ItemType Directory -Force | Out-Null
+# Create the root directory for the Edge Canary if it doesn't exist
+if (-NOT (Test-Path -Path '.\Edge Canary')) { New-Item -Path '.\Edge Canary' -ItemType Directory -Force | Out-Null }
+
+# Create the directory for the current Edge Canary's major version if it doesn't exist
+if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion")) { New-Item -Path ".\Edge Canary\$MajorVersion" -ItemType Directory -Force | Out-Null }
+
+# Create the directory for the current Edge Canary's full version if it doesn't exist or if it exists but is empty
+if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
+
+    # Creating a new directory for the new available Edge Canary's full version
+    New-Item -Path ".\Edge Canary\$MajorVersion\$FullVersion" -ItemType Directory -Force | Out-Null
 
     # Check whether the current Edge Canary version is the first release in a new major version. If it is, then some actions will be triggered
-    if ((Get-ChildItem -Path ".\Edge Canary\$($Split[0])" -Directory).count -eq 1) {
+    if ((Get-ChildItem -Path ".\Edge Canary\$MajorVersion" -Directory).count -eq 1) {
 
         # Loop through each directory of major Edge canary versions and get the directory that belongs to the last previous version
         foreach ($CurrentPipelineVersion in ((Get-ChildItem -Path '.\Edge Canary\' -Directory | Where-Object -FilterScript { $_.Name -match '^\d\d\d$' } | Sort-Object -Property Name -Descending).Name | Select-Object -Skip 1)) {
@@ -97,10 +102,10 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
             # Make sure the directory is not empty (which is kinda impossible to be empty, but just in case)
             if ((Get-ChildItem -Path ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object -Property Name -Descending | Select-Object -First 1).count -ne 0) {
 
-                # Locating the last version of Edge Canary that was processed prior to this current version so we can access its directory on repository
-                $PreviousVersion = (Get-ChildItem -Path ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object -Property Name -Descending | Select-Object -First 1).Name
+                # Locating the last major version of Edge Canary that was processed prior to this current major version so we can access its directory on repository
+                [System.String]$PreviousFullVersion = (Get-ChildItem -Path ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object -Property Name -Descending | Select-Object -First 1).Name
                 # Get the major version
-                $PreviousVersionSplit = $PreviousVersion.Split('.')
+                [System.Int32]$PreviousMajorVersion = $PreviousFullVersion.Split('.')[0]
                 # if the directory is found, stop the loop
                 break
             }
@@ -112,41 +117,41 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     }
     # if the current Edge canary version is not the first release in a major version
     else {
-        $PreviousVersion = (Get-ChildItem -Path ".\Edge Canary\$($Split[0])" -Directory | Sort-Object -Descending | Select-Object -Skip 1 -First 1).Name
-        $PreviousVersionSplit = $PreviousVersion.Split('.')
+        [System.String]$PreviousFullVersion = (Get-ChildItem -Path ".\Edge Canary\$MajorVersion" -Directory | Sort-Object -Descending | Select-Object -Skip 1 -First 1).Name
+        [System.Int64]$PreviousMajorVersion = $PreviousFullVersion.Split('.')[0]
     }
 
-    Write-Host -Object "Comparing version: $version with version: $PreviousVersion" -ForegroundColor Cyan
+    Write-Host -Object "Comparing version: $FullVersion with version: $PreviousFullVersion" -ForegroundColor Cyan
 
     Write-Host -Object 'Strings64 Running...'
 
-    # Storing the output of the Strings64 in an object
-    $Objs = & $StringsExe $DllPath |
+    # Storing the output of the Strings64 in an array of strings
+    [System.String[]]$CurrentOriginalFeatures = & $StringsExe $DllPath |
     Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$' |
     ForEach-Object -Process { $_.Matches.Groups[0].Value } | Sort-Object
 
     # Outputting the object containing the final original results to a file
-    $Objs | Out-File -FilePath ".\Edge Canary\$($Split[0])\$Version\original.txt"
+    $CurrentOriginalFeatures | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\original.txt" -Force
 
-    Write-Host -Object "Saved = .\Edge Canary\$($Split[0])\$Version\original.txt ($($Objs.count) entries)"
+    Write-Host -Object "Saved: .\Edge Canary\$MajorVersion\$FullVersion\original.txt ($($CurrentOriginalFeatures.count) entries)"
 
-    $PreviousObjs = Get-Content ".\Edge Canary\$($PreviousVersionSplit[0])\$PreviousVersion\original.txt" | Sort-Object
+    [System.String[]]$PreviousOriginalFeatures = Get-Content -Path ".\Edge Canary\$PreviousMajorVersion\$PreviousFullVersion\original.txt" | Sort-Object
 
-    $Added = $Objs | Where-Object -FilterScript { $_ -notin $PreviousObjs }
-    $Added | Out-File -FilePath ".\Edge Canary\$($Split[0])\$Version\added.txt"
+    [System.String[]]$Added = $CurrentOriginalFeatures | Where-Object -FilterScript { $_ -notin $PreviousOriginalFeatures }
+    $Added | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\added.txt" -Force
 
-    $Removed = $PreviousObjs | Where-Object -FilterScript { $_ -notin $Objs }
-    $Removed | Out-File -FilePath ".\Edge Canary\$($Split[0])\$Version\removed.txt"
+    [System.String[]]$Removed = $PreviousOriginalFeatures | Where-Object -FilterScript { $_ -notin $CurrentOriginalFeatures }
+    $Removed | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\removed.txt" -Force
 
-    Write-Host -Object "Added features .\Edge Canary\$($Split[0])\$Version\added.txt ($($Added.count) entries)"
-    Write-Host -Object "Removed features .\Edge Canary\$($Split[0])\$Version\removed.txt ($($Removed.count) entries)"
+    Write-Host -Object "Added features .\Edge Canary\$MajorVersion\$FullVersion\added.txt ($($Added.count) entries)"
+    Write-Host -Object "Removed features .\Edge Canary\$MajorVersion\$FullVersion\removed.txt ($($Removed.count) entries)"
 
     # Storing the latest version in a file
-    $Version | Out-File -FilePath .\last.txt
+    $FullVersion | Out-File -FilePath .\last.txt -Force
 
     #region ReadMe-Updater
-    $DetailsToReplace = @"
-`n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $Version`n
+    [System.String]$DetailsToReplace = @"
+`n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $FullVersion`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 <details>
 <summary>$($Added.count) new features were added in the latest Edge Canary update</summary>
@@ -158,9 +163,9 @@ $($Added | ForEach-Object -Process {"* $_`n"})
 "@
 
     # Showing extra details on the Readme page of the repository about the latest Edge Canary version
-    $Readme = Get-Content -Raw -Path 'README.md'
+    [System.String]$Readme = Get-Content -Raw -Path 'README.md' -Force
     $Readme = $Readme -replace '(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)', $DetailsToReplace
-    Set-Content -Path 'README.md' -Value $Readme.TrimEnd()
+    Set-Content -Path 'README.md' -Value $Readme.TrimEnd() -Force
     #endregion ReadMe-Updater
 
     #region GitHub-Committing
@@ -179,15 +184,15 @@ $($Added | ForEach-Object -Process {"* $_`n"})
 
     # Putting the Edge canary shortcut maker's code in the EdgeCanaryShortcutMaker.ps1 file
 
-    New-Item -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
+    New-Item -Path '.\EdgeCanaryShortcutMaker.ps1' -Force | Out-Null
 
-    $AddedArray = $Added -join ','
+    [System.String[]]$AddedArray = $Added -join ','
     $PreArguments = "--enable-features=$AddedArray"
     $PreArguments = $PreArguments.TrimEnd(',')
     # Content to add the PowerShell script that creates the bat script that launches Edge with new features
-    $ContentToAdd = @"
+    [System.String]$ContentToAdd = @"
 
-`$VersionToUse = `"$Version`"
+`$FullVersionToUse = `"$FullVersion`"
 
 `$Arguments = `"$PreArguments`"
 
@@ -195,7 +200,7 @@ $($Added | ForEach-Object -Process {"* $_`n"})
 powershell.exe -WindowStyle hidden -Command "```$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;```$UserName = (Get-LocalUser | where-object -FilterScript {```$_.SID -eq ```$UserSID}).name;Get-Process | where-object -FilterScript {```$_.path -eq "\"C:\Users\```$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\""} | ForEach-Object -Process {Stop-Process -Id ```$_.id -Force -ErrorAction SilentlyContinue};& \"C:\Users\```$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\" `$Arguments"
 `"@
 
-`$content | Out-File -FilePath "C:\Users\`$env:USERNAME\Downloads\EDGECAN Launcher `$VersionToUse.bat"
+`$content | Out-File -FilePath "C:\Users\`$env:USERNAME\Downloads\EDGECAN Launcher `$FullVersionToUse.bat"
 
 "@
 
@@ -219,7 +224,7 @@ powershell.exe -WindowStyle hidden -Command "```$UserSID = [System.Security.Prin
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 
 Visit the GitHub's release section for full details on how to use it:
-https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$Version
+https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$FullVersion
 
 ### $($Added.count) New features were added
 
@@ -241,15 +246,24 @@ $($Removed | ForEach-Object -Process {"* $_`n"})
     $RELEASE_RESPONSE = Invoke-RestMethod -Uri 'https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases' `
         -Method POST `
         -Headers @{Authorization = "token $env:GITHUB_TOKEN" } `
-        -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
+        -Body (
+        @{
+            tag_name         = "$FullVersion"
+            target_commitish = $LATEST_SHA
+            name             = "Edge Canary version $FullVersion"
+            body             = "$GitHubReleaseBodyContent"
+            draft            = $false
+            prerelease       = $false 
+        } | ConvertTo-Json
+    )
 
     # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
-    gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber
+    gh release upload $FullVersion ./EdgeCanaryShortcutMaker.ps1 --clobber
 
-    $ASSET_NAME = 'EdgeCanaryShortcutMaker.ps1'
+    [System.String]$ASSET_NAME = 'EdgeCanaryShortcutMaker.ps1'
 
     # Making sure the download link is direct
-    $ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$Version/$ASSET_NAME"
+    [System.String]$ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$FullVersion/$ASSET_NAME"
 
 
     # Body of the Release that is going to be added via a patch method
@@ -286,7 +300,7 @@ invoke-restMethod '$ASSET_DOWNLOAD_URL' | Invoke-Expression
 "@
 
     # Add the body of the Release with the link to the EdgeCanaryShortcutMaker.ps1 asset file included
-    Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method PATCH -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json)
+    Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method Patch -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json) -ContentType 'application/json'
 
     #endregion GitHub-Release-Publishing
 
