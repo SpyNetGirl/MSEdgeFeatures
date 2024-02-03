@@ -18,19 +18,19 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 123.0.2380.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 123.0.2381.0
 
-### Last processed at: 02/02/2024 16:03:38 (UTC+00:00)
+### Last processed at: 02/03/2024 00:05:25 (UTC+00:00)
 
 <details>
 <summary>4 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeTabActionsMenuV3
- * msHubAppMsStartAutoOpenV2
- * msTinyWindowRealityCheck
- * msTinyWindowRealityCheckAndUpdate
+* msCheckPrepopulatedDSEData
+ * msEdgeAutofillVisualImprovementsForSuggestionUi
+ * msEdgeScreenshotWithCircleToCopilot
+ * msEnablePSP
 
 </details>
 <!-- Edge-Canary-Version:END -->
