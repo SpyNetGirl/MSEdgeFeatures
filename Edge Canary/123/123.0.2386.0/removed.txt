@@ -1,0 +1,4 @@
+msEdgeSyncAutomaticLogUpload
+msEdgeSyncDataAuditor
+msEdgeSyncDiagnosticsPipeline
+msEdgeSyncHealthAudit
