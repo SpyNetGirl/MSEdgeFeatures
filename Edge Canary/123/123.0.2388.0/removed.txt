@@ -1,0 +1,2 @@
+msEdgeCopilotForegroundContextEnabled
+msEdgeHubAppReorder
