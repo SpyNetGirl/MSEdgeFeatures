@@ -1,0 +1,6 @@
+msAdvanceConsentForcefulCleanup
+msEdgeAutoOpenRedNotificationShowHidenTower
+msEnableBridgewaterBrowserInNormalWindowsForDebugging
+msMSStartProng2AutoOpenTrigger
+msShowAllFavoritesFolder
+msUpsellBingAtSidebarTrigger
