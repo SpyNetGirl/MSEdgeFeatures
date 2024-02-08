@@ -1,0 +1,4 @@
+msEdgeEnableExperimentDomainsPublicKeyPinning
+msEdgePKPBypassAndSendingExperimentDomainsPublicKeyPinningReports
+msEdgeSyncEdgeHubAppUsage
+msHubAppUsageVisibleRecord
