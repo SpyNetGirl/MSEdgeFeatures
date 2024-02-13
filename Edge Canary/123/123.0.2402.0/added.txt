@@ -1,0 +1,4 @@
+msEdgeWebCaptureQuickMenuSave
+msOmniboxOnClobberZeroInput
+msPasswordLoginDataDeletion
+MStxE1
