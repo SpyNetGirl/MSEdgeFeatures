@@ -1,0 +1,4 @@
+msEdgeSyncHistoryEnabled
+msEdgeSyncMultipleDevices
+msNewEdgeAppsHandlers
+msUseSnrProactiveServiceEndpoint
