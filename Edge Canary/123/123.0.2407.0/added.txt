@@ -1,0 +1,3 @@
+msOmniboxContextualSuggestionsForBing
+msOmniboxContextualSuggestionsForOpenSearch
+msOmniboxContextualSuggestionsTriggerEvent
