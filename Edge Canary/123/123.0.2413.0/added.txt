@@ -1,0 +1,9 @@
+msBingCwsShortAnswerSingleClickInstall
+msDefaultOn
+msEdgeChatHoverPinV2
+msEdgeCopilotHoverToLaunch
+msOpenInSidebar
+msPdfEnhancedThumbnailScaleForPdfium
+msSearchBoxInToolbar
+msSearchBoxInToolbarSearchInteractionTrigger
+msSearchBoxInToolbarShownTrigger
