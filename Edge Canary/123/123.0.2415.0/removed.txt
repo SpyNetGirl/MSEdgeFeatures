@@ -1,0 +1,5 @@
+msEdgeCircleToCopilotInScreenshotWithRightMouse
+msEdgeScreenshotAddBingSearchIcon
+msEdgeScreenshotAddCopilotIcon
+msEdgeScreenshotAddOcrIcon
+msEdgeScreenshotAddVisualSearchIcon
