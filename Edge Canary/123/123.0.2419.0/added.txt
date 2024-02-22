@@ -1,0 +1,4 @@
+msEdgePhotoV2
+msEdgeScreenshotShortcutInLocalState
+msHandleDSEQueryLaunched
+msNurturingIdentityAccountTransfer
