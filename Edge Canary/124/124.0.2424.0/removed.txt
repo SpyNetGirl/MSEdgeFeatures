@@ -1,0 +1,4 @@
+msEdgePinnedTabGroups
+msEdgeScrollablePinnedTabs
+msSegmentationPlatformRecommendWebsitePinning
+msWebAppTryRemoveUninstallCommand
