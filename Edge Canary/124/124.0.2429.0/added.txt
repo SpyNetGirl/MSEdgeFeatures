@@ -1,0 +1,6 @@
+msConsumerUXOptimizationIEModeAllowTrigger
+msEdgeAutofillUnifiedLogger
+msEdgeAutofillUnifiedLoggerLangaugeSpecificHistograms
+msEdgeAutofillUnifiedLoggerRootHistogram
+msEdgeShoppingTestDMA
+MStuE1
