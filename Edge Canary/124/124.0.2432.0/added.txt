@@ -1,0 +1,6 @@
+msAIWorkspaceVerticalTabs
+msEdgeChatNotebookHeaderIcon
+msOmniboxPedalPortugueseWelcomePageEdgeRebranding
+msOmniboxPedalSpanishWelcomePageEdgeRebranding
+msRewardsDisableProgrammaticPinning
+msTabStatePerWorkspace
