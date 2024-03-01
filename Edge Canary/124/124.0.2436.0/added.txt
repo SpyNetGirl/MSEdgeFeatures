@@ -1,0 +1,6 @@
+msEdgeAutoGroupingSuggestionsPartialNotification
+MSkME1
+msPdfThumbnailAtCurrentZoomForPdfium
+msPreferDefaultScrollbarStyles
+MSStartPH
+MSStartProng2
