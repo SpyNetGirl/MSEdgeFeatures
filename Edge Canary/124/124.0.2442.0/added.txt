@@ -1,0 +1,4 @@
+msEdgeAutofillAiSuggestionsBasic
+msEdgeWorkInit
+msPowerSavingModeThrottleForTimersKillSwitch
+msRestrictPowerSavingModeForTimersOnlyToAdFrames
