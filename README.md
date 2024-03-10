@@ -18,20 +18,21 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 124.0.2451.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 124.0.2452.0
 
-### Last processed at: 03/09/2024 08:03:13 (UTC+00:00)
+### Last processed at: 03/10/2024 00:05:28 (UTC+00:00)
 
 <details>
-<summary>5 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msBatchUrlsTestConfig
- * msEdgeAutofillSyncAutocompleteData
- * msEdgeAutofillSyncProfileData
- * msWalletCheckoutEnableProfileFilteringV2
- * msWalletCheckoutEnableProfileFilteringV2
+* msLaunchSuppressionDetection
+ * msLaunchSuppressionMitigation
+ * msNotificationPermissionForSidePane
+ * msNurturingCodeSweepV2FC
+ * msPBComputationsConnectionProfileUseCap
+ * msShowBookmarksBarWithItemOnAllTabs
 
 </details>
 <!-- Edge-Canary-Version:END -->

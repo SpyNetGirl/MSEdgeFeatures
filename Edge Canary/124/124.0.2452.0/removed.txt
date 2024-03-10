@@ -1,0 +1,2 @@
+msLocalhostRedirectSuspiciousUrlDetection
+msLocalhostRedirectSuspiciousUrlMitigation

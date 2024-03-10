@@ -1,0 +1,6 @@
+msLaunchSuppressionDetection
+msLaunchSuppressionMitigation
+msNotificationPermissionForSidePane
+msNurturingCodeSweepV2FC
+msPBComputationsConnectionProfileUseCap
+msShowBookmarksBarWithItemOnAllTabs
