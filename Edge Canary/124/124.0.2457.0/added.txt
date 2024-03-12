@@ -1,0 +1,8 @@
+msAllowReducedUpdateCadence
+msCryptoWalletEIP6963
+msEdgeAutofillBypassCache
+msEdgeTransientAppPerProfile
+msPdfCopilotIcon
+msPdfStaticLibrary
+msSecurityHWAccelerationSetting
+msWalletCheckoutCouponImprovement
