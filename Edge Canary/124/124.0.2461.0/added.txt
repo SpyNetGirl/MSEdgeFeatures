@@ -1,0 +1,9 @@
+msAdPlatformTriggered
+msEdgeMediaControls
+msEdgeSetAsDefaultTrigger
+msOverflowMenuTriggered
+msReadAloudTriggered
+msReadingViewTriggered
+msSaveCardTriggered
+msSuperResolutionTriggered
+msWalletCheckoutCouponImprovement
