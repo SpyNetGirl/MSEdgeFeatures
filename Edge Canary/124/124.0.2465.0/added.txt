@@ -1,0 +1,3 @@
+msEditImageWithDesigner
+msPerfReportingPageLoadContentScriptsBrowser
+msPerfReportingPageLoadContentScriptsMeetingThresholdTrigger
