@@ -1,0 +1,6 @@
+msBookmarkBarSettingIsDefaulttCount10
+msBookmarkBarSettingIsDefaulttCount100
+msEdgeShoppingAutoApplyRewards
+msMSStartYJAutoOpenTrigger
+mssEdgeShoppingCohorts
+msWorkspacesCollaborativeBookmarksBar
