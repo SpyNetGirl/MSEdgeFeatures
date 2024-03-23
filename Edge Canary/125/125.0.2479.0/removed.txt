@@ -1,0 +1,6 @@
+msKidsModeExtendedProfilesEnabled
+msKidsModeSettingsOpenKMButtonEnabled
+msKidsModeShowNewBadge
+msKidsModeThemePickerEnabled
+msLogLoginDataPermissionsOnError
+msPdfKeywordsDetection

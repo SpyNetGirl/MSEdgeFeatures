@@ -1,0 +1,5 @@
+msEdgeDisableEnhancedSecurityMode
+msPdfKeyphraseSupport
+msPdfSetCPUCoreCount
+msWalletCheckoutTopsiteUnrecognizedCheckoutPage
+msWorkspacesOutlines
