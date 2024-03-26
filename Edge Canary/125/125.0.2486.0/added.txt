@@ -1,0 +1,5 @@
+msGamingRewardsHvaPitchCheckIsEdgePinnedToTaskbar
+msGamingUpsellCheckIsEdgePinnedToTaskbar
+msSegmentationPlatformIsAppPinnedToTaskbarOverrideForTesting
+MST7C3
+msToolbarDeclutterT3
