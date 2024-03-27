@@ -1,0 +1,6 @@
+msHideSteadyStateUrlPathAppendAngleBracket
+msHideSteadyStateUrlPathAppendSlashEllipses
+msHideSteadyStateUrUnelideOneClick
+msQuickSearch
+msQuickSearchInSidebarCopilot
+msQuickSearchInWinCopilot
