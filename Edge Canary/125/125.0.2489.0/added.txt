@@ -1,0 +1,2 @@
+msReadAloudIconDisallowList
+msReadAloudIconReaderModeEligible

@@ -1,0 +1,4 @@
+msWebAppInstallButtonForHighEngagementTopSite
+msWebAppInstallButtonForMediumEngagementTopSite
+msWebAppInstallButtonForTop500Site
+msWebAppOmniboxInstallButtonForEngagedSites
