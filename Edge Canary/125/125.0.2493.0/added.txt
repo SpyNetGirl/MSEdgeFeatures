@@ -1,0 +1,3 @@
+msEdgeAutofillUndo
+msEdgeMobileSharedLinksSuggestionsAddToUrlGroup
+msEdgePwaSidebarContextualAwarenessTrigger

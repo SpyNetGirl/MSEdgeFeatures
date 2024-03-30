@@ -1,0 +1,4 @@
+msEdgeAutofillShowCreditCardSuggestionsForPasswordFields
+msEdgeAutoOpenBrowserWidthThreshold
+msEdgeCompatWarningDetection
+msEdgeCompatWarningDetectionOnAllWebsites
