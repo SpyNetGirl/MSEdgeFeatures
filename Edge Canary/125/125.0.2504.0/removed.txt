@@ -1,0 +1,5 @@
+msEdgeAutofillDontSaveExtendedAutocompleteData
+msEdgeAutofillSyncConstrainedAutocompleteData
+msEdgeSyncAutofillFSDExtendedMetadata
+msEnableAXShoppingNavigation
+msInsertBaiduNav
