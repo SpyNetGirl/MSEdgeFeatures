@@ -1,0 +1,3 @@
+msAssetStoreBrowserProcessCheck
+msSmartScreenThreadpoolShutdownTimeout
+msStoreAppMigration

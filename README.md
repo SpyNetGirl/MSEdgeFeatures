@@ -18,29 +18,24 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 125.0.2501.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 125.0.2503.0
 
-### Last processed at: 04/03/2024 00:05:49 (UTC+00:00)
+### Last processed at: 04/04/2024 08:03:21 (UTC+00:00)
 
 <details>
-<summary>14 new features were added in the latest Edge Canary update</summary>
+<summary>9 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAlwaysRunningProvenanceValidatorEnabled
- * msEdgeShoppingPrioritizeCashbackOverCouponAttribution
- * msProvenanceValidator
- * msProvenanceValidatorModelImpl
- * msProvenanceValidatorScreenshotCaptureImpl
- * msProvenanceValidatorScreenshotToDisk
- * msProvenanceValidatorShowBlockingPage
- * msProvenanceValidatorSiteThreshold
- * msProvenanceValidatorTrigger
- * msUndersideServerSideExp1
- * msUndersideServerSideExp2
- * msUndersideServerSideExp3
- * msUndersideServerSideExp4
- * msUndersideServerSideExp5
+* msedgeenterpriseworkentityl1
+ * msEdgeScribbleToCopilotInMouseGesture
+ * msEEE2ETesting
+ * msEERegisterPageEarlyForPageLocaleExtraction
+ * msLlmConsumerDlpManagedIdentity
+ * msMitigateAttachedInputSpinBySleeping
+ * msPdfOOUINonEnglishAppLocaleTrigger
+ * msSendBingSafeSearchHeaderEnabled
+ * msTranslateVideoCaption
 
 </details>
 <!-- Edge-Canary-Version:END -->
