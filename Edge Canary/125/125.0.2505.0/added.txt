@@ -1,0 +1,5 @@
+msEdgeAutofillEnforceCustomChecks
+msEdgeFeedbackIncludeScreenshotChecked
+msMoreThanNOmniboxVisibleIconTriggered
+msMoreThanOneOverflowEligibleIconTriggered
+msSavePasswordTriggered
