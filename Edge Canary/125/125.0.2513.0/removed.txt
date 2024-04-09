@@ -1,0 +1,10 @@
+msEEIBLTemplateFetcherEnabled
+msEEProductRegex
+msEERunAEEOnInternationalSites
+msEERunOnPlaces
+msEERunOnRecipe
+msEERunOnResearch
+msEERunOnSocialMedia
+msEERunOnVideos
+msEEStaging
+msGuidedSwitchToSmartSwitch
