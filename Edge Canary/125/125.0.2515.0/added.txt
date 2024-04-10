@@ -1,0 +1,3 @@
+msGuidedSwitchToSmartSwitch
+msWalletPasswordV2Refresh
+msWindowsCopilotPlayground
