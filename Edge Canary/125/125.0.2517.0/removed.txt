@@ -1,0 +1,5 @@
+msEdgeFetchIsDmaOnStartupEnabled
+msEdgeFREShowPersonalizationConsentScreenROW
+msEdgeMemoryHubEnabled
+msShoppingUapiExp0Success
+MST7C3
