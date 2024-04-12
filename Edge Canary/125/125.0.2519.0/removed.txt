@@ -1,0 +1,5 @@
+msCanUseDirectUpload
+msEnableRetroactiveUpload
+msEnableUTCForFamilySafety
+MsHTMLElementAutocomplete
+msStoreEventsForRetroactiveUpload
