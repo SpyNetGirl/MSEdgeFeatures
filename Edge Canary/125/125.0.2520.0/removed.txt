@@ -1,0 +1,3 @@
+msDelayLoadTokenFetchProactiveAuth
+msImplicitSignInDefaultProviderSyncScopeRetry
+msUseCircuitBreakerForRevocation
