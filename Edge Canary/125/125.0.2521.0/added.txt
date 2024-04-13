@@ -1,0 +1,9 @@
+mS2JE1
+msDlpShowNewDialogsForPaste
+msEdgeAutoOpenTeamsHubAppV2
+msEdgeAutoOpenTeamsHubAppV2Trigger
+msEdgeBarCNFRE
+msEdgeSsDisableAutocompleteSupport
+msNurturingDLPDialog
+msNurturingWorkspaceFromCurrentWindowInMultiBrowserSessions
+msWindowInMultiBrowserSessionsTrigger

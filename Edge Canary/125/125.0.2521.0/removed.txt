@@ -1,0 +1,4 @@
+msBlockAutoplay
+msEdgeGlobalMediaControls
+msEdgeGlobalMediaControlsSeekBar
+msUseCircuitBreakerForInstallVerifier
