@@ -1,0 +1,6 @@
+msEdgeHubAppStoreBannerShowRedDot
+msEdgeLoginDbTasksBlockShutdown
+msFavoritesMonolineFolder
+msQuickSearchCopilotMenuForPdf
+msQuickSearchCopilotMenuForWeb
+msSegmentationPlatformSpotifyHvaUpsell
