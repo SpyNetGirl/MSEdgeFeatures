@@ -1,0 +1,5 @@
+msDisableOmniboxTriggeredIcon
+msEdgeHubAppPerfCenter
+msOmniboxTriggeredPageActionsDisabled
+msWalletCheckoutScriptAutofill
+msWalletCheckoutTemplateV2
