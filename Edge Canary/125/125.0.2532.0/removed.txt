@@ -1,0 +1,2 @@
+msQuickSearchCopilotMenuForPdf
+msQuickSearchCopilotMenuForWeb
