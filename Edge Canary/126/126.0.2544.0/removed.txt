@@ -1,0 +1,4 @@
+msCursorBlinkTimeout
+msCursorBlinkTimeoutParam
+MsPointerEventDeviceId
+msPointerEventDeviceId
