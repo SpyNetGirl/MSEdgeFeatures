@@ -253,7 +253,7 @@ $($Removed | ForEach-Object -Process {"* $_`n"})
             name             = "Edge Canary version $FullVersion"
             body             = "$GitHubReleaseBodyContent"
             draft            = $false
-            prerelease       = $false 
+            prerelease       = $false
         } | ConvertTo-Json
     )
 

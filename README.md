@@ -42,7 +42,7 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
      * Get it from the [official GitHub repository](https://github.com/PowerShell/PowerShell/releases)
      * Or Install it from [Microsoft Store](https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D)
 
-2. Navigate to the [Releases section](https://github.com/HotCakeX/MSEdgeFeatures/releases) of this GitHub repository, find the latest update which is at the top, or any other previous update that you are looking for, copy the PowerShell code in that release, paste it in your PowerShell Core (no admin required), it will create the Edge canary batch file (`.bat` file) for you in the Downloads folder of your computer. 
+2. Navigate to the [Releases section](https://github.com/HotCakeX/MSEdgeFeatures/releases) of this GitHub repository, find the latest update which is at the top, or any other previous update that you are looking for, copy the PowerShell code in that release, paste it in your PowerShell Core (no admin required), it will create the Edge canary batch file (`.bat` file) for you in the Downloads folder of your computer.
 
 You can start Edge canary with that `.bat` file and try out the new features added in that specific Edge canary update.
 

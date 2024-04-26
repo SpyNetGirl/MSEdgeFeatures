@@ -80,39 +80,39 @@ if (!(Test-Path ".\Edge Canary\$($Split[0])")) { New-Item ".\Edge Canary\$($Spli
 if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
 
     # Creating a new directory for the new available Edge Canary version
-    New-Item ".\Edge Canary\$($Split[0])\$Version" -ItemType Directory -Force | Out-Null    
+    New-Item ".\Edge Canary\$($Split[0])\$Version" -ItemType Directory -Force | Out-Null
 
     # Check whether the current Edge Canary version is the first release in a new major version. If it is, then some actions will be triggered
     if ((Get-ChildItem ".\Edge Canary\$($Split[0])" -Directory).count -eq 1) {
 
         # Loop through each directory of major Edge canary versions and get the directory that belongs to the last previous version
-        foreach ($CurrentPipelineVersion in ((Get-ChildItem '.\Edge Canary\' -Directory | Where-Object { $_.Name -match '^\d\d\d$' } | Sort-Object Name -Descending).Name | Select-Object -Skip 1)) {     
+        foreach ($CurrentPipelineVersion in ((Get-ChildItem '.\Edge Canary\' -Directory | Where-Object { $_.Name -match '^\d\d\d$' } | Sort-Object Name -Descending).Name | Select-Object -Skip 1)) {
 
             # Make sure the directory is not empty (which is kinda impossible to be empty, but just in case)
             if ((Get-ChildItem ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object Name -Descending | Select-Object -First 1).count -ne 0) {
-                               
+
                 # Locating the last version of Edge Canary that was processed prior to this current version so we can access its directory on repository
                 $PreviousVersion = (Get-ChildItem ".\Edge Canary\$CurrentPipelineVersion" -Directory | Sort-Object Name -Descending | Select-Object -First 1).Name
                 # Get the major version
                 $PreviousVersionSplit = $PreviousVersion.Split('.')
                 # if the directory is found, stop the loop
-                break     
+                break
             }
             else {
                 # if the directory that belongs to the previous major Edge canary version is completely empty, then skip the currently processing major version entirely and look for the one before it
                 continue
-            }          
+            }
         }
     }
     # if the current Edge canary version is not the first release in a major version
-    else {        
+    else {
         $PreviousVersion = (Get-ChildItem ".\Edge Canary\$($Split[0])" -Directory | Sort-Object -Descending | Select-Object -Skip 1 -First 1).Name
         $PreviousVersionSplit = $PreviousVersion.Split('.')
     }
 
     Write-Host "Comparing version: $version with version: $PreviousVersion" -ForegroundColor Cyan
-    
-    Write-Host 'Strings64 Running...'    
+
+    Write-Host 'Strings64 Running...'
 
     # Storing the output of the Strings64 in an object
     $Objs = & $StringsExe $DllPath |
@@ -138,7 +138,7 @@ if (!(Test-Path -Path ".\Edge Canary\$($Split[0])\$Version\*")) {
     # Storing the latest version in a file
     $Version | Out-File .\last.txt
 
-    #region ReadMe-Updater   
+    #region ReadMe-Updater
     $DetailsToReplace = @"
 `n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $Version`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
@@ -155,8 +155,8 @@ $($added | ForEach-Object {"* $_`n"})
     $readme = Get-Content -Raw -Path 'README.md'
     $readme = $readme -replace '(?s)(?<=<!-- Edge-Canary-Version:START -->).*(?=<!-- Edge-Canary-Version:END -->)', $DetailsToReplace
     Set-Content -Path 'README.md' -Value $readme.TrimEnd()
-    #endregion ReadMe-Updater  
- 
+    #endregion ReadMe-Updater
+
     #region GitHub-Committing
 
     # Committing the changes back to the repository
@@ -179,11 +179,11 @@ $($added | ForEach-Object {"* $_`n"})
     $AddedArray = $Added -join ','
     $PreArguments = "--enable-features=$AddedArray"
     $PreArguments = $PreArguments.TrimEnd(',')
-    
+
     $contenttoadd = @"
-    
+
     `$arguments = `"$PreArguments`"
-    
+
     function New-Shortcut {
         [CmdletBinding()]
         param (
@@ -214,9 +214,9 @@ $($added | ForEach-Object {"* $_`n"})
         -WorkingDirectory "C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application" ``
         -Icon "C:\Users\`$env:USERNAME\AppData\Local\Microsoft\Edge SxS\User Data\Default\Edge Profile.ico" ``
         -Arguments `$arguments
-    
+
 "@
-    
+
     Set-Content -Value $contenttoadd -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
 
     #endregion Edge-Canary-ShortCut-Maker-Code
@@ -231,14 +231,14 @@ $($added | ForEach-Object {"* $_`n"})
 
     $GitHubReleaseBodyContent = @"
 # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
-        
+
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 
 Visit the GitHub's release section for full details on how to use it:
 https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$Version
-    
+
 ### $($added.count) New features were added
-    
+
 $($added | ForEach-Object {"* $_`n"})
 
 <br>
@@ -260,10 +260,10 @@ $($Removed | ForEach-Object {"* $_`n"})
         -Body (@{tag_name = "$Version"; target_commitish = $LATEST_SHA; name = "Edge Canary version $Version"; body = "$GitHubReleaseBodyContent"; draft = $false; prerelease = $false } | ConvertTo-Json)
 
     # Use the gh CLI command to upload the EdgeCanaryShortcutMaker.ps1 file to the release as asset
-    gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber      
+    gh release upload $Version ./EdgeCanaryShortcutMaker.ps1 --clobber
 
     $ASSET_NAME = 'EdgeCanaryShortcutMaker.ps1'
-  
+
     # Making sure the download link is direct
     $ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$Version/$ASSET_NAME"
 
@@ -271,11 +271,11 @@ $($Removed | ForEach-Object {"* $_`n"})
     # Body of the Release that is going to be added via a patch method
     $GitHubReleaseBodyContent = @"
 # <img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"> Automated update
-        
+
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
-    
+
 ### $($added.count) New features were added
-    
+
 $($added | ForEach-Object {"* $_`n"})
 
 <br>
@@ -300,13 +300,13 @@ invoke-restMethod '$ASSET_DOWNLOAD_URL' | Invoke-Expression
 
 "@
 
-    # Add the body of the Release with the link to the EdgeCanaryShortcutMaker.ps1 asset file included  
+    # Add the body of the Release with the link to the EdgeCanaryShortcutMaker.ps1 asset file included
     Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method PATCH -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json)
- 
+
     #endregion GitHub-Release-Publishing
 
 }
 else {
     Write-Host 'BUILD ALREADY EXISTS, EXITING.' -ForegroundColor Red
-    Exit 0    
+    Exit 0
 }
