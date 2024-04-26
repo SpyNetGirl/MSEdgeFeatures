@@ -1,0 +1,4 @@
+msChatPlugins
+msEdgeBackgroundTabSummaryPage
+msNewWebSSOTimeout
+msPerfHubButtonDefaultPin
