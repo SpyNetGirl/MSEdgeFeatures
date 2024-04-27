@@ -1,0 +1,4 @@
+msAboutInsiderChannels
+msMicrosoftEdgeComponentUpdateThrottle
+msRequireStackTraceForNotificationClickLogging
+msWinQueryRoutingTableForP2pSockets
