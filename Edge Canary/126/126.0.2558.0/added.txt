@@ -1,0 +1,5 @@
+msContinuousMigrationUploadImportedHistoryForCUV
+msEdgeBrowserEssentialsShowExtensionsPerfSection
+msEdgeDesignerUI2
+msFavoritesVisitCount
+msUseBatchProcessorForImportedHistoryUpload

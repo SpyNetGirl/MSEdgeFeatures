@@ -1,0 +1,6 @@
+msAutofillEdgeSortProfileRanking
+msEdgeFreeOfficeUI
+msExpandedPrefetch
+msPerfHubBatteryIcon
+msPerfHubSpeedometerIcon
+msReuseTitleForShortenedURLs
