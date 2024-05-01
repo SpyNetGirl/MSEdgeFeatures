@@ -1,0 +1,3 @@
+msEdgeFreeOfficeUI
+msEdgeShoppingRefreshCache
+msWebView2CancelInitialNavigation
