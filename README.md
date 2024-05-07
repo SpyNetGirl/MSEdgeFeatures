@@ -18,16 +18,40 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 126.0.2571.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 126.0.2572.0
 
-### Last processed at: 05/07/2024 00:05:22 (UTC+00:00)
+### Last processed at: 05/07/2024 16:03:08 (UTC+00:00)
 
 <details>
-<summary>1 new features were added in the latest Edge Canary update</summary>
+<summary>25 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeHubAppStoreGaoKaoThemeInstaller
+* msAddSecondaryTilePinIdQuickLinksIndexer
+ * msAffiliateMinVisitSiteReductionApplied
+ * msAffiliateSitesMinVisitCountReduction
+ * msCPWProtocolLaunchDisabled
+ * msEdgeAutofillUseGPTForAISuggestions
+ * MsfVE1
+ * msHideSteadyStateUrlUnelideOneClick
+ * msHideSteadyStateUrUnelideHover
+ * msLogIsEdgePinnedToTaskbarOnLaunch
+ * msNtpExp20
+ * msNtpExp21
+ * msNtpExp22
+ * msNtpExp23
+ * msNtpExp24
+ * msNtpExp25
+ * msNtpExp26
+ * msNtpExp27
+ * msNtpExp28
+ * msNtpExp29
+ * MST7C3
+ * msUserHasMostVisitedSites
+ * msWalletETreeProfile
+ * msWindowsUserActivities
+ * msWindowsUserActivitiesRecallRequirements
+ * msWindowsUserActivitiesShouldSendData
 
 </details>
 <!-- Edge-Canary-Version:END -->
