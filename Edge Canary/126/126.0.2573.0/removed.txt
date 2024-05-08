@@ -1,0 +1,12 @@
+msEEClassifierTitleSimilarity
+msEEMeasureShopifyMetadataExtractionImpact
+msEEOnnxFirstPriority
+msEEOnnxLowPriorityInference
+msEEOnnxUseHalfPageCutoff
+msEEOnnxUsePiclAsFallback
+msEEPiclForAll
+msEEPiclTextTokenBoundingBoxes
+msEETestMobilePlatform
+msEEUseOnDemandModelForProactive
+MsfVE1
+msIdentityBasedIntranetAuthFallback
