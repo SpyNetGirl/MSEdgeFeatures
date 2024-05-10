@@ -1,0 +1,7 @@
+msBatteryHub
+msBatteryHubDetailed
+msEdgeAppTransformToBrowser
+msIEModeSetForegroundWhenActive
+msMoreMenuMoveBattery
+msOmniboxFocusRingColorEmphasize
+msSearchBoxHide
