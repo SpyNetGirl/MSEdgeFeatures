@@ -1,0 +1,4 @@
+msDomainActionsMasquerade
+msDomainActionsPhantom
+msTabGroupSyncVisitTimeToBackend
+msThumbnailNotificationActivationPolicy
