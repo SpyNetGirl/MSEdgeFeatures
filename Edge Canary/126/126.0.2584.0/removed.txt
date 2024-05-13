@@ -1,0 +1,2 @@
+msCustomMaxQuickLinks
+msMaxQuickLinksAt20
