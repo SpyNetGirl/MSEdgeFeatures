@@ -1,0 +1,7 @@
+msAssetStoreSizeCheck
+msEdgeLATAMShortcutRebrandingDesktopPresent
+msEdgeLATAMShortcutRebrandingRename
+msEdgeMusicMessengerV2BubblePopupUpSell
+msEdgeShoppingBgaaShowWindowForDev
+msEdgeShoppingBgaaUx
+msKodiakCollapseTextInPill
