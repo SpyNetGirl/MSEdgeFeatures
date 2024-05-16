@@ -1,0 +1,2 @@
+msKodiakCollapseTextInPill
+msWalletMembershipV2
