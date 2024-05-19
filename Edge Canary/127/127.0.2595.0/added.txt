@@ -1,0 +1,5 @@
+msCollectDUSMConnectionProfileCountHistogram
+msEdgeBarV3Phase1
+msNamedDestinationViaUrlOnDcpdf
+msPromotedLinksInWindowsIndexer
+msPromotedSitesPrefChanged
