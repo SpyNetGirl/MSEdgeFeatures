@@ -1,0 +1,8 @@
+msDataProtectionListComponent
+msEdgeUndersidePersistent
+msEdgeWebAppSidebarLinkHandlingWithDialogBox
+msEECollectPDPClassifierSource
+msEEPiclWithPostProcessing
+msEESkippedForProductRegex
+msOmniboxHistoryIconInAddressBar
+msPictureDictionaryReadingView
