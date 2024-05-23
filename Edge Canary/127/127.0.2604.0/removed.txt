@@ -1,0 +1,2 @@
+MSAAUTHPI
+msEEUseDefaultDomainsConfig
