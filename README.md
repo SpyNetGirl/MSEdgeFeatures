@@ -18,67 +18,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2610.0
+### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2614.0
 
-### Last processed at: 05/25/2024 16:03:14 (UTC+00:00)
+### Last processed at: 05/27/2024 16:03:07 (UTC+00:00)
 
 <details>
-<summary>52 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msAIPredictedSitesTopSitesAvailableInMostVisited
- * msAIPredictedSitesTopSitesVisible
- * msAIPredictedSitesTopSitesVisibleDhp
- * msAIPredictedSitesTopSitesVisibleNtp
- * msAutofillEdgeAvoidSpecialCharacterValuesIntoV2Tables
- * msCollaborativeNavigationUserTriggerV2
- * msEdgeAutofillAiSuggestionsTag
- * msEdgeBarBlockUpsell
- * msEdgePreLaunchFREAfterOOBEWin11
- * msEdgeShoppingAutoShowBackgroundAutoApply
- * msEdgeShoppingFSASettings
- * msEdgeShrinkWiderGroupHeadersAndThenWiderTabs
- * msExplicitTriggerElement
- * msLocationBarHover
- * msNurturingUserAcceptedCountGreaterThanDismissedCount
- * msNurturingUserAcceptedCountLessThanDismissedCount
- * msNurturingUserAcceptedEightNotifications
- * msNurturingUserAcceptedFiveNotifications
- * msNurturingUserAcceptedFourNotifications
- * msNurturingUserAcceptedGreaterThanTenNotifications
- * msNurturingUserAcceptedNineNotifications
- * msNurturingUserAcceptedOneNotification
- * msNurturingUserAcceptedSevenNotifications
- * msNurturingUserAcceptedSixNotifications
- * msNurturingUserAcceptedTenNotifications
- * msNurturingUserAcceptedThreeNotifications
- * msNurturingUserAcceptedTwoNotifications
- * msNurturingUserDismissedEightNotifications
- * msNurturingUserDismissedFiveNotifications
- * msNurturingUserDismissedFourNotifications
- * msNurturingUserDismissedGreaterThanTenNotifications
- * msNurturingUserDismissedNineNotifications
- * msNurturingUserDismissedOneNotification
- * msNurturingUserDismissedSevenNotifications
- * msNurturingUserDismissedSixNotifications
- * msNurturingUserDismissedTenNotifications
- * msNurturingUserDismissedThreeNotifications
- * msNurturingUserDismissedTwoNotifications
- * msOmniboxRelatedSearchesOnZeroInputForWebControl
- * msOmniboxZeroSuggestHistoryDisabledWithRelatedSearches
- * msShoppingCampaignExp0
- * msShoppingCampaignExp1
- * msShoppingCampaignExp2
- * msShoppingCampaignExp3
- * msShoppingCampaignExp4
- * msShoppingCampaignExp5
- * msShoppingCampaignExp6
- * msShoppingCampaignExp7
- * msShoppingCampaignExp8
- * msShoppingCampaignExp9
- * msShowAIPredictedSiteSuggestionsOnNormalStartupTrigger
- * msShowAIPredictedSiteSuggestionsOnNormalStartupWithGivenUrlsTrigger
+* msBookmarkBarSettingIsDefaultStartup
+ * msTyposquattingCheckerNewStructureSyncCheckTrigger
 
 </details>
 <!-- Edge-Canary-Version:END -->
