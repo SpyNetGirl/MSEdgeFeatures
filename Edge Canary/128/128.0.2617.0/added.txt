@@ -1,0 +1,5 @@
+msEdgeAutofillShowLevoMaxSuggestionOnTop
+msEdgeAutofillShowTwoLevoSuggestions
+msEdgeNewTowerViewBackgroundsEnabled
+msEdgeScreenshotInWebCapture
+msEdgeWebCaptureUniformExperience
