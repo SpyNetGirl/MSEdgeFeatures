@@ -1,0 +1,2 @@
+msEdgeCampaignInteractionLogging
+msUseWinPlatformVoices
