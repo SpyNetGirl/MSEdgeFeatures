@@ -1,0 +1,4 @@
+msEdgeSupportTranslateAttributeForVideo
+msFavoritesHubViewChange
+msRerenderOfflineErrorPage
+msShoppingAndMSBCodeMigration
