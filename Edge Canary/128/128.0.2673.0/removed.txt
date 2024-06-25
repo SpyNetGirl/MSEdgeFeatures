@@ -1,0 +1,3 @@
+msBingSearchWebForImage
+msMoveSearchWebForAboveCollections
+msSidebarSearchForImageBeforeSearchWebFor
