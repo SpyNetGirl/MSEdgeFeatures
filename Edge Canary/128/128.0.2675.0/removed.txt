@@ -1,0 +1,4 @@
+msArbitrationServiceMultiCohort
+msEdgeCopilotPermanentAppTowerEnabled
+msEdgeCopilotPermanentAppTowerForBrowsersEnabled
+msEdgeCopilotV21OnFrameV3Enabled
