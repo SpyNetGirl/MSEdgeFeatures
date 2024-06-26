@@ -1,0 +1,4 @@
+msFavoritesBarTreatment1
+msFavoritesBarTreatment2
+msPinRecommendationsEligibilityTrigger
+msWebView2SetUserAgentOverrideOnIframes

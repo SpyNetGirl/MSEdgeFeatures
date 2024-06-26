@@ -1,0 +1,5 @@
+msBookmarksBarTreatment1
+msFavoritesV2ImageAndVideoHoverMenu
+msPiPInVideoExplore
+msSaveVideoToCollectionInTab
+msSmartExploreForVideo
