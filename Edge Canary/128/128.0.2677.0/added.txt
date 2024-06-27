@@ -1,0 +1,6 @@
+msArbitrationServiceMultiCohort
+msedgecrI3
+msEdgeCSSCopilot
+msEdgeSavedTabGroupRestore
+msEdgeUndersideV2
+msInitializeSidePaneWebContentsWithUrl
