@@ -1,0 +1,6 @@
+msbigsearchzi
+msDisallowReconnectingExistingPrefsForTest
+msEdgeCompatHuffmanSearch
+msEdgeSyncSingleDeviceHistory
+msPdfParserObjectMemoryPurge
+msWorkspacesFromOtherPrefsRecovery
