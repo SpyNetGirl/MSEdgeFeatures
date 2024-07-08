@@ -10,12 +10,12 @@ $ErrorActionPreference = 'Stop'
 Write-Host -Object 'Downloading Edge Canary'
 try {
     Write-Host -Object 'Trying the primary URL'
-    Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath | Out-Null
+    $null = Invoke-RestMethod -Uri $URL1 -OutFile $EdgeCanaryInstallerPath
 }
 catch {
     try {
         Write-Host -Object 'Downloading from the primary URL failed, trying the secondary URL'
-        Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath | Out-Null
+        $null = Invoke-RestMethod -Uri $URL2 -OutFile $EdgeCanaryInstallerPath
     }
     catch {
         Write-Host -Object 'Failed to download Edge from both URLs. Exiting...'
@@ -25,7 +25,7 @@ catch {
 
 Write-Host -Object 'Downloading Strings64.exe'
 try {
-    Invoke-RestMethod -Uri 'https://live.sysinternals.com/strings64.exe' -OutFile $StringsExe | Out-Null
+    $null = Invoke-RestMethod -Uri 'https://live.sysinternals.com/strings64.exe' -OutFile $StringsExe
 }
 catch {
     Write-Host -Object 'Failed to download Strings64. Exiting...'
@@ -68,8 +68,8 @@ if (Test-Path -Path $RegistryPath) {
     Set-ItemProperty -Path $RegistryPath -Name $Name -Value '1'
 }
 else {
-    New-Item -Path $RegistryPath -Force | Out-Null
-    New-ItemProperty -Path $RegistryPath -Name $Name -Value '1' -PropertyType 'DWORD' -Force | Out-Null
+    $null = New-Item -Path $RegistryPath -Force
+    $null = New-ItemProperty -Path $RegistryPath -Name $Name -Value '1' -PropertyType 'DWORD' -Force
 }
 
 # Finding the latest version of the Edge Canary from its installation directory's name
@@ -82,16 +82,16 @@ Write-Host -Object "DLL PATH: $DllPath" -ForegroundColor Yellow
 # Expanding the current directory structure that is in GitHub repository to include the new Edge Canary version
 
 # Create the root directory for the Edge Canary if it doesn't exist
-if (-NOT (Test-Path -Path '.\Edge Canary')) { New-Item -Path '.\Edge Canary' -ItemType Directory -Force | Out-Null }
+if (-NOT (Test-Path -Path '.\Edge Canary')) { $null = New-Item -Path '.\Edge Canary' -ItemType Directory -Force }
 
 # Create the directory for the current Edge Canary's major version if it doesn't exist
-if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion")) { New-Item -Path ".\Edge Canary\$MajorVersion" -ItemType Directory -Force | Out-Null }
+if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion")) { $null = New-Item -Path ".\Edge Canary\$MajorVersion" -ItemType Directory -Force }
 
 # Create the directory for the current Edge Canary's full version if it doesn't exist or if it exists but is empty
 if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
 
     # Creating a new directory for the new available Edge Canary's full version
-    New-Item -Path ".\Edge Canary\$MajorVersion\$FullVersion" -ItemType Directory -Force | Out-Null
+    $null = New-Item -Path ".\Edge Canary\$MajorVersion\$FullVersion" -ItemType Directory -Force
 
     # Check whether the current Edge Canary version is the first release in a new major version. If it is, then some actions will be triggered
     if ((Get-ChildItem -Path ".\Edge Canary\$MajorVersion" -Directory).count -eq 1) {
@@ -125,22 +125,22 @@ if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
 
     Write-Host -Object 'Strings64 Running...'
 
-    # Storing the output of the Strings64 in an array of strings
-    [System.String[]]$CurrentOriginalFeatures = & $StringsExe $DllPath |
-    Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$' |
-    ForEach-Object -Process { $_.Matches.Groups[0].Value } | Sort-Object
+    # Storing the output of the Strings64 in an array of strings   
+    $CurrentOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(& $StringsExe $DllPath |
+        Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$' |
+        ForEach-Object -Process { $_.Matches.Groups[0].Value } | Sort-Object)
 
     # Outputting the object containing the final original results to a file
     $CurrentOriginalFeatures | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\original.txt" -Force
 
     Write-Host -Object "Saved: .\Edge Canary\$MajorVersion\$FullVersion\original.txt ($($CurrentOriginalFeatures.count) entries)"
 
-    [System.String[]]$PreviousOriginalFeatures = Get-Content -Path ".\Edge Canary\$PreviousMajorVersion\$PreviousFullVersion\original.txt" | Sort-Object
+    $PreviousOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(Get-Content -Path ".\Edge Canary\$PreviousMajorVersion\$PreviousFullVersion\original.txt" | Sort-Object)
 
-    [System.String[]]$Added = $CurrentOriginalFeatures | Where-Object -FilterScript { $_ -notin $PreviousOriginalFeatures }
+    [System.String[]]$Added = $CurrentOriginalFeatures | Where-Object -FilterScript { !$PreviousOriginalFeatures.Contains($_) }
     $Added | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\added.txt" -Force
 
-    [System.String[]]$Removed = $PreviousOriginalFeatures | Where-Object -FilterScript { $_ -notin $CurrentOriginalFeatures }
+    [System.String[]]$Removed = $PreviousOriginalFeatures | Where-Object -FilterScript { !$CurrentOriginalFeatures.Contains($_) }
     $Removed | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\removed.txt" -Force
 
     Write-Host -Object "Added features .\Edge Canary\$MajorVersion\$FullVersion\added.txt ($($Added.count) entries)"
@@ -184,7 +184,7 @@ $($Added | ForEach-Object -Process {"* $_`n"})
 
     # Putting the Edge canary shortcut maker's code in the EdgeCanaryShortcutMaker.ps1 file
 
-    New-Item -Path '.\EdgeCanaryShortcutMaker.ps1' -Force | Out-Null
+    $null = New-Item -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
 
     [System.String[]]$AddedArray = $Added -join ','
     $PreArguments = "--enable-features=$AddedArray"
@@ -205,7 +205,6 @@ powershell.exe -WindowStyle hidden -Command "```$UserSID = [System.Security.Prin
 "@
 
     Set-Content -Value $ContentToAdd -Path '.\EdgeCanaryShortcutMaker.ps1' -Force
-
 
     #endregion Edge-Canary-ShortCut-Maker-Code
 
