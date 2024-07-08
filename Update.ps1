@@ -6,6 +6,8 @@ $ErrorActionPreference = 'Stop'
 [System.String]$AppPath = "C:\Users\$env:USERNAME\AppData\Local\Microsoft\Edge SxS\Application"
 [System.String]$StringsExe = "$env:tmp\strings64.exe"
 
+Write-Host -Object "Current username is: '$env:USERNAME'"
+
 #Region Downloading-Stuff
 Write-Host -Object 'Downloading Edge Canary'
 try {
@@ -38,6 +40,8 @@ Start-Process -FilePath $EdgeCanaryInstallerPath
 
 Write-Host -Object 'Waiting for Edge Canary to be downloaded and installed' -ForegroundColor Green
 
+[System.Boolean]$IsEdgeInstalled = $false
+
 # Checking for completion of the Edge Canary online installer by actively checking for the presence of the dll file that we need, every 5 seconds
 # Setting a timer for 60 minutes
 [System.TimeSpan]$Timer = New-TimeSpan -Minutes 60
@@ -46,7 +50,7 @@ do {
     [System.IO.FileInfo]$File = Get-ChildItem -Path $AppPath -Filter 'msedge.dll' -Recurse -File -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($File) {
         Write-Host -Object "File found: $($File.FullName)"
-        Start-Sleep -Seconds 5
+        $IsEdgeInstalled = $true
         break
     }
     else {
@@ -54,9 +58,14 @@ do {
         Start-Sleep -Seconds 5
     }
 }
-# Breaking the loop if the timer expires
+# Breaking out of the loop if the timer expires
 while ($StopWatch.Elapsed -lt $Timer)
 $StopWatch.Stop()
+
+if (!$IsEdgeInstalled) {
+    Write-Host -Object 'Edge Canary installation failed. Exiting...'
+    exit 3
+}
 
 Write-Host -Object "Accepting Strings64's EULA via Registry"
 
@@ -125,7 +134,7 @@ if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
 
     Write-Host -Object 'Strings64 Running...'
 
-    # Storing the output of the Strings64 in an array of strings   
+    # Storing the output of the Strings64 in an array of strings
     $CurrentOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(& $StringsExe $DllPath |
         Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$' |
         ForEach-Object -Process { $_.Matches.Groups[0].Value } | Sort-Object)
