@@ -1,0 +1,7 @@
+msContinuousImportUndoCIProfileCreation
+msWalletCheckoutAutoDismiss
+msWalletCheckoutContactInfo
+msWalletCheckoutEnableProfileFilteringV2
+msWalletCheckoutRewardsUnlock
+msWalletCheckoutSiteAllowed
+msWalletCheckoutSiteAllowedForSE
