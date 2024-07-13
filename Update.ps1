@@ -160,7 +160,7 @@ if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
 
     #region ReadMe-Updater
     [System.String]$DetailsToReplace = @"
-`n### <a href="https://github.com/HotCakeX/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $FullVersion`n
+`n### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: $FullVersion`n
 ### Last processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 <details>
 <summary>$($Added.count) new features were added in the latest Edge Canary update</summary>
@@ -232,7 +232,7 @@ powershell.exe -WindowStyle hidden -Command "```$UserSID = [System.Security.Prin
 ## Processed at: $(Get-Date -AsUTC) (UTC+00:00)`n
 
 Visit the GitHub's release section for full details on how to use it:
-https://github.com/HotCakeX/MSEdgeFeatures/releases/tag/$FullVersion
+https://github.com/SpyNetGirl/MSEdgeFeatures/releases/tag/$FullVersion
 
 ### $($Added.count) New features were added
 
@@ -251,7 +251,7 @@ $($Removed | ForEach-Object -Process {"* $_`n"})
     # Get the latest commit SHA
     $LATEST_SHA = git rev-parse HEAD
     # Create a release with the latest commit as tag and target
-    $RELEASE_RESPONSE = Invoke-RestMethod -Uri 'https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases' `
+    $RELEASE_RESPONSE = Invoke-RestMethod -Uri 'https://api.github.com/repos/SpyNetGirl/MSEdgeFeatures/releases' `
         -Method POST `
         -Headers @{Authorization = "token $env:GITHUB_TOKEN" } `
         -Body (
@@ -271,7 +271,7 @@ $($Removed | ForEach-Object -Process {"* $_`n"})
     [System.String]$ASSET_NAME = 'EdgeCanaryShortcutMaker.ps1'
 
     # Making sure the download link is direct
-    [System.String]$ASSET_DOWNLOAD_URL = "https://github.com/HotCakeX/MSEdgeFeatures/releases/download/$FullVersion/$ASSET_NAME"
+    [System.String]$ASSET_DOWNLOAD_URL = "https://github.com/SpyNetGirl/MSEdgeFeatures/releases/download/$FullVersion/$ASSET_NAME"
 
 
     # Body of the Release that is going to be added via a patch method
@@ -308,7 +308,7 @@ invoke-restMethod '$ASSET_DOWNLOAD_URL' | Invoke-Expression
 "@
 
     # Add the body of the Release with the link to the EdgeCanaryShortcutMaker.ps1 asset file included
-    Invoke-RestMethod -Uri "https://api.github.com/repos/HotCakeX/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method Patch -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json) -ContentType 'application/json'
+    Invoke-RestMethod -Uri "https://api.github.com/repos/SpyNetGirl/MSEdgeFeatures/releases/$($RELEASE_RESPONSE.id)" -Method Patch -Headers @{Authorization = "token $env:GITHUB_TOKEN" } -Body (@{body = "$GitHubReleaseBodyContent" } | ConvertTo-Json) -ContentType 'application/json'
 
     #endregion GitHub-Release-Publishing
 
