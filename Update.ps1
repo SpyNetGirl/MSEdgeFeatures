@@ -135,16 +135,16 @@ if (-NOT (Test-Path -Path ".\Edge Canary\$MajorVersion\$FullVersion\*")) {
     Write-Host -Object 'Strings64 Running...'
 
     # Storing the output of the Strings64 in an array of strings
-    $CurrentOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(& $StringsExe $DllPath |
-        Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$' |
-        ForEach-Object -Process { $_.Matches.Groups[0].Value } | Sort-Object)
+    $CurrentOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(foreach ($Item in (& $StringsExe $DllPath | Select-String -Pattern '^(ms[a-zA-Z0-9]{4,})$')) {
+            $Item.Matches.Groups[0].Value
+        })
 
     # Outputting the object containing the final original results to a file
     $CurrentOriginalFeatures | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\original.txt" -Force
 
     Write-Host -Object "Saved: .\Edge Canary\$MajorVersion\$FullVersion\original.txt ($($CurrentOriginalFeatures.count) entries)"
 
-    $PreviousOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(Get-Content -Path ".\Edge Canary\$PreviousMajorVersion\$PreviousFullVersion\original.txt" | Sort-Object)
+    $PreviousOriginalFeatures = [System.Collections.Generic.HashSet[System.String]]@(Get-Content -Path ".\Edge Canary\$PreviousMajorVersion\$PreviousFullVersion\original.txt")
 
     [System.String[]]$Added = $CurrentOriginalFeatures | Where-Object -FilterScript { !$PreviousOriginalFeatures.Contains($_) }
     $Added | Out-File -FilePath ".\Edge Canary\$MajorVersion\$FullVersion\added.txt" -Force
