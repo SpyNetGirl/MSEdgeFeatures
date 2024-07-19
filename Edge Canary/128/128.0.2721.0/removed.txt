@@ -1,0 +1,6 @@
+msOneAuthUseMSALForAADAuth
+msTokenizedCardTransactionHistory
+msTokenizationEnrollRewards
+msSanPersonalizationConsentInOOBE
+msSanPersonalizationConsentInSCOOBE
+msWhatsNewPageVariations
