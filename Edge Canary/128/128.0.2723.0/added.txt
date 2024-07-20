@@ -1,0 +1,6 @@
+msPdfWindowsOcrCoverage
+msSanPersonalizationConsentInOOBE
+msSanPersonalizationConsentInSCOOBE
+msEdgeFlashExtension
+msFeatureGroupRevisitationHoldout
+msEdgeAutofillPredictOTPFields
