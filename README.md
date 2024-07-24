@@ -18,25 +18,23 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2730.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2732.0
 
-### Last processed at: 07/23/2024 16:24:06 (UTC+00:00)
+### Last processed at: 07/24/2024 01:14:11 (UTC+00:00)
 
 <details>
-<summary>10 new features were added in the latest Edge Canary update</summary>
+<summary>8 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msPdfWindowsOcrCoverage
- * msDynamicCSPPolicyCheckOnNTP
- * msDynamicCSPPolicyCheckOnBing
- * msDynamicCSPPolicyCheckOnMarketing
- * msDiscardExpiredTabsBySessionThresholdFlag
- * msSidebarHidden
- * msEdgeLazyLoadProvider
- * msWindowRestoredFromHistoryTrigger
- * msShortcutRebrandingExperimentState
- * msNurturingWorkspaceFromRestoredHistoryWindow
+* msEdgeSettingsRevampHoldout
+ * msEdgeAutofillShowOTPSuggestion
+ * msFeatureChromePBTrigger
+ * msFeatureNonMVUUserTrigger
+ * msFeatureEdgeBrowserUsageLessThanThresholrTrigger
+ * msFeatureChromeBrowserUsageGreaterThanThresholdTrigger
+ * msFeatureTotalBrowserUsageGreaterThanThresholdTrigger
+ * msFeatureFireTriggersForChromePBUser
 
 </details>
 <!-- Edge-Canary-Version:END -->
