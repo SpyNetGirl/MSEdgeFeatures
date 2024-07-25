@@ -1,0 +1,13 @@
+mspdfA
+msBubble
+msEdgeExportToExcel
+msRobin
+msDesktopModeInteractiveLocationIcon
+msEdgeSettingsLeftNavSpacing
+msEdgeSettingsL2
+msEdgeSettingsElevated
+msPrerenderEfficiencyMode
+msPrerenderEfficiencyModeBalanced
+msPrerenderEfficiencyModeAggressive
+msEdgeIncludeTranslateVideoDataInFeedback
+msEdgeResourceControlsRamLimiterUITreatment
