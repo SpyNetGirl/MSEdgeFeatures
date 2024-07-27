@@ -18,24 +18,27 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2736.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 128.0.2738.0
 
-### Last processed at: 07/26/2024 01:12:38 (UTC+00:00)
+### Last processed at: 07/27/2024 01:12:21 (UTC+00:00)
 
 <details>
-<summary>9 new features were added in the latest Edge Canary update</summary>
+<summary>12 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MSPCManaH1
- * msBubbleH
- * msedgecrH3
- * msedgecrI3
- * msEdgeGamerModeTriggeringObserverTrigger
- * msPdfSaveAsChunkBuffer
- * msFeatureMmxUpsellOnEmailAnimationAFExtensionInstall
- * msNurturingGroupSitePinningGrowthCampaign
- * msHistoryHubCollapsibleSection
+* msEdgeShoppingCashbackAPIDomainOverrides
+ * msWalletCheckoutProfileCardRankByRecentUsage
+ * msEdgeDiscoverSupressCommercialCompose
+ * msEchoAppLoginInUnknownURLNavigated
+ * msEdgeTabGroupUsage
+ * msContinuousMigrationGenerateTopMediaListWithGlobalList
+ * msUIAction
+ * msUIActionChanged
+ * msStartupUIActionTrigger
+ * msDseUIActionTrigger
+ * msEdgeHeuristicallyOTPField
+ * msEdgeNonRepeatbleOTPField
 
 </details>
 <!-- Edge-Canary-Version:END -->
