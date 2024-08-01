@@ -1,0 +1,4 @@
+msPdfOpenWithLowCores
+msPdfOpenWithHighCores
+msShouldSuppressTranslateFeatureByDefault
+msUseElevationToDecryptEncryptionKey
