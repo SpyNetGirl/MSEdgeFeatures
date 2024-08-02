@@ -1,0 +1,7 @@
+msEnablePrtProtocol31
+msShoppingExp7
+msEdge288967
+msQuickSearchEnableIconCompactMenu
+msDelayInitialNavigationForSitelistDownload
+msVerticalTabsCollapsedPersistentCloseButton
+msEdgeAutocompleteExtendedHeuristicUsernamePassword
