@@ -1,0 +1,5 @@
+msEdgeEnableProjectCorefieldSyncablePref
+msEdge0924
+msQuickSearchEnableCommandBar
+msEdgeDownloadChromeInterceptPromoteShopping
+msEdgeInterceptForceChina
