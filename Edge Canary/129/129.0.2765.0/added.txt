@@ -1,0 +1,2 @@
+msSettingsTakeoverPolicyTrigger
+msAutofillEdgePasswordPopupV2
