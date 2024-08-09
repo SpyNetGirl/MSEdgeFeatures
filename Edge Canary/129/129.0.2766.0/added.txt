@@ -1,0 +1,4 @@
+msEdgeDiscoverSupressCommercialComposeInline
+msEdgeDiscoverSupressCommercialComposeTab
+msShowVisualSearchInShorelineSearch
+msEdgeAutofillAdvancedMlSuggestionsSettings
