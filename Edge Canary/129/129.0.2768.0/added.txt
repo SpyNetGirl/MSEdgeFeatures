@@ -1,0 +1,6 @@
+msWebView2RetainUserAgentMetadataOnSetUserAgent
+msEdgeSunFlowerHideFREBubbleDialog
+msSettingsSearchSuggestions
+msVisualRefreshRingZeroIcons
+msNurturingFeatureNoUiSwitchPolicy
+msNurturingOnTokenFetchedTrigger
