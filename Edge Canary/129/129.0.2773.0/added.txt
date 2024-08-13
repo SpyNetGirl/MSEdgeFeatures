@@ -1,0 +1,5 @@
+msPdfUseImmutableBitmap
+msEdgeHJEnableSettingsNavEvent
+msHubAppsEdgeOutlookProtocolLaunchTrigger
+msHubAppsEdgeTeamsProtocolLaunchTrigger
+msWalletCheckoutCheckoutEngineV2
