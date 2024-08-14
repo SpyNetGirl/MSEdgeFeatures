@@ -1,0 +1,9 @@
+msEdgeFREGDIAutoContinue
+msEdgeGamerModeTriggeringObserver
+msEdgeBarAutoStart
+msHubAppEngagedCount
+msLogShortcutStatusDesktop
+msEdgeFeedbackIncludeEditVisualAid
+msEdgeFeedbackReorderItems
+msEdgeFeedbackMakeItemsRequired
+msFavoritesTags
