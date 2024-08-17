@@ -1,0 +1,3 @@
+msEdgeUseCachedThumbnailData
+msEdgeHistoryThumbnailMultipleDevicesUserOnly
+msEdgeHistoryThumbnailSingleDeviceUserOnly
