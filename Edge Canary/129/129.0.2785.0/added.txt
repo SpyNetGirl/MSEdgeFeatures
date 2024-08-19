@@ -1,0 +1,5 @@
+msSidebarVisibilityTurnOnEngagement
+msSidebarVisibilityTurnOnEngagementDwellTimeInSecs
+msSidebarVisibilityPrefDefaultFalse
+msForceClearCleanupV2Prefs
+msEnhancedWindowsSearchOpenTab
