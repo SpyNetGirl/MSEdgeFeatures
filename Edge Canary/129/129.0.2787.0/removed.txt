@@ -1,0 +1,3 @@
+msEdgeShoppingProductFlyoutWallet
+msTeamsAutoOpenDefaultOff
+msBatchDeleteHistory
