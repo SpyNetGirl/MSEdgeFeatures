@@ -1,0 +1,8 @@
+msEdgeShoppingPopupInTheShoreline
+msEdgeShoppingPopupLightDismiss
+msEdgeShoppingAutoShowServerSide
+msEdgeShoppingAutoApplyRewards
+msEdgeTutorialsVerticalTabsTutorial
+msMockMontlake
+msVerticalTabsMitigations
+msVerticalTabsMitigationsFeedback
