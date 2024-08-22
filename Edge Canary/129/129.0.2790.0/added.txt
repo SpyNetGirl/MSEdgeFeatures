@@ -1,0 +1,6 @@
+msSegmentationPlatformAstMostValuableUser
+msExplorerCrashMitigation
+msEdgeShoppingPwiloNotificationsProductTracking
+msSilentCleanupV4Enabled
+msTargetingWithConfiguredEdgeBrowserUsage
+msEdgeContinuityUseOneDrive

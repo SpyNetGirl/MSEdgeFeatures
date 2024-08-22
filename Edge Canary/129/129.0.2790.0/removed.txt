@@ -1,0 +1,4 @@
+msSegmentationPlatformChromeMostValuableUser
+msShowPermaEdgeOptOutScreen
+msEdgeSyncCustomPassphrase
+msSyncCustomPassphraseEnabled
