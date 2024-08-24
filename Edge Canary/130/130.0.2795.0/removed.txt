@@ -1,0 +1,9 @@
+msWalletBrand
+msEdgeDeprecateMsHighContrast
+msShowPermaEdgeSMBCDevices
+msEnableBingNewTabBackButtonFocus
+msFavoritesOpenInNewTabSetting
+msSetUnhoverCloseDelay
+msDismissFlyoutUnhover
+msEdgePeony
+msHistoryKeepHubOpen

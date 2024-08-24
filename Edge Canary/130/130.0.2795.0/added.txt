@@ -1,0 +1,8 @@
+msWalletCheckoutSuperCoupon
+msEdgeSuppressScrollResampleDuringVRR
+msEdgeMsHighContrast
+msEdgeDiscoverBCESupressNotebook
+msEdgeDiscoverBCEUseCWCLinks
+msFavoritesOpenInNewTab
+msDelayShowingWhatsNewPage
+msDetectSensitivePolicies
