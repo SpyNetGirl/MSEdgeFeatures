@@ -1,0 +1,3 @@
+msLocalNtp
+msHistoryHubShowThumbnailToggle
+msHistoryMobileUpsell
