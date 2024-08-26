@@ -1,0 +1,3 @@
+msEdgeMoreMenuClearBrowsingData
+msEdgePeony
+msEdgeRecommendationsPage

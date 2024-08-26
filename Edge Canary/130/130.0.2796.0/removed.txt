@@ -1,0 +1,6 @@
+msWebAssistSemanticSearchCopilot
+msUserGeneratedAppsSearchBar
+msEnableDeveloperControlCenter
+msEdgeHubsInEdgeSidePane
+msEdgeDisableVisitThumbnail
+msHistoryDuplicatesAccordion
