@@ -18,21 +18,21 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2806.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2807.0
 
-### Last processed at: 08/29/2024 16:23:59 (UTC+00:00)
+### Last processed at: 08/30/2024 01:17:37 (UTC+00:00)
 
 <details>
 <summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msGamingUpsellBrowserUsageFetchDurationInDaysDays
- * msGamingUpsellBrowserUsageFreshnessInMinutes
- * msEdgeWebViewApplyWebResourceRequestedFilterForOOPIFs
- * msEdgeAutofillRankProfileSuggestionsByPr100
- * msEdgeAutofillRankAllGroupSuggestionsByPr100
- * msHistoryHubDockedSectionHeader
+* msSuppressSaveUpdatePasswordFlyoutWithEmptyUserName
+ * msSuppressUpdatePasswordFlyoutWithEmptyUserNamePassGen
+ * msSuppressPasswordSuggestionsWithEmptyUserName
+ * msPreFREWindowsExperimentControlledCohort
+ * msSeamlessTouchModeTransitionTrigger
+ * msSeamlessTouchModeTransition
 
 </details>
 <!-- Edge-Canary-Version:END -->
