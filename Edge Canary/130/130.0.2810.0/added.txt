@@ -1,0 +1,4 @@
+msWalletCheckoutDAFIgnoreUrlKeyword
+msHistoryHubLargerHeight
+msFeedbackDialogOpenTrigger
+msForceCleanLocalNtpForCompanionEnabled
