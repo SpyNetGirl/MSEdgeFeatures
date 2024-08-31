@@ -1,0 +1,8 @@
+msSegmentationPlatformBrowserUsage
+msSegmentationPlatformAHELU
+msEdgeUseSAIFaviconService
+msWinCopilotUseBCELinks
+msUnifySearchHeaderWithShorelineAppHeaders
+msEdgeWCFURLAllowList
+msPinnedSitesForceUseShortcuts
+msFeatureGroupEdgeENPDyn
