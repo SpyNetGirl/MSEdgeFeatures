@@ -1,0 +1,5 @@
+msEdgeFreIrisSupport
+msEdgeWindowsWelcomeExperienceKillSwitch
+msEdgeGamerModeForceShowBannerForTesting
+MSAccount
+MSAccountNonEmail
