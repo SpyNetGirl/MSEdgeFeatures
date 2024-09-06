@@ -1,0 +1,6 @@
+msVisualCompanionAllowAAD
+msVisualCompanionDebugLog
+msVisualCompanionDebugPage
+msVisualCompanionForceCleanNtp
+msVisualCompanionPageContent
+msVisualCompanionPageScreenshot
