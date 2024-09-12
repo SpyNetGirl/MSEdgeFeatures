@@ -1,0 +1,2 @@
+msSegmentationPlatformNotificationPersonalizationV2
+msEdgeInPrivateNtpWebComponents
