@@ -1,0 +1,4 @@
+msPdfSavePerformanceOptimization
+msPdfMemoryDiagnostics
+msEdgeMediaControlsBlocklistDisable
+msEnhancedChromePBCheckForAutolaunch
