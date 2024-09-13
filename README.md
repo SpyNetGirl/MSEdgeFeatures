@@ -18,17 +18,21 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2833.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2834.0
 
-### Last processed at: 09/12/2024 16:22:41 (UTC+00:00)
+### Last processed at: 09/13/2024 01:19:06 (UTC+00:00)
 
 <details>
-<summary>2 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msSegmentationPlatformNotificationPersonalizationV2
- * msEdgeInPrivateNtpWebComponents
+* msedgecrI3
+ * MsHighContrastDeprecation
+ * msEdgeFreIrisSupport
+ * msEdgeCircleToSearch
+ * MSAccount
+ * MSAccountNonEmail
 
 </details>
 <!-- Edge-Canary-Version:END -->
