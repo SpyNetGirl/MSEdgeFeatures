@@ -1,0 +1,4 @@
+msEdgeUseCloseBtnToMinimizeSidepane
+msVisualRefreshRingZeroIconsTouchMode
+msVisualRefreshRingZeroNormalModeTrigger
+msVisualRefreshRingZeroTouchModeTrigger
