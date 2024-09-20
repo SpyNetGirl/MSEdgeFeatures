@@ -18,19 +18,36 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2841.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 130.0.2846.0
 
-### Last processed at: 09/17/2024 16:23:33 (UTC+00:00)
+### Last processed at: 09/20/2024 01:20:10 (UTC+00:00)
 
 <details>
-<summary>4 new features were added in the latest Edge Canary update</summary>
+<summary>21 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeUseCloseBtnToMinimizeSidepane
- * msVisualRefreshRingZeroIconsTouchMode
- * msVisualRefreshRingZeroNormalModeTrigger
- * msVisualRefreshRingZeroTouchModeTrigger
+* msEdgeShoppingUINotVisible
+ * msCloudMessagingOverrideDefaultUrl
+ * msEEDecreaseProactiveDelayTimerExp
+ * msUnknownLanguagePageTranslated
+ * msExtensionsMenuNewPinUX
+ * msDesktopModeSpyglass
+ * msDesktopModeShorterWidth
+ * msFluidJoinPageV2
+ * msEdgeShoppingTextDurationExp
+ * msEdgeStartLogSearchEngineType
+ * msEdgeEnableImportWithShopping
+ * msTranslateVideoPowerUser
+ * msTranslateVideoNonPowerUser
+ * msEdgeAutofillMakeUnknownTypeFieldsFillable
+ * msCardRoamingUploadReauthWithInteraction
+ * msEdgeAutofillCrowdSourceDecisionVersion
+ * msEdgeAutofillCrowdSourceDecisionRepeatableFieldVersion
+ * msEdgeAutofillCrowdSourceDecisionProfileSuggestionAllowedVersion
+ * msEdgeAutofillCrowdSourceDecisionPasswordFieldVersion
+ * msEdgeAutofillCrowdSourceDecisionUsernameFieldVersion
+ * msLlmConsumerDlpCopilotBlocking
 
 </details>
 <!-- Edge-Canary-Version:END -->
