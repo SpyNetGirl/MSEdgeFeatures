@@ -1,0 +1,3 @@
+msEdgeVerticalTabsPromoNoFlyoutWhenOmniboxFocused
+msAutofillEdgeCouponsDelayNotification
+msFeatureTotalBrowserUsageGreaterThanThresholdTrigger
