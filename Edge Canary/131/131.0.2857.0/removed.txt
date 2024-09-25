@@ -1,0 +1,5 @@
+msEdgeShoppingBannerCoupons
+msEdgeShoppingBannerCouponsSuccess
+msEdgeShoppingBannerCouponsFailure
+msWPONotificationThresholdInterval
+msWPONotificationThresholdIntervalFirstRun
