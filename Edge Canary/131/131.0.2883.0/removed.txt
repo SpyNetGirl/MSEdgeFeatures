@@ -1,0 +1,5 @@
+msStandaloneDiscoverChat
+msShorelineToolbarWinCopilot
+msShorelineToolbarWinCopilotIcon
+msEdgeFullWidthPinnedTabs
+msEdgeStartupBoostEcoMode
