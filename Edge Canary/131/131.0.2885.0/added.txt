@@ -1,0 +1,3 @@
+msEmxApiThrottle
+msUACompatibilityFixDisabledForGE
+msEdgePBSignalEnabled
