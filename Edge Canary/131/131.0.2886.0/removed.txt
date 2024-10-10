@@ -1,0 +1,7 @@
+msWalletNewEntry
+msIEModeConfigurableSuccessResponse
+msIEModeConfigurableRedirectResponse
+msIEModeConfigurableIntranet
+msIEModeConfigurableStickyRedirect
+msEdgeDoubleClickCloseTabDefaultStatus
+msNurturingDoubleClickToCloseV2
