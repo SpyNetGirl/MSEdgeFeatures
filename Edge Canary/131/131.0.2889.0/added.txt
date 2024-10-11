@@ -1,0 +1,6 @@
+msShorelineAdaptiveWidth
+msShorelineDefaultAdaptiveWidthInPixels
+msShorelineDefaultAdaptiveWidthInPercent
+msShorelineForceOpenUnpinned
+msSettingsMatchWordStart
+msEdgeMojoValidationOnSend
