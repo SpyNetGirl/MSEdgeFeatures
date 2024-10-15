@@ -1,0 +1,6 @@
+msExposeAgeGroupClaim
+msUseV2ClientIdForAADAuth
+msSAIAPIEnabled
+msEdgeEtreeReAuth
+msRecommendationParametersEnabled
+msEdgeSyncPreferences
