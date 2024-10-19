@@ -1,0 +1,8 @@
+msEdgeMetaOSAppService
+msWalletCheckoutPaymentPopupV2
+msEdgeShoppingControlBadgeTextFromServer
+msEdgeMobileOmniboxUseSharedLinksPreload
+msWebView2RendererAppContainer
+msEdgeMouseGestureEnabledPrefCached
+msAllowMipCopyBlock
+msFavoritesEmbeddings

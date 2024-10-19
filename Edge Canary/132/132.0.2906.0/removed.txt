@@ -1,0 +1,9 @@
+msWebView2EnableRendererAppContainer
+msAvatarButtonMoveInterceptStudy
+msSmartActionsInSidebar
+msBingDictionary
+msVisualThemeRemoveWebStoreLink
+msNurturingPhoenixAvatarVariant2
+msEdgeSyncFavorites
+msNurturingPhoenixAvatar
+msFavoritesTags
