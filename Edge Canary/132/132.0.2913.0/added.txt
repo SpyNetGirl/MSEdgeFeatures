@@ -1,0 +1,2 @@
+msInlineComposeWebUI
+msVisualCompanionIdleTimeoutOverride
