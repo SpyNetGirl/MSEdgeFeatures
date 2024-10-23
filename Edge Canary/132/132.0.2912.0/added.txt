@@ -1,0 +1,2 @@
+msSingleSignOnForInPrivateWebView2
+msEdgeAutofillUnifiedLoggerDwc
