@@ -1,0 +1,8 @@
+msOmniboxEagerDedup
+msUndersideAADDisableUserAgentOverride
+msUndersideMSADisableUserAgentOverride
+msImageDescriptionsUseCETOService
+msEdgeUndersideSupportsNAA
+msEdgeInternalWCFPilot
+msEdgeSyncFeatureUsage
+msFavoritesHubLargerSize
