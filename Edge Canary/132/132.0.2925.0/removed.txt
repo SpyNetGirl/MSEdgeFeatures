@@ -1,0 +1,3 @@
+msEdgeShoppingRebatesAutoShowNewUser
+msEdgeShoppingAutoShowBackgroundAutoApply
+msEnable3PTelemetryObserver
