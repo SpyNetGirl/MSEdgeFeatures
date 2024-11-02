@@ -1,0 +1,2 @@
+msEdgeDsatFramework
+msEdgeDsatCollection
