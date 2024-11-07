@@ -1,0 +1,6 @@
+msEdgeDocumentFrameClientCheck
+msOmniboxDocumentEagerDedup
+msDockEdgeChatOnLinkOpen
+msLayoutOverrides
+msNtpExpDisableFre
+msAllowThemeInstallationFromChromeStore
