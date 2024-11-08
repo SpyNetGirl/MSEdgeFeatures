@@ -1,0 +1,6 @@
+msedgecrI3
+msOmniboxLocationBarStrokeColorEmphasize
+msOmniboxBackgroundColor
+msHonorEfficiencyMode
+msForceEfficiencyScrolling
+msManagementPageV2
