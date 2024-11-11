@@ -1,0 +1,7 @@
+MSA2E1
+msEdgeAutostuffPassword
+msEdgeSettingsElevatedWebui2
+msCopilotVisionAccessCheck
+msCopilotVisionAccess
+msQueryNextSitesForChromePBTrigger
+msQueryNextSitesForEdgePBTrigger
