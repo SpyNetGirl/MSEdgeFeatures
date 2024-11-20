@@ -1,0 +1,7 @@
+MSPCManaH1
+msedgecrH3
+msWalletNotificationRebates
+msWalletCheckoutHumanInMiddle
+msEdgeShoppingWebAssistForScript
+msEdgeInferSharePointFaviconFromPageTitle
+msVisualCompanionAccessCheckHours
