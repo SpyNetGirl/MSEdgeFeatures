@@ -1,0 +1,7 @@
+msReadAloudTriggered
+msEdgePDFCMHighlightUX
+msVisualCompanionLaunchOnHover
+msVisualCompanionHoveredLaunchDelay
+msVisualCompanionHoveredHitboxWidth
+msVisualCompanionHoveredHitboxHeight
+msProxySearchForSpeechRecognition
