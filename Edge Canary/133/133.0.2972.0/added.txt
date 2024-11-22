@@ -1,0 +1,3 @@
+msWidgetsRegionEnabled
+msShowEntryAnimationOverlay
+msEdgePostCrashLaunch
