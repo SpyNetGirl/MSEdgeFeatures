@@ -1,0 +1,4 @@
+msEdgeFaviconInternals
+msLightningSuccessImportTrigger
+msCloudMessagingChannel
+msCloudMessagingChannelV2
