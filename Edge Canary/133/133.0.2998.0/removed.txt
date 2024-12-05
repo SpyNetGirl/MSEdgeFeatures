@@ -1,0 +1,7 @@
+msEdgeFRENoPromoRewardsScreen
+msaNew
+msaExisting
+MSEFRE
+msRewardsTestFREOffersEnabled
+msRewardsFREServerDriven
+msNurturingReTriggerFreOnWinUpgradeExplicitLaunchWithRewards
