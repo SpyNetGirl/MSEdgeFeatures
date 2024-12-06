@@ -1,0 +1,5 @@
+msConnectedFeatureControlBasic
+msConnectedFeatureControlStrict
+msEdgeVerticalTabShowCloseButtonForHoveredSelectedFocused
+msNtpExpBlockWidgetsPromotions
+msNurturingFeatureHubApp

@@ -1,0 +1,5 @@
+msOmniboxPedalPortugueseSettingsA5
+msEdgeFeedbackIncludeScreenshotChecked
+msEdgeFeedbackIncludeEditVisualAid
+msEdgeFeedbackReorderItems
+msEdgeFeedbackMakeItemsRequired
