@@ -1,0 +1,1 @@
+msWebView2AdditionalProcessKilledTelemetry
