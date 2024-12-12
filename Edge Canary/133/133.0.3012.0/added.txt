@@ -1,0 +1,4 @@
+msContextPolicyWorkTab
+msWorkspacesRemoveToolbarInviteButton
+msEdgeShellScreenlockMonitorTelemetryActive
+msEdgeShellScreenlockMonitorTelemetryOverrideForTesting
