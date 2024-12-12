@@ -1,0 +1,5 @@
+msEdgeDefaultBrowserTrigger
+msEdgeNotDefaultBrowserTrigger
+msLNVOEMTrigger
+msHWOEMTrigger
+msIncludeBookmarksDiagnosticLogInFeedback
