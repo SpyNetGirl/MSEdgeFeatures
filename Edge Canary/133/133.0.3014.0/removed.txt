@@ -1,0 +1,8 @@
+msWalletDonationTrendNpoNotification
+msWalletETreeTaskSystemV2
+msMSBTryAuthenticate
+msCardRoamingRetrySaveCard
+msPicasso
+msEdgePerfGameModeCanShowNotification
+msEdgePerfGameModeTriggered
+msEdgePerformanceDetectorCanShowBadge
