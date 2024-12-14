@@ -1,0 +1,4 @@
+msEdgeMetaOSAppServiceAutoRefreshToken
+msShowDefaultSettingsInstructionsPage
+msMoveSettingsWindowForInstructionsPage
+msFavoritesBarBTR
