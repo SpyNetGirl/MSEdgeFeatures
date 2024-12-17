@@ -1,0 +1,10 @@
+msEdgeDesignerUI2
+msCollectionsOpenedTrigger
+msBrowserVerticalTabsTrigger
+msBrowserHiddenTitleBarTrigger
+msBrowserHorizontalTabsTrigger
+msBrowserCustomThemeTrigger
+msBrowserHighContrastModeTrigger
+msPrismImageEditorUIInHoverMenu
+msOnHoverSearchWebsiteVisited
+msShowHoverButtonTrigger
