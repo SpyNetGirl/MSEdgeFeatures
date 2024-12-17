@@ -1,0 +1,4 @@
+msWebAppMultiProfile
+msUseSearchIconInSidebar
+msEdgeVpnPrimaryCriteriaTrigger
+msEdgeVpnFirstNewTab
