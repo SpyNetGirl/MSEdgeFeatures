@@ -1,0 +1,4 @@
+msEdgeReadingViewFeedback
+msworkfiles
+msEnableWCOByDefaultForStoreApps
+msCopilotVisionAccessCheck
