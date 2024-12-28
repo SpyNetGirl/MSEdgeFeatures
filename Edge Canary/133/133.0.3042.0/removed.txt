@@ -1,0 +1,6 @@
+msEdgeHubAppHealthMetrics
+msHubAppsCheckCacheIconValid
+msPersonalizedTopSites
+msEnablePinningWithWindowsConsentTwoSite
+msShowOnlyOneSiteForPinning
+msNurturingBingNonChromePBCapping
