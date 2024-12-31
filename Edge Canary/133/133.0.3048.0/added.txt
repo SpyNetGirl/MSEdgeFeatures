@@ -1,0 +1,3 @@
+msContinuousMigrationHistoryImportEnded
+msContinuousImportInsertKeywordSearchTerms
+msContinuousImportGenerateKeywordSearchTerms

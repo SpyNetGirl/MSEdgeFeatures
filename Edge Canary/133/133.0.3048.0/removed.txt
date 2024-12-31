@@ -1,0 +1,6 @@
+msBreachDetectionConsentUI
+msEdgePasswordIrisInactiveCampaigns
+msExtensionSidePanelSupport
+msEdgeAutoPictureInPicture
+msEdgeAutoPictureInPictureTrigger
+msCardUploadPartialCardSettingsTrigger
