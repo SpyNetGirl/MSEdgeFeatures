@@ -1,0 +1,4 @@
+msEdgePhoenixColorPaletteGenerator
+msUseSnappingPointsForPhoenixPaletteGeneration
+msAutofillEdgeDontRationalizePhoneNumberTrunkTypes
+msNurturingNtpAnyTrigger
