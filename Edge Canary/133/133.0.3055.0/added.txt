@@ -1,0 +1,4 @@
+msEdgeDBSafeguardModeForTesting
+msChromePBCheckWithTotalBrowserUsageAndNonMVU
+msChromePBCheckWithTotalBrowserUsage
+msIncludeUsageEventDataInFeedback
