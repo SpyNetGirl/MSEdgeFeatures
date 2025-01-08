@@ -1,0 +1,4 @@
+msTriggerChromePBUserWithActiveCI
+msTriggerVisibleLaunchForChromePBUserWithActiveCI
+msTriggerChromePBAndCIUserWithImportedSearchTerms
+msContinuousImportVisibleBrowserObserver
