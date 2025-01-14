@@ -1,0 +1,1 @@
+msWalletDeleteRoamedCardTrigger
