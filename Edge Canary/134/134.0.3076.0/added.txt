@@ -1,0 +1,3 @@
+msHistoryEmbeddingsUseBodyText
+msHistoryEmbeddingsAutoSchedule
+msShorelineAppLoadingScreenPageV2
