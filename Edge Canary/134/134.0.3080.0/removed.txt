@@ -1,0 +1,9 @@
+msWorkspacesComments
+msOverflowMenuTriggered
+msReadAloudTriggered
+msReadingViewTriggered
+msSuperResolutionTriggered
+msSavePasswordTriggered
+msSaveCardTriggered
+msAdPlatformTriggered
+msEdgeAutofillPhoneNumberTelemetry
