@@ -1,0 +1,5 @@
+msEdgeSigninErrorV2
+msSpawnNtpOnLastTabClose
+msLaunchSuppressionDetectionV2
+msLaunchSuppressionMitigationV2
+msUnderstandPDFHijackDistribution
