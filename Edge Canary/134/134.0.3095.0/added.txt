@@ -1,0 +1,3 @@
+msFileSystemAccessDirectoryIterationBlocklistCheck
+msDisableTranslateOnDlpEnabledContents
+msEdgeWorkspacesInTabActionsMenu
