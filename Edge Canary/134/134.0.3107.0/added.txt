@@ -1,0 +1,6 @@
+msProtocolLaunchSitePinning
+msRing1CleanupMenuIcons
+msNurturingRecommendedSettingsUX2BulletRadio
+msNurturingRecommendedSettingsUX2SimpleRadio
+msNurturingRecommendedSettingsUX2NoRadio
+msVisualCompanionCopilotWindow
