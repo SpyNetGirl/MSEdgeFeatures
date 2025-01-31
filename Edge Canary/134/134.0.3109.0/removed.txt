@@ -1,0 +1,3 @@
+msOmniboxSearchGlyphInToolbar
+msOmniboxSearchGlyphInToolbarWaitForMouseRelease
+msOmniboxRestoreOnEmptyPopupDismiss
