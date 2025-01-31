@@ -1,0 +1,4 @@
+msEdgeFREThemesColorPicker
+msEdgeFREThemesEdgeColorPicker
+msEdgeFREThemesEdgeColorPickerIconLastPosition
+msThemesSelectionDarkPalette
