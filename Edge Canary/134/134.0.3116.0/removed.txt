@@ -1,0 +1,3 @@
+msDefaultPDFHandlerTrigger
+msPdfToolbarAnnotationRedesign
+msPdfCopilotIcon
