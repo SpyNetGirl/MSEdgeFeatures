@@ -1,0 +1,8 @@
+msSegmentationPlatformToolbarPersonalization
+msFavoritesV2
+msQuickSearch
+msQuickSearchInSidebarCopilot
+msQuickSearchInWinCopilot
+msWorkspacesSkypeTrigger
+msNurturingRecommendedSettingsCodexNonChrome
+msPressurePreReadFileTrigger
