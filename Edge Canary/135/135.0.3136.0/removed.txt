@@ -1,0 +1,6 @@
+msbigsearch
+msbigsearchzi
+msDesktopModeNewNavigate
+msEdgeSecuritySlidersSectionEnabled
+msEnableProcessTimerThrottling
+msReclaimDefaultBrowser
