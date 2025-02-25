@@ -1,0 +1,2 @@
+msDiscardExpiredTabsActionThresholdSeconds
+msVisualCompanionContentCaptureTrigger
