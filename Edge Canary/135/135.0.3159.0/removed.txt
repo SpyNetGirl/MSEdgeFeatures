@@ -1,0 +1,3 @@
+msDiscardExpiredTabsActionThresholdSeconds
+msExperimentalSmartSwitch
+msEdgeAutofillDisableSs
