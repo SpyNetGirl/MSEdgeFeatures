@@ -1,0 +1,4 @@
+msEdgeBrowserTypeCustomizable
+msLogPinnedSiteStartupStatus
+msRestrictDataWithAuditPolicies
+msEdgeFeedbackSendVerbatimtoNTP
