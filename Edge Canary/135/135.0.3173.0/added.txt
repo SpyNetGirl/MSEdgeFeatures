@@ -1,0 +1,4 @@
+msEdgeAutofillGenericDedup
+msEdgeAutofillGenericDedupWithSubsetMatch
+msEdgeAutofillValuesBasedDedup
+msEdgeCompatV2
