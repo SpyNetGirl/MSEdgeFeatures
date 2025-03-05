@@ -1,0 +1,3 @@
+msWebView2CancelInitialNavigation
+msEdge3PSpaSerpLogging
+msEdge3PEnsureValidityChecks
