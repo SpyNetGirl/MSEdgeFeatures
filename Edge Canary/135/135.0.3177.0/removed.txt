@@ -1,0 +1,5 @@
+msOmniboxPromoterForSidebarPWA
+msSidebarPWAPromoteAllowList
+msSidebarPWAPromoteAllowListNavigatedTrigger
+msEdgeBarCNFRE
+msEdgeAutofillValuesBasedDedup
