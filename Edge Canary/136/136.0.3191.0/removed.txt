@@ -1,0 +1,4 @@
+msOmniboxZeroSuggestHistoryDisabledWithRelatedSearches
+msOmniboxTrendingZeroInputOnAllPages
+msOmniboxPromoteTrendingZeroInputScore
+msEdgeFREClosesOnEscape
