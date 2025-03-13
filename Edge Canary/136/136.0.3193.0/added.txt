@@ -1,0 +1,6 @@
+MSFbE1
+MSFbtHH
+msEdgeExportToExcel
+msEdgeDisableThirdPartyHook
+msEdgeExtensionsDetectorIssueDetected
+msEdgePerformanceDetectorIssueDetected

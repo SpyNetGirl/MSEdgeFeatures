@@ -1,0 +1,4 @@
+msTakeUserToWorkVertical
+msDesktopModeShorterWidth
+msEdgeBrowserEssentialsHubShowPasswordsSection
+msVerticalTabsAllowedPrefsCachedEnabled
