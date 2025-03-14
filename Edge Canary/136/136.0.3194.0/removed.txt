@@ -1,0 +1,6 @@
+MSFbE1
+MSFbtHH
+msEdgeSDSMOptOutUXEnabled
+msConnectedFeatureControlBasic
+msEdgeAutofillInternalsImprovements
+MsHTMLMediaElementEncryptedMedia
