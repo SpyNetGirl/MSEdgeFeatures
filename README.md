@@ -18,17 +18,22 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 136.0.3203.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 136.0.3204.0
 
-### Last processed at: 03/18/2025 16:26:50 (UTC+00:00)
+### Last processed at: 03/19/2025 01:27:34 (UTC+00:00)
 
 <details>
-<summary>2 new features were added in the latest Edge Canary update</summary>
+<summary>7 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msPdfTileCacheTaskBasedImpl
- * msCopilotOmniboxEntryPoint
+* msEdgeAdPlatformNuturingOnboarding
+ * msToolbarButtonCountLE6
+ * msToolbarButtonCountGT6LE9
+ * msToolbarButtonCountGT9LE13
+ * msToolbarButtonCountGT13
+ * msEdgeVpnUIAvailable
+ * msFavoritesAutoDedup
 
 </details>
 <!-- Edge-Canary-Version:END -->
