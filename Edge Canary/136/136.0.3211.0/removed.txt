@@ -1,0 +1,3 @@
+msShoppingExp67Success
+msPromotedSitesPrefChanged
+msPromotedLinksInWindowsIndexer
