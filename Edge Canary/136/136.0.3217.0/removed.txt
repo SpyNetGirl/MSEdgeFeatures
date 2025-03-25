@@ -1,0 +1,3 @@
+msImageDescriptionsUseCETOService
+msEdgeMojoValidationOnSend
+msEdgeCompatV2

@@ -1,0 +1,6 @@
+msEdgeSendDsatLoginEvent
+msEdgeUndersideV2TakeScreenshot
+msEdgeDsatLoginEvents
+msEdgeAutofillUseMlForAdvancedSuggestions
+msEdgeTranslateSelectionOnWebOOUIInSidePane
+msEdgeCompatWebUI2
