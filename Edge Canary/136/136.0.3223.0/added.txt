@@ -1,0 +1,5 @@
+msDisableAskCopilotForAAD
+msQuickSearchCopilotMenuForConsumer
+msWorkspacesRestoreLocalFiles
+msNetErrorPageC1BFeatures
+msVisualCompanionContextToggle
