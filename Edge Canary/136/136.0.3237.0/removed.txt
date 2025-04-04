@@ -1,0 +1,3 @@
+msEdge3PBase64ImageLogging
+msEdgePrismExplorer
+msFavoritesHubViewChange
