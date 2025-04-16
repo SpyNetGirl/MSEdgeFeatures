@@ -18,27 +18,25 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 137.0.3263.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 137.0.3264.0
 
-### Last processed at: 04/16/2025 01:39:58 (UTC+00:00)
+### Last processed at: 04/16/2025 16:27:40 (UTC+00:00)
 
 <details>
-<summary>12 new features were added in the latest Edge Canary update</summary>
+<summary>10 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeReadingViewEligibilityModelV2
- * msOnlineNTPBypassChecksForTesting
- * msOnlineNtpNavigation
- * msOnlinePostFreDhpNavigation
- * msOnlineNtpOrPostFreDhpNavigation
- * msOnlinePrerenderNtpNavigation
- * msOnlinePrerenderPostFreDhpNavigation
- * msOnlinePrerenderNtpOrPostFreDhpNavigation
- * msOnlineNonPrerenderNtpNavigation
- * msOnlineNonPrerenderPostFreDhpNavigation
- * msOnlineNonPrerenderNtpOrPostFreDhpNavigation
- * msFavoritesHubInlineAddingFolderButton
+* msEmxPrimaryAccount
+ * msOmniboxPrefetchTrigger4Chars
+ * msOmniboxPrefetchTrigger5Chars
+ * msHistoryEmbeddingsBackfill
+ * msHistoryEmbeddingsAddTitleUrlFromHistory
+ * msHistoryEmbeddingsAddSyncedTitleUrl
+ * msHistoryEmbeddingsEmbedTitleUrlWhenAdded
+ * msAgentInitialUrl
+ * msEdgeSupportProfileSuggestionDiversions
+ * msWebUISpaceworksUxInternal
 
 </details>
 <!-- Edge-Canary-Version:END -->
