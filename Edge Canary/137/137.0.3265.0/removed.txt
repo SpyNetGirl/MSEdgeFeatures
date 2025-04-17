@@ -1,0 +1,5 @@
+msEdgeSsGroupSuggestion
+msEdgeSsGroupSuggestionMaxCoverage
+msEdgeSsDisableAutocompleteSupport
+msDisableHighResolutionTimers
+msEdgeAutofillAddressProfileSavePrompt
