@@ -1,0 +1,4 @@
+msEdgePreLaunchFREWebUI2Migration
+msEdgeAutofillRecentlyUsedPreferredOverProfile
+msEdgeAutofillProfilePreferredOverRecentlyUsed
+msSidepaneTranslateOpenedTrigger
