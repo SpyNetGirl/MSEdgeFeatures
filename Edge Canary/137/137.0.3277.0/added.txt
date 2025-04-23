@@ -1,0 +1,5 @@
+msWalletLoadJsBundleFromNative
+msTokenizedCardLoadJsBundleFromNative
+msBNPLLoadJsBundleFromNative
+msFirstRunRecording
+msEdgeAutofillEnforceCustomChecks
