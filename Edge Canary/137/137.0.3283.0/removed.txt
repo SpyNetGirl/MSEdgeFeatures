@@ -1,0 +1,2 @@
+msShoppingExp68
+msSpeechServicesUseCetoService
