@@ -18,32 +18,32 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 137.0.3283.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 137.0.3288.0
 
-### Last processed at: 04/26/2025 01:29:13 (UTC+00:00)
+### Last processed at: 04/29/2025 01:41:20 (UTC+00:00)
 
 <details>
 <summary>17 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msUpstreamWorkaroundForADO41199100
- * msSpeechSynthesisServiceUseCetoService
- * msSpeechRecognitionServiceUseCetoService
- * msEdgeSettingsPaymentMethodsWebui2
- * msEdgeSettingsContextualSearch
- * msEdgeSettingsInvertedIndexSearch
- * msEdgeSettingsEmbeddingSearch
- * msShareCoherence
- * msDefaultBrowserOptOutMultiReclaim
- * msReclaimRounds
- * msNtpEnableOptOutUpsellV2
- * msFeedClick
- * msFeedClickNtp
- * msFeedClickDhp
- * msContentNavClick
- * msAdNavClick
- * msNonNavClick
+* msShoppingExp68
+ * msPdfTranslateLargePdfFix
+ * msEdgeCopilotMode
+ * msReclaimPDFFromWPSRecentHijackedUserTrigger
+ * msMlSettingOn
+ * msMlSettingOnLastSessionNotEdge
+ * msMlSettingOnLastSessionNotEdgeIsConsumer
+ * msMlSettingOnLastSessionNotEdgeIsConsumerStartupNewTab
+ * msMlSettingOnConsumerStartupNewTabChromePB
+ * msMlSettingOnConsumerStartupNewTabChromePBConsentGiven
+ * mskMlSettingOnConsumerStartupNewTabChromePBConsentNoImportedTabs
+ * msOpenTabsImportFailedTriggerPersonalizedTabsAddition
+ * msTriggerOmniboxInteractionForChromePBUserWithImportedSearchTermsInAutoLaunchSession
+ * msTriggerOmniboxInteractionForChromePBUserWithImportedSearchTermsInNonAutoLaunchSession
+ * msNtpMeaningfulScroll
+ * msNtpOptOutUpsellV2Eligible
+ * msArbitrationServiceEdgeDefaultBrowserCampaign
 
 </details>
 <!-- Edge-Canary-Version:END -->
