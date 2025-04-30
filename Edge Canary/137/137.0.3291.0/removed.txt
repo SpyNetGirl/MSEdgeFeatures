@@ -1,0 +1,6 @@
+msOmniboxBingHistoryZeroInput
+msOmniboxBingHistoryPreferBannerToDashboard
+msOmniboxBingHistoryDeletionPossible
+msOmniboxEdgeBingHistoryGradientSpyglassIcon
+msOmniboxInteractionMSALoggedIn
+msEdge3PScrollStateResetFix
