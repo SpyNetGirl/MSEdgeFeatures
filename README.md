@@ -18,35 +18,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3301.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3302.0
 
-### Last processed at: 05/05/2025 16:27:54 (UTC+00:00)
+### Last processed at: 05/06/2025 01:42:05 (UTC+00:00)
 
 <details>
-<summary>20 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeCopilotModeEnabledDefault
- * msEdgeCopilotSearchEnabledDefault
- * msLlmConsumerDlpPurviewProtectionScope
- * msOmniboxComposerEmitForm
- * msENPPinningGrowthExperienceHoldout
- * msScoobePinningGrowthExperienceHoldout
- * msEdgeHubAppUseNudgeAnimationStrategy
- * msPrepopulateForAskCopilot
- * msRing1CleanupToolbarContextMenus
- * msVisualRefreshKumoColors
- * msSanConsented
- * msSanConsentedMlSettingOn
- * msSanConsentedMlSettingLastSessionChrome
- * msSanConsentedMlSettingLastSessionChromeConsumer
- * msSanConsentedMlSettingLastSessionChromeConsumerStartupNewTab
- * msSanConsentedMlSettingLastSessionChromeConsumerStartupNewTabChromePB
- * msSanConsentedMlSettingLastSessionChromeConsumerStartupNewTabChromePBImportedTabs
- * msEdgeComposerAllowCopilotSearch
- * msEdgeWebAuthnEnclaveCommands
- * msNurturingWebUIBasedBanner
+* MSPulH
+ * msEdgeAutofillCrowdSourcingV2
 
 </details>
 <!-- Edge-Canary-Version:END -->
