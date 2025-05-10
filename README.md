@@ -18,18 +18,57 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3309.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3310.0
 
-### Last processed at: 05/09/2025 16:26:37 (UTC+00:00)
+### Last processed at: 05/10/2025 01:38:33 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>42 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msOptimizedChromeSignalForSCOOBEPinning
- * msEdgeAutofillUploadLabels
- * msNurturingFullSurfaceNotCreatedDueToTest
+* mszeE1
+ * msEdgeCopilotModeStopOptIn
+ * msEdgeEnterpriseWorkSearchCache
+ * msShoppingUapiExp1
+ * msShoppingUapiExp1Success
+ * msShoppingUapiExp1Failure
+ * msShoppingUapiExp3
+ * msShoppingUapiExp3Success
+ * msShoppingUapiExp3Failure
+ * msShoppingUapiExp6
+ * msShoppingUapiExp6Success
+ * msShoppingUapiExp6Failure
+ * msShoppingUapiExp10
+ * msShoppingUapiExp11
+ * msShoppingUapiExp11Success
+ * msShoppingUapiExp11Failure
+ * msShoppingUapiExp12
+ * msShoppingUapiExp12Success
+ * msShoppingUapiExp12Failure
+ * msShoppingUapiExp22
+ * msShoppingUapiExp22Success
+ * msShoppingUapiExp22Failure
+ * msShoppingUapiExp23
+ * msShoppingUapiExp23Success
+ * msShoppingUapiExp23Failure
+ * msShoppingUapiExp24
+ * msShoppingUapiExp24Success
+ * msShoppingUapiExp24Failure
+ * msShoppingUapiExp35
+ * msShoppingUapiExp35Success
+ * msShoppingUapiExp35Failure
+ * msEdgeSettingsWebui2LazyInit
+ * msChromeEngagedUserCheckTrigger
+ * msChromeEngagedUserTrueTrigger
+ * msChromeEngagedUserFalseTrigger
+ * msEdgeHubAppDisableCopilotForGCC
+ * msEdgeDownloadPopupTimingAdjustment
+ * msEdgeSpeechGenuineEdgeTokenProtocolVersion
+ * msEdgeImageAnnotationGenuineEdgeTokenProtocolVersion
+ * msEdgeWcfGenuineEdgeTokenProtocolVersion
+ * msEdgeDlpGenuineEdgeTokenProtocolVersion
+ * msEdgeBingGenuineEdgeTokenProtocolVersion
 
 </details>
 <!-- Edge-Canary-Version:END -->
