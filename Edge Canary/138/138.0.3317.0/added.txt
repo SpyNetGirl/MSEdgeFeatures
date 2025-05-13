@@ -1,0 +1,7 @@
+msEdgeWindowsWelcomeExperinceAutolaunch
+msSettingsSendFeedback
+msDisableAutolaunchDueToUserRejection
+msBingSearchFromUnknownSource
+msBingSearchFromAddressBar
+msBingSearchFromContextMenu
+msWebUICollectedCookies
