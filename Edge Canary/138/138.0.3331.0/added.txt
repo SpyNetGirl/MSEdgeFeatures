@@ -1,0 +1,4 @@
+msInboxSegoeSansEdgeText
+msShowCopilotChatHistorySuggestions
+msOmniboxCopilotChatCommercial
+msSegmentationPlatformCanShowPinningExperienceSkipPinnedSitesOverrideForTesting
