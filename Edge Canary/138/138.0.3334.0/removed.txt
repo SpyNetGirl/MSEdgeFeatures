@@ -1,0 +1,3 @@
+msEdgeCopilotModeEnabledDefault
+msSmartScreenClientSideRedirection
+msExtensionsMenuV2
