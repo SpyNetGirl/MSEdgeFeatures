@@ -18,31 +18,21 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3334.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 138.0.3335.0
 
-### Last processed at: 05/22/2025 01:43:16 (UTC+00:00)
+### Last processed at: 05/22/2025 16:27:40 (UTC+00:00)
 
 <details>
-<summary>16 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeCopilotModeOverride
- * msEdgePrimaryWorkProfileForExternalLink
- * msGamingRewardsHvaPitchNotificationExpireDurationInDays
- * msUndersideChatFrontLoadCheckEfficiencyMode
- * msCopilotFrontLoadEfficiencyCheckType
- * msEdgeUndersideV2UseLoadingPage
- * MSNSB1
- * MSNSH1
- * msEdgeAlwaysShowForwardButton
- * msFavoritesFullPageV2
- * msBingSearchFromRenavigation
- * msBingSearchFromBingHomepage
- * msBingSearchFromBingRequery
- * msBingSearchFromBingPopularNow
- * msBingSearchFromMsn
- * msBingSearchFromWindowsSearch
+* msEdgeIgnoreDynamicFormSubmissionForGaiaUrl
+ * msProvenanceValidatorAllFullscreenTrigger
+ * msRAMPreReadDelayInSeconds
+ * msDefaultPreReadDelayInSeconds
+ * msSmallRAMSizeInMB
+ * msWebUIPreExistingProfileWarning
 
 </details>
 <!-- Edge-Canary-Version:END -->
