@@ -1,0 +1,4 @@
+mSamplesH
+MSRTTEmulationColorUnresolveAndResolve
+MSRTTEmulationDepthStencilUnresolveAndResolve
+msOmniboxHistoryClustersProvider
