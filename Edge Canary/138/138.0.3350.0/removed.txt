@@ -1,0 +1,2 @@
+msOmniboxCopilotChatSuggestion
+msSilentCleanupV4Enabled
