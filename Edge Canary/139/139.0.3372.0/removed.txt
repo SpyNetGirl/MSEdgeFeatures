@@ -1,0 +1,2 @@
+msWorkspacesCreateWithTabs
+msWorkspaceManagerV2
