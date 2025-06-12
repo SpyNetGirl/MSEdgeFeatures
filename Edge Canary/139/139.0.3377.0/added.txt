@@ -1,0 +1,4 @@
+msEdgeCopilotModeFlexPane
+msEdgeShoppingCopilotTraffic
+msDesktopModeDefaultOnLaunch
+msNurturingRecommendedSettingsUX4Illustration
