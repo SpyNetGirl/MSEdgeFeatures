@@ -1,0 +1,5 @@
+msEdgeReadingViewEligible
+msEdgeUndersideV2AgentConsentModal
+msEdgeUndersideV2AgentAndProfileConsentModal
+msEdgeUndersideV2AgentConsentSavePrefsEnabled
+msFakeboxUsesOmniboxMix
