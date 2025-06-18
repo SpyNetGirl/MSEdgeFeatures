@@ -1,0 +1,14 @@
+msWalletCheckoutDAFIgnoreUrlKeyword
+msOmniboxLagReduction
+msqfbanner
+msDontCallMSB
+msUsePeopleCardOnOffice
+msPdfInstantInk
+msPdfUnseasonedInstantInk
+msUseHttpsForDownloadingCrx
+msMSBWebDataFetch
+msworkpeople
+msBlockCreateRemoteThread
+msBlockWriteProcessMemory
+MSBWVA
+msEdgeScreenshotUI
