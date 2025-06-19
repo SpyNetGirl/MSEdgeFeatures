@@ -1,0 +1,7 @@
+MsPBE1
+msEdgeAutofillImproveUnsubmittedFormDataQuality
+msEdgeResourceModelFetching
+msNurturingDefaultImageHandlerPromotion
+msNurturingImageViewerPreviewDownload
+msEdgePhoto
+msEdgePhotoOpenInDownloadManager
