@@ -1,0 +1,9 @@
+msMSBNetworkRequestParams
+msMSBGCCEnabled
+msMSBExpEnabled
+msVisualRefreshKumoColors
+msEdgePhoenixColorPaletteGenerator
+msUseSnappingPointsForPhoenixPaletteGeneration
+msMicrosoftPayCardAutoSave
+msCardRoamingAutoUpload
+msFavoritesCollectDumpForDebugging
