@@ -18,18 +18,36 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 139.0.3394.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 139.0.3399.0
 
-### Last processed at: 06/21/2025 01:44:12 (UTC+00:00)
+### Last processed at: 06/23/2025 16:29:30 (UTC+00:00)
 
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>21 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msForcePureConsumerClient
- * msSemanticColorTokens
- * msMicrosoftEdgeShutdownStartingWithSessionDataRestore
+* msEdgeCopilotModeSetting
+ * msAgentBlockNavigationToBlockedDomains
+ * MSN178
+ * msDarkModeNtpOrDhpNavigation
+ * msLightModeNtpOrDhpNavigation
+ * msEdgeSkipDefaultFieldValueSaving
+ * msBingSearchFromEdgeDesktopWidget
+ * msBingSearchFromBingEntity
+ * msBingSearchFromBingHeader
+ * msBingSearchFromBingOther
+ * msBingSearchFromBingRelatedSearches
+ * msBingSearchFromBingWallpaper
+ * msBingSearchFromBingSpellingRequery
+ * msBingSearchFromEdgeNavigationCorrection
+ * msBingSearchFromEdgeSuperDragAndDrop
+ * msBingSearchFromMicrosoftRewards
+ * msBingSearchFromPaging
+ * msBingSearchFromUnconsciousArrival
+ * msBingSearchFromWindowsHelp
+ * msBingSearchFromWindowsLockScreen
+ * msEnableUpdateSortingBySize
 
 </details>
 <!-- Edge-Canary-Version:END -->

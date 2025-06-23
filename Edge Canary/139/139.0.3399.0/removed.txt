@@ -1,0 +1,13 @@
+msEdgeTabGroupAutoNamingDlpCheck
+msEdgeAutoGroupingSuggestionsDlpCheck
+msEdgeTabGroupsAutoNamingDlpCheckTrigger
+msEdgeAutoGroupingSuggestionsDlpCheckTrigger
+msProvenanceValidator
+msProvenanceValidatorShowBlockingPageOnBadSite
+msFeedClick
+msFeedClickNtp
+msFeedClickDhp
+msContentNavClick
+msAdNavClick
+msNonNavClick
+msNtpMeaningfulScroll
