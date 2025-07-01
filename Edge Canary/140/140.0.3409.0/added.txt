@@ -1,0 +1,4 @@
+msEnableMipScopeResolutionFromAuthority
+msAutoRefreshOnSidePaneVisible
+msFluidCheckSensitivityLabels
+msUCNtpEnabledByDefault
