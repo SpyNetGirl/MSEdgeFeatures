@@ -18,36 +18,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3407.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3408.0
 
-### Last processed at: 06/30/2025 16:29:04 (UTC+00:00)
+### Last processed at: 07/01/2025 01:57:41 (UTC+00:00)
 
 <details>
-<summary>21 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msVisionInUnifiedComposer
- * msEdgeReportingConnectorDeviceId
- * msOmniboxInlineDeletion
- * msPdfReadAloudWithPageTextData
- * msLogZeroSitesTriggersForPinningHoldouts
- * msEdgeGrowthPinningHoldoutNewPinningUserTriggerNoPinningExpShown
- * msEdgeGrowthGamingHoldoutNewPinningUserTriggerNoPinningExpShown
- * msM365BrowsingSignals
- * msContextMenuAskCopilotImage
- * msContextMenuAskCommercialCopilotImage
- * msContextMenuReplaceVisualSearch
- * msContextMenuAskCopilotImageDirectSend
- * msSSDPreReadDelayInSeconds
- * msPeriodicPreReadDelayInSeconds
- * msEdgeEnableTabDragVelocity
- * msSettingsAppearanceTriggerWithoutRubyNtp
- * msEdgeNtpVNextShowFeedLoadingAnimation
- * msEdgeAutofillCrowdSourcingV2NoFallback
- * msNurturingDefaultBrowserBannerUX3RecommendedText
- * msEdgeTabDragToGroupHeuristic
- * msEdgeAiAssistantForcedShowButton
+* msMediaInternalsServices
+ * msEdgeNextSitesServiceCompressRequestBody
 
 </details>
 <!-- Edge-Canary-Version:END -->
