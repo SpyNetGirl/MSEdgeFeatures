@@ -1,0 +1,5 @@
+msEdgeSettingsEditorPickSearch
+msAgentDefaultWaitTimeInSeconds
+msAgentActionWaitTimeInSeconds
+msAgentScreenshotWaitTimeInSeconds
+msEdgeNtpVNextTypeRedirectNavigation
