@@ -1,0 +1,4 @@
+msEdgeTerminateOwningProcessOnLoginDBLocked
+msEdgeModalFREWebUI2ExcludingWWELaunchTrigger
+msEdgeImmersiveSoftFREWoNFL
+msForceVisualCompanionActions
