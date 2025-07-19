@@ -1,0 +1,5 @@
+msEdgeDownloadChromeInterceptV4
+msEdgeDownloadChromeInterceptV4LinkId
+msCopilotBubbleUiFlexPane
+msCopilotFlexPaneResizable
+msCopilotFlexPaneDraggable
