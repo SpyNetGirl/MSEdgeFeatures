@@ -1,0 +1,2 @@
+msEdgeExtensionsDetectorIssueDetected
+msPersistDownloadsButton
