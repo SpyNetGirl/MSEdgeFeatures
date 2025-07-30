@@ -1,0 +1,3 @@
+msExtensionRegistryHashCheckMitigateTrigger
+msPageInteractionRestrictionRevoke
+msEdgeTools

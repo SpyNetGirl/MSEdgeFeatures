@@ -18,61 +18,18 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3465.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3466.0
 
-### Last processed at: 07/29/2025 16:30:51 (UTC+00:00)
+### Last processed at: 07/30/2025 01:56:07 (UTC+00:00)
 
 <details>
-<summary>46 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msWalletHubAadUsers
- * msNtpStartNavigation
- * msDhpStartNavigation
- * msNtpOrDhpStartNavigation
- * msInPrivateNtpStartNavigation
- * msInPrivateDhpStartNavigation
- * msInPrivateNtpOrDhpStartNavigation
- * msGuestNtpStartNavigation
- * msGuestDhpStartNavigation
- * msGuestNtpOrDhpStartNavigation
- * msLocalNtpStartNavigation
- * msLocalDhpStartNavigation
- * msLocalNtpOrDhpStartNavigation
- * msOnlineNtpStartNavigation
- * msOnlineDhpStartNavigation
- * msOnlineNtpOrDhpStartNavigation
- * msRemoteNtpStartNavigation
- * msRemoteDhpStartNavigation
- * msRemoteNtpOrDhpStartNavigation
- * msPrerenderNtpStartNavigation
- * msPrerenderDhpStartNavigation
- * msPrerenderNtpOrDhpStartNavigation
- * msNonPrerenderNtpStartNavigation
- * msNonPrerenderDhpStartNavigation
- * msNonPrerenderNtpOrDhpStartNavigation
- * msLocalPrerenderNtpStartNavigation
- * msLocalPrerenderDhpStartNavigation
- * msLocalPrerenderNtpOrDhpStartNavigation
- * msLocalNonPrerenderNtpStartNavigation
- * msLocalNonPrerenderDhpStartNavigation
- * msLocalNonPrerenderNtpOrDhpStartNavigation
- * msOnlinePrerenderNtpStartNavigation
- * msOnlinePrerenderDhpStartNavigation
- * msOnlinePrerenderNtpOrDhpStartNavigation
- * msOnlineNonPrerenderNtpStartNavigation
- * msOnlineNonPrerenderDhpStartNavigation
- * msOnlineNonPrerenderNtpOrDhpStartNavigation
- * msRemotePrerenderNtpStartNavigation
- * msRemotePrerenderDhpStartNavigation
- * msRemotePrerenderNtpOrDhpStartNavigation
- * msRemoteNonPrerenderNtpStartNavigation
- * msRemoteNonPrerenderDhpStartNavigation
- * msRemoteNonPrerenderNtpOrDhpStartNavigation
- * msNotificationDefaultBrowserCampaignMLSuppression
- * msCopilotWindowExclusiveMinProcessors
- * msCopilotWindowExclusiveMinRamMB
+* msExtensionRegistryHashCheckMitigateTrigger
+ * msPageInteractionRestrictionRevoke
+ * msEdgeTools
 
 </details>
 <!-- Edge-Canary-Version:END -->
