@@ -1,0 +1,5 @@
+msPdfAccesssibilityAsyncFormRead
+msEdgeHJEnableChromeBannerDetection
+msCopilotAutoOpenOnNtpTrigger
+msEdgeHubAppsCopilotAutoOpenOnNtp
+msEdgeAutofillUseUpstreamMinFieldsForHeuristics
