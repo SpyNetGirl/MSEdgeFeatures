@@ -1,0 +1,5 @@
+msExtensionsPersistentHubScopedTrigger
+msRightSideWorkspacesButton
+msWorkspacesMessageCollaborator
+msFavoritesFullPageV2
+msHistoryHubDockedSectionHeader

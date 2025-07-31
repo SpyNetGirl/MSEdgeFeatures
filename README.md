@@ -18,18 +18,18 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3467.0
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 140.0.3468.0
 
-### Last processed at: 07/30/2025 16:29:39 (UTC+00:00)
+### Last processed at: 07/31/2025 01:55:59 (UTC+00:00)
 
 <details>
 <summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msCloudPolicyV2
- * msEdgeNtpVNextFocusUnifiedComposerCommercial
- * msNurturingRecommendedSettingsWsbDialogCN
+* msEESimpleProductClassifierShoppingDomainsOnly
+ * msEdgeHJEnableChromeBannerDetection
+ * msEdgeUseAACExtraData
 
 </details>
 <!-- Edge-Canary-Version:END -->
