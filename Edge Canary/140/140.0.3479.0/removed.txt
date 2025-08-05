@@ -1,0 +1,4 @@
+msEdgeBrowserEssentialsSafetySection
+msEdgeBrowserEssentialsSafetyFRE
+msEdgeBrowserEssentialsSafetyEsmProtection
+msEdgeBrowserEssentialsRecordBlocks
