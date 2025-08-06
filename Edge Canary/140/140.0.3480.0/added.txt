@@ -1,0 +1,5 @@
+msDesktopModeTrendingRotation
+msDesktopModeTrendingRotationDisplayInterval
+msDesktopModeTrendingRotationDataUpdateInterval
+msDesktopModeTrendingRotationInitialDelay
+msEdgeSettingsWalletDeprecated
