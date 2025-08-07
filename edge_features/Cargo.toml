@@ -1,0 +1,37 @@
+[package]
+name = "edge_features"
+version = "0.1.0"
+edition = "2024"
+authors = ["Violet Hansen"]
+license = "MIT"
+homepage = "https://github.com/SpyNetGirl/MSEdgeFeatures"
+repository = "https://github.com/SpyNetGirl/MSEdgeFeatures"
+documentation = "https://github.com/SpyNetGirl/MSEdgeFeatures"
+publish = false
+rust-version = "1.91"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+reqwest = { version = "*", features = ["json", "stream"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+clap = { version = "*", features = ["derive"] }
+anyhow = "*"
+regex = "*"
+chrono = { version = "*", features = ["serde"] }
+futures-util = "*"
+sha2 = "*"
+base64 = "*"
+walkdir = "*"
+tempfile = "*"
+winreg = "*"
+bytes = "*"
+
+[profile.release]
+codegen-units = 1
+opt-level = "s"
+split-debuginfo = "packed"
+strip = "symbols"
+lto = "fat"
+incremental = false
+panic = "unwind"
