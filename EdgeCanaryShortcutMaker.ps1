@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "140.0.3484.0"
+$FullVersionToUse = "140.0.3485.0"
 
-$Arguments = "--enable-features=msEdgeAutofillClientNonRepeatableFieldBlocking,msEdgeIncludeFidoDeviceEventsInFeedback"
+$Arguments = "--enable-features=msDetectDupMSB,msSetAutoreplace"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
