@@ -1,0 +1,7 @@
+msAskCopilotPageSubmenuExplain
+msOmniboxEnableDirectNavAllRegions
+msPageInteractionRestrictionWindowsRecallSupport
+msPdfFormsLoadAnnotsArray
+msRichUnifiedComposer
+msWindowsRecallDlpSupport
+msterdam
