@@ -18,23 +18,19 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 141.0.3509.0
-### Last processed at: 08/20/2025 01:40:44 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 141.0.3510.0
+### Last processed at: 08/20/2025 16:26:24 (UTC+00:00)
 <details>
-<summary>10 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msCopilotENCInlineBrowsing
-* msEdgeExtensionsDetectorIssueDetected
-* msEdgeFeedbackIncludeENPArbitrationLogs
-* msEdgeImmersiveSoftFREInRTL
-* msLotusLatchCampaignHighlyEngagedAsterPivotedTrigger
-* msPinningCampaignAsterUsageTrigger
-* msPinningCampaignLowEdgeEngagementTrigger
-* msTargetingWithConfiguredAsterBrowserUsage
-* msWebUISyncConfirmationDialog
-* mssellaitnede
+* msArbitrationServiceLoggerUI
+* msAskCopilotPageSubmenuNoCitation
+* msDisableOmniboxCashback
+* msEdgeShoppingDisableForAADUsers
+* msEdgeUpstreamDownloadAccountStateForTest
+* msEnableOverflowIconAnimationParam
 </details>
 <!-- Edge-Canary-Version:END -->
 
