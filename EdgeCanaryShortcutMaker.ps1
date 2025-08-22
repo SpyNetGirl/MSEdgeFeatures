@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "141.0.3512.0"
+$FullVersionToUse = "141.0.3513.0"
 
-$Arguments = "--enable-features=msArbitrationServiceNotificationPersonalizationV2Suppression,msEdgeMobileSharedLinksSuggestionsAddToUrlGroup,msSearchOpenCSTab,msVisualCompanionConsentV2"
+$Arguments = "--enable-features=msEdgePasskeyChangePinSupport,msEdgePasswordMarkovStrength,msEntertainmentChina,msEntertainmentChinaAllowedLocales,msEntertainmentChinaAnyBadgeShownDurationInDays,msEntertainmentChinaAppProcessesInfo,msEntertainmentChinaBrowserUsageFetchDurationInDays,msEntertainmentChinaCheckIsEdgePinnedToTaskbar,msEntertainmentChinaControlVersion,msEntertainmentChinaExecutionCadenceSeconds,msEntertainmentChinaFreshnessInMinutes,msEntertainmentChinaInitialExecutionDelaySeconds,msEntertainmentChinaLaunchNotification,msEntertainmentChinaMaxEdgeUsagePercentage,msEntertainmentChinaMinDaysSinceFre,msEntertainmentChinaMinTotalBrowserUsageMB,msEntertainmentChinaModelVersion,msEntertainmentChinaNotificationExpireDurationInDays,msEntertainmentChinaNumberOfDays,msWebUIAgentWebcontentsOverlay"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
