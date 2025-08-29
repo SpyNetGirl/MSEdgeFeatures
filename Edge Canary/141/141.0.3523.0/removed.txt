@@ -1,0 +1,4 @@
+msEdgeAutofillApiV2
+msEdgeAutofillCrowdSourcing
+msEdgeAutofillPreferCrowdsourcingOverLabelling
+msEdgeUpdateBoundsForAllViews
