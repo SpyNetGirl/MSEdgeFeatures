@@ -1,0 +1,9 @@
+msEdgeTabActionsMenuAnchorOffset
+msEmxPurviewTaskPoliciesCheck
+msFgBoostExtensionTrigger
+msFgBoostUnknownTrigger
+msLlmConsumerDlp
+msLlmConsumerDlpBlocking
+msLlmConsumerDlpNonCompliantBrowserBlocking
+msLlmConsumerDlpPurviewDialogs
+msWorkspacesClosePushConnectionWhenIdle
