@@ -1,0 +1,3 @@
+msContextMenuSendImageToCopilot
+msEnableGameInputDataFetcher
+msProvenanceValidatorLabelSetForDecision
