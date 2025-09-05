@@ -1,0 +1,8 @@
+msBlockContextMenuShareForCopyBlock
+msEnableGameInputDataFetcher
+msInterceptWithLightning
+msSecurityProtectionsEnabled
+msUACompatibilityV2Fix
+msWhatsNewPageCheckCopilotModeEligible
+msWhatsNewPageEdgePBOptimizations
+msWhatsNewPageNonEdgePBOptimizations
