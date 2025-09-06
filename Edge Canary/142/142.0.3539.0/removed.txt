@@ -1,0 +1,3 @@
+msAffiliateMinVisitSiteReductionApplied
+msAffiliateSitesMinVisitCountReduction
+msEdgeUCNtpCardsIgnoreMinCards
