@@ -1,0 +1,2 @@
+msOmniboxCopilotIntentV2
+msSyncBrowserUsageSegment11NtpOrPostFreDhpNavigation
