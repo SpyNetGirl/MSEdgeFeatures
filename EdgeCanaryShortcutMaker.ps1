@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "142.0.3546.0"
+$FullVersionToUse = "142.0.3547.0"
 
-$Arguments = "--enable-features=msEdgeImmersiveSoftFREWithRuby"
+$Arguments = "--enable-features=msEdgeSettingsSearchWeightRanking"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
