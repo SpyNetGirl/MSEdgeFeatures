@@ -1,0 +1,7 @@
+msIEModeComplexNavToEdge
+msIEModeComplexNavToIE
+msIEModePassExtraHeaders
+msIEModePassPostData
+msIEModePassReferrer
+msNeedIEAutoClose
+msWorkspacesSkype
