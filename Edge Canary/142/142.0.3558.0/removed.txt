@@ -1,0 +1,6 @@
+msEchoAppCookiesDisabledErrorDetected
+msEchoAppJavascriptErrorDetected
+msEchoAppLoginInUnknownURLNavigated
+msEchoAppLoginUrlNavigated
+msEchoAppUnknownErrorWithCookiesDetected
+msEdgeEcho
