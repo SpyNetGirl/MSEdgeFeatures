@@ -1,0 +1,6 @@
+msDiscardExpiredTabsAction
+msDiscardExpiredTabsActionThresholdSeconds
+msDiscardExpiredTabsBySessionAction
+msDiscardExpiredTabsExtraTrigger
+msDiscardExpiredTabsExtraTrigger2
+msDiscardExpiredTabsStatic
