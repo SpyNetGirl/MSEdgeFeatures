@@ -1,0 +1,8 @@
+msEdgeSearchboxHandlerSendsFaviconData
+msExplicitLaunchNonBingDSE
+msExplicitLaunchNonBingDSEAndNonEdgeDB
+msExplicitLaunchNonEdgeDB
+msSettingsMatchWordStart
+msWSBLaunchNonBingDSE
+msWSBLaunchNonBingDSEAndNonEdgeDB
+msWSBLaunchNonEdgeDB
