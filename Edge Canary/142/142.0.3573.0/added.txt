@@ -1,0 +1,3 @@
+msEdgeAddUsageSegmentDataToFeedback
+msFeedChangedAdminPortal
+msPageInteractionManagerWebview2
