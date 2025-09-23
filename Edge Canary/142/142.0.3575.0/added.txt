@@ -1,0 +1,2 @@
+msEdgeShowAsterImportSupportedString
+msForceEnableEdgeTools
