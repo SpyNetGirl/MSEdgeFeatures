@@ -1,0 +1,5 @@
+msCopilotUserInfoPolling
+msM365LinkAutoOpenIgnoreSidebarStateEnabled
+msNDFREConsumerOnPinSitesScreenTrigger
+msNewDefaultSiteSuggestionV2
+msVisualRejuvMicaTrigger
