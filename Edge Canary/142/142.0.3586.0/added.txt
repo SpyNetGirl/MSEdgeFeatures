@@ -1,0 +1,6 @@
+MsCopilot
+MsCopilotConfigurations
+MsCopilotPrivacy
+MsCopilotSharedConversations
+msArbitrationServiceExtensionsLogger
+msStudioNTPBypassChecksForTesting
