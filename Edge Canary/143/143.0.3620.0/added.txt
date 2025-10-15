@@ -1,0 +1,6 @@
+MscopilotSettings
+msEdgePinpointJustInTimeDocAI
+msEdgePinpointJustInTimeEduAI
+msEdgePinpointJustInTimeEmailAI
+msSendToCopilotInContextMenu
+msuYE1
