@@ -1,0 +1,4 @@
+msEdgePinningReorderForAsterInclined
+msEdgeTranslateInAppMenuOnEnglishAppLocaleTrigger
+msOmniboxTwoLineEntitiesAndAnswers
+msWhatsNewCopilotModeUpsellVisible
