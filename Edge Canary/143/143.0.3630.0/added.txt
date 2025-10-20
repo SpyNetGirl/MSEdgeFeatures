@@ -1,0 +1,4 @@
+msEdgeToolsIncrementCaptureCountOnTabLock
+msEdgeToolsScreenshotForceRedrawFrame
+msEdgeToolsScreenshotForceRepaintFrame
+msSegmentationPlatformBrowserUsageThreshold
