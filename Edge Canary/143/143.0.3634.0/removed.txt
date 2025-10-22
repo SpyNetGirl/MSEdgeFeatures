@@ -1,0 +1,4 @@
+MsCopilot
+MsCopilotConfigurations
+MsCopilotPrivacy
+MsCopilotSharedConversations

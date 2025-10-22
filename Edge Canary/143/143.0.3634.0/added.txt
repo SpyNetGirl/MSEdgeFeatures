@@ -1,0 +1,6 @@
+msBrowserLaunchAnotherAppPinnedSiteTrigger
+msBrowserLaunchPinnedSiteUserTrigger
+msBrowserLaunchStartMenuPinnedSiteTrigger
+msBrowserLaunchTaskbarPinnedSiteTrigger
+msEdgeUndersideVideoSummaryLabel
+msMdaScreenCapture
