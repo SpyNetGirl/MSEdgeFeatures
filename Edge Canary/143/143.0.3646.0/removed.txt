@@ -1,0 +1,7 @@
+msBypassXboxSkuCheckForTesting
+msEdgeToolsBypassCopilotMode
+msEmulateWindowsDesktopSku
+msIEModeWindowModalDialogs
+msMediaFoundationClearAV1Support
+msMediaFoundationDomainOverrideDisabledForTest
+msMediaFoundationOverride
