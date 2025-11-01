@@ -1,0 +1,5 @@
+msMdaProtectedClipboard
+msMdaProtectedClipboardPolicy
+msOmniboxASUpdatedEntryPointTrie
+msPdfOverrideSharedLibrary
+msSecureIPBandwidthTelemetry
