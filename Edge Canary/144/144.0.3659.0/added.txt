@@ -1,0 +1,8 @@
+msCopilotApisFileSearch
+msEdgeCopilotGlobalHotkey
+msEdgeLoginFormPageLoadTrigger
+msEdgeMPMPasskeyAssertTrigger
+msEdgeMPMPasskeyCreateTrigger
+msEdgeMPMPasskeyImmediateMediationTrigger
+msEdgeMPMWebAuthnFieldPageLoadTrigger
+msEdgeToolsPageStabilityMonitor
