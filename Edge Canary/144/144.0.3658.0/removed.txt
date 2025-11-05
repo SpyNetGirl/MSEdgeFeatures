@@ -1,0 +1,4 @@
+msAutofillEdgeAcrylicPopup
+msEdgeVisualRejuvAcrylicForNativeSurfacesTrigger
+msVisualRejuvMaterialsMenu
+msVisualRejuvMicaTrigger
