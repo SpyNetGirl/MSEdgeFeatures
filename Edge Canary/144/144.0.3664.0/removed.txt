@@ -1,0 +1,5 @@
+msEdgeVisualRejuvAcrylicForNativeSurfaces
+msEdgeVisualRejuvAcrylicForProfileMenuTrigger
+msEdgeVisualRejuvAcrylicForWebUi2
+msEdgeVisualRejuvAcrylicForWebUi2Trigger
+msPdfLoadUIAfterRender
