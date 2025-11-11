@@ -1,0 +1,8 @@
+MscrNJcy
+msEdgeBadgeService
+msEdgeCopilotIntercept
+msEdgeCopilotInterceptTreatmentParam
+msEdgeCopilotReferrerHideIntercept
+msEdgeDirectLaunchManager
+msEdgeDirectLaunchManagerOnLaunch
+mstposmultimap
