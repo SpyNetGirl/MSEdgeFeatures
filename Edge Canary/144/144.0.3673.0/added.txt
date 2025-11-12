@@ -1,0 +1,2 @@
+msSmartScreenSendReferrerChain
+msStreamlineInPrivateTPWhenPartitioned

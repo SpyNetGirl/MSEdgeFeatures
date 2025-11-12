@@ -1,0 +1,2 @@
+msInitSendLockedStateNotify
+msKillVpnHero
