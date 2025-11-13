@@ -1,0 +1,5 @@
+msEdgeToolsCommercialScreenshotEncoding
+msEdgeToolsCommercialScreenshotHeight
+msEdgeToolsCommercialScreenshotWidth
+msOmniboxLocalEntitiesShowResult
+msTyposquattingAllowListUI
