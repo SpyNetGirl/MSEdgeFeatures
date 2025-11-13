@@ -1,0 +1,6 @@
+MsUserAgentLaunchNavType
+msCopilotApisFileSearch
+msCopilotMigrateXamlPref
+msPdfNonJSActionSupport
+msSendPayloadIdInClientDataHeader
+msWebUIWcpInternals
