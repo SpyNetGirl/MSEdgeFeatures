@@ -1,0 +1,8 @@
+msCopilotBubbleUiFlexPane
+msEmulateWindowsHolographicSku
+msEmulateWindowsServerSku
+msEmulateWindowsTeamSku
+msEmulateWindowsXboxSku
+msMoreThanOneOverflowEligibleIconTriggered
+msOverflowEnabledPageActionIconParam
+msOverflowMoreThanOneEligibleIcon
