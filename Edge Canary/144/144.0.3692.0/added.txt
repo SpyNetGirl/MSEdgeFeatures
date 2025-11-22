@@ -1,0 +1,9 @@
+msDiscoveredCookiesForImport
+msDiscoveredPasswordsForImport
+msDiscoveredPaymentsForImport
+msEdgeSafeHostingExtension
+msFunctionIntegrityValidation
+msImportAsterAppBoundEncryptedData
+msNurturingEdgeCopilotJitCM
+msOnDeviceSpeechRecognition
+msPaymentsImportStarted

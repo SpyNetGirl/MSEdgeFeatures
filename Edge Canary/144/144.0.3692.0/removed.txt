@@ -1,0 +1,4 @@
+msEdgeShowAsterImportSupportedString
+msEnablePerformanceDetectorMicroFeedback
+msProcessAPPBKey
+msRegisterAppBoundProviderToOsCryptAsync
