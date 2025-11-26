@@ -1,0 +1,4 @@
+msCombinedSignInAndSyncExtensions
+msCombinedSignInAndSyncFavorites
+msEdgeDynamicMetadataInHevc
+msEdgeUpstreamDownloadAccountStateForTest
