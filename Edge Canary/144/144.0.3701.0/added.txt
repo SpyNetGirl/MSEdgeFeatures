@@ -1,0 +1,4 @@
+msExcludeSidebarSearchInPwa
+msOmniboxRestoreOnEmptyPopupDismiss
+msOmniboxSearchGlyphInToolbar
+msOmniboxSearchGlyphInToolbarWaitForMouseRelease
