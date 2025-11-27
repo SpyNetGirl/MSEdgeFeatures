@@ -18,17 +18,14 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 144.0.3701.0
-### Last processed at: 11/26/2025 16:29:06 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 144.0.3702.0
+### Last processed at: 11/27/2025 01:42:09 (UTC+00:00)
 <details>
-<summary>4 new features were added in the latest Edge Canary update</summary>
+<summary>1 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msExcludeSidebarSearchInPwa
-* msOmniboxRestoreOnEmptyPopupDismiss
-* msOmniboxSearchGlyphInToolbar
-* msOmniboxSearchGlyphInToolbarWaitForMouseRelease
+* msNurturingPasswordBreachInContextAlert
 </details>
 <!-- Edge-Canary-Version:END -->
 
