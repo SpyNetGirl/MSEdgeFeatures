@@ -1,0 +1,4 @@
+msSkipDolbyVisionInstallCheckForTesting
+msVisionOCVLogsEnabled
+msWhatsNewPageReminderMaxEdgeUsagePercentage
+msWhatsNewPageReminderMinTotalBrowserUsageMB
