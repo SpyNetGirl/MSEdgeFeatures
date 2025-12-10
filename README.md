@@ -18,18 +18,18 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3726.0
-### Last processed at: 12/09/2025 01:46:00 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3728.0
+### Last processed at: 12/10/2025 01:48:53 (UTC+00:00)
 <details>
 <summary>5 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msDesktopModeTrendingZeroInputV2
-* msEdgeAffiliatedPasswordSuggestions
-* msEdgeAffiliationBackend
-* msNTPHideRecSites
-* msNTPHideTopSites
+* msEdgeCrossButtonForNewProfileFRE
+* msEdgeIncludeGPUInfoLogInFeedback
+* msEdgeIncludeMediaInternalsLogInFeedback
+* msOmniboxRefineSEAutocomplete
+* msWalletCheckoutAutofillDriverWebUI2
 </details>
 <!-- Edge-Canary-Version:END -->
 
