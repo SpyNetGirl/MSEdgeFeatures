@@ -1,0 +1,4 @@
+msComposerAAD
+msDisplayPWAManifestSourcedScreenshots
+msEdgeWebAppInstallIconReducedVisibility
+msPwaOnHoverAnimate
