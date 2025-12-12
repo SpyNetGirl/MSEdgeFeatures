@@ -1,0 +1,5 @@
+MSCpE1
+mSTAE1
+msEdgeComposerShowLocalActionsMode
+msEdgeSunflowerRetryNavigationOnFailure
+msEdgeSunflowerTryPasswordsFirst
