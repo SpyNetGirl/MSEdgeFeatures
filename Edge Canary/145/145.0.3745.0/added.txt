@@ -1,0 +1,3 @@
+mSlwE1
+msEdgeToolsAutoRunSettings
+msgCompressError
