@@ -1,0 +1,2 @@
+msNurturingRecommendedSettingsUX6
+msPinningWizardCheckWindowsIntegration
