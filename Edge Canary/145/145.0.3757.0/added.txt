@@ -1,0 +1,3 @@
+msEdgeCMMoreMenuOpenedFirstTime
+msEdgeCMMoreMenuOpenedFirstTimeNPB
+msEdgeCMMoreMenuOpenedFirstTimePB
