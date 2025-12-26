@@ -1,0 +1,7 @@
+msBrowserCustomThemeTrigger
+msBrowserHighContrastModeTrigger
+msBrowserHorizontalTabsTrigger
+msBrowserVerticalTabsTrigger
+msEdgeAutofillEnhancedAutofill
+msEdgeInterstitialWWESupressSoftFREInternal
+msRecordUcpdStatusOnNav
