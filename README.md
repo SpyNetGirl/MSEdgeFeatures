@@ -18,14 +18,14 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3768.0
-### Last processed at: 12/30/2025 01:51:10 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3769.0
+### Last processed at: 12/30/2025 16:30:46 (UTC+00:00)
 <details>
 <summary>1 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgePasswordChangeFormAvailabilityCheck
+* msEdgeStudioNTPCopilotTips
 </details>
 <!-- Edge-Canary-Version:END -->
 
