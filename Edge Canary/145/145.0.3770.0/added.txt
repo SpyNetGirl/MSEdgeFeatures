@@ -1,0 +1,4 @@
+msCoFreeTimerInMinutes
+msEdgeBrowserHasslesTriggeringFramework
+msEnableCoFreeTimer
+msTechscamNewBlockPage
