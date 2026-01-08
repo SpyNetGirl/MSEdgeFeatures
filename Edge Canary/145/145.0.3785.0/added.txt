@@ -1,0 +1,4 @@
+msElevatedSettingsLabelRename
+msNurturingGuidedDialogAccepted
+msSettingsCenterSearchBar
+msSettingsElevatedTopSettings
