@@ -1,0 +1,3 @@
+msCacheLimitForTranslation
+msChromeHeavyUser
+msQuickLinksAvailable
