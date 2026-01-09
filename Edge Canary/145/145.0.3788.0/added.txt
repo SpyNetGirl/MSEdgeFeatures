@@ -1,0 +1,4 @@
+msCacheLimitForTranslation
+msCardRoamingCardExportMBISSLSAScope
+msEnableTelemetryForWCF
+msStringUMAFavoriteUrlTitleMismatch

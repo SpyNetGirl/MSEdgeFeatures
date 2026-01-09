@@ -1,0 +1,5 @@
+mSvKE1
+msEdgeGlobalFrameRateThrottling
+msEdgeGlobalFrameRateThrottlingFrameRateHz
+msEdgePerfCenterEnableEfficiencyNonRendererChildProcesses
+msWebUISpaceworks
