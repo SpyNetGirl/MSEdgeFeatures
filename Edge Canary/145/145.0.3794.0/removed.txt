@@ -1,0 +1,8 @@
+ms2KE1
+ms2KtCH
+msEdgeAutofillCrowdSourceVoteUpload
+msEdgeAutofillCrowdSourcingV2
+msEdgeAutofillRepeatableFieldFalse
+msEdgeAutofilledValueAcceptedHandlerAutofillCore
+msEdgeAutofilledValueAcceptedHandlerPassword
+msEdgePasswordCrowdSourceFormSubmit
