@@ -1,0 +1,10 @@
+msAddEdgeSkypeInTransientMode
+msArbitrationServiceSkypeAutoOpenNotification
+msCallFromAnyPage
+msEdgeHubAppSkype
+msEdgeShareSkypeTrigger
+msEdgeSkypeAuthThrottle
+msEdgeSkypeHandleProtocolUsingJsEvent
+msEdgeSkypeHandleTelProtocol
+msEdgeSkypeShareUI
+msPrerenderConvertNtpToDhp

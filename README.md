@@ -18,30 +18,16 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3799.0
-### Last processed at: 01/14/2026 16:34:24 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 145.0.3800.0
+### Last processed at: 01/15/2026 08:34:53 (UTC+00:00)
 <details>
-<summary>17 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MsW59J
-* MsWY5t
-* msCopilotRefreshToNewChatAfterContextSwitchDelayMinutes
-* msEdgeGlobalMediaControlsUpdatedUI
-* msWhatsNewUpdateCompleteVisibleChromePB50
-* msWhatsNewUpdateCompleteVisibleChromePB60
-* msWhatsNewUpdateCompleteVisibleChromePB70
-* msWhatsNewUpdateCompleteVisibleChromePB80
-* msWhatsNewUpdateCompleteVisibleChromePB90
-* msWhatsNewUpdateCompleteVisibleCopilotModeEligible
-* msWhatsNewUpdateCompleteVisibleCopilotModeUpsellCooldownPassed
-* msWhatsNewUpdateCompleteVisibleEdgePB
-* msWhatsNewUpdateCompleteVisibleNonEdgePB
-* msWhatsNewUpdateCompleteVisibleNotNtpFeedEngaged
-* msWhatsNewUpdateCompleteVisibleNtpFeedEngaged
-* msWhatsNewUpdateCompleteVisibleUnknownNtpFeedEngaged
-* msWhatsNewUpdateCompleteVisibleUrlInterestEligible
+* msEnableLotusLatchCampaignPrecomputationService
+* msLotusLatchCampaignTAMIncrease
+* msPinningCampaignsOverallTAMIncrease
 </details>
 <!-- Edge-Canary-Version:END -->
 
