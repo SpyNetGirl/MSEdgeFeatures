@@ -1,0 +1,3 @@
+msEdgeLanguageDetectionAPI
+msOmniboxSmallerIconSize
+msSegmentationPlatformEdgePrimaryBrowser50
