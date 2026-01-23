@@ -1,0 +1,4 @@
+msEnableWChromiumConfig
+msWChromiumAutocompleteEnabled
+msWChromiumMaxMatches
+msWChromiumMaxUrlMatches
