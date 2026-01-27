@@ -1,0 +1,4 @@
+msAllTransparentMetadata
+msEdgeFeedbackSendVerbatimtoNTP
+msEdgePwaSidebarContextualAwarenessTrigger
+msOlympiaCopilotAlwaysShowSetupPopupsOnLaunch
