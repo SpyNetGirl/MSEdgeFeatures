@@ -1,0 +1,2 @@
+msTranslateVideoNonPowerUser
+msTranslateVideoPowerUser

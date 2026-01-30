@@ -1,0 +1,6 @@
+msComposerTyped
+msEdgeAutofillTools
+msEdgeVpnEnabled
+msInteractiveReadAloud
+msOmniboxDraggableEmptyArea
+msWebViewAllowLocalNetworkAccessChecks
