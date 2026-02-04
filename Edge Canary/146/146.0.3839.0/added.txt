@@ -1,0 +1,6 @@
+msEdgeReaderModeToolbarPinning
+msWhatsNewPageForRewardsHVA
+msWhatsNewRewardsHVANotSignedIn
+msWhatsNewRewardsHVAPrerequisitesMet
+msWhatsNewRewardsHVASignedInGamer
+msWhatsNewRewardsHVASignedInNonGamer
