@@ -1,0 +1,4 @@
+msNotificationMLSuppressionDefaultsTelemetry
+msWChromiumFavoriteSuggestionsEnabled
+msWChromiumHistorySuggestionsEnabled
+msWChromiumNavigationSuggestionsEnabled
