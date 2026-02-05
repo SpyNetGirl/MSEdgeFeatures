@@ -18,17 +18,20 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 146.0.3840.0
-### Last processed at: 02/04/2026 16:53:44 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 146.0.3841.0
+### Last processed at: 02/05/2026 02:12:37 (UTC+00:00)
 <details>
-<summary>4 new features were added in the latest Edge Canary update</summary>
+<summary>7 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msNotificationMLSuppressionDefaultsTelemetry
-* msWChromiumFavoriteSuggestionsEnabled
-* msWChromiumHistorySuggestionsEnabled
-* msWChromiumNavigationSuggestionsEnabled
+* msAllowToolsCreation
+* msEdgeEnableCloudContentScanning
+* msEdgeReadingModeSDExtraction
+* msIncludeExtensionTabActivityInFeedback
+* msNoPinningCooldownApplied
+* msNurturingFrequentSitesPinUpsellCustomTriggerAfterBasicTargetingCheck
+* msPrimaryScreenResolution1600X900
 </details>
 <!-- Edge-Canary-Version:END -->
 
