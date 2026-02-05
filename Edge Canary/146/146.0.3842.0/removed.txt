@@ -1,0 +1,6 @@
+MSEdgeLaunchCmdLine
+MSEdgeLaunchTrace
+msAuthPrivateForBing
+msEdgeCopilotSearchEnabledDefault
+msEdgeWebView2HideContentsContainerBorder
+msMediaInternalsServices
