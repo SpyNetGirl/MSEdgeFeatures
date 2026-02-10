@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "146.0.3851.0"
+$FullVersionToUse = "146.0.3852.0"
 
-$Arguments = "--enable-features=msBypassSafetyChecks,msEdgeDownloadCopilotInterceptCooldownDaysTreatmentParam,msEdgeDownloadCopilotV2InterceptCooldownDaysTreatmentParam,msEdgeDownloadInterceptCooldownDaysTreatmentParam,msEdgeReaderModeAXTreeExtraction,msEdgeReaderModeAXTreeImages,msEdgeToolsDomNavigationSettler,msEdgeToolsForceIgnoreViewportBounds,msNurturingFeatureEdgeSpawnNtpOptOut,msSafeRegexForHijackingPrevention,msSkipActionCompletionWait"
+$Arguments = "--enable-features=msNurturingEdgeCopilotJitCapability"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
