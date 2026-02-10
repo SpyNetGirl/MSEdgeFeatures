@@ -8,7 +8,7 @@ homepage = "https://github.com/SpyNetGirl/MSEdgeFeatures"
 repository = "https://github.com/SpyNetGirl/MSEdgeFeatures"
 documentation = "https://github.com/SpyNetGirl/MSEdgeFeatures"
 publish = false
-rust-version = "1.91"
+rust-version = "1.93"
 
 [dependencies]
 tokio = { version = "*", features = ["full"] }
