@@ -1,0 +1,2 @@
+msM365LinkInsightsCheckOutlookAutoOpenSwitch
+msWinPdfOCR

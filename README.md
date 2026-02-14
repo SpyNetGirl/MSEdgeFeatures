@@ -18,28 +18,15 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3858.0
-### Last processed at: 02/13/2026 16:52:08 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3859.0
+### Last processed at: 02/14/2026 02:10:46 (UTC+00:00)
 <details>
-<summary>15 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MsWShG
-* msBingSearchStartedFromAddressBar
-* msBingSearchStartedFromBingRequery
-* msBingSearchStartedFromContextMenu
-* msBingSearchStartedFromNewTabPageSearchBox
-* msBingSearchStartedFromRenavigation
-* msBingSearchStartedFromWindowsSearch
-* msBingSerpNavigationStarted
-* msEdgeNativeVideoScrubbing
-* msEdgeSpaceworksPinning
-* msEdgeToolsSkipFRE
-* msEdgeToolsUseMouseWheelForScroll
-* msOmniboxRelatedSearchesOnZeroInputSerp
-* msSettingsCppDeprecated
-* msSkipUnloadedTabAsActive
+* msM365LinkInsightsCheckOutlookAutoOpenSwitch
+* msWinPdfOCR
 </details>
 <!-- Edge-Canary-Version:END -->
 
