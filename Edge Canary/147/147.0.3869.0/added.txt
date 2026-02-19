@@ -1,0 +1,6 @@
+Ms1PNetworkRequestTelem
+MsSntpSwr
+msEdgeGameAssistEnableFindOnPage
+msFontFamilyTokenization
+msNurturingBannerSurfaceShownTrigger
+msShoppingUapiExp35Success
