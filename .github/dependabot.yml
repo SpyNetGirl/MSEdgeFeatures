@@ -17,3 +17,4 @@ updates:
       - "/edge_features/"
     schedule:
       interval: "daily"
+
