@@ -1,0 +1,6 @@
+msDesktopModeAppToAppDragAndDrop
+msEdgeToolsScreenshotUsePrimaryMainFrame
+msEdgeToolsWaitForVisualStateAfterScroll
+msEdgeTranslationAPI
+msInteractiveRolWordHighlight
+msPdfFreeTextNonEnglishFontFix
