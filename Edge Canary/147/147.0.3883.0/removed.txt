@@ -1,0 +1,5 @@
+msEdgeAutofillGenericDedup
+msEdgeAutofillGenericDedupWithSubsetMatch
+msEdgeAutofillProfilePreferredOverRecentlyUsed
+msEdgeSCFRETriggerwithDMA24Hrs
+msEdgeShowPasswordSaveUpdatePBSConsent
