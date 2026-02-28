@@ -1,0 +1,5 @@
+msEdgeComposeCopilotChat
+msEdgeMetaOSAppServiceUseLoginHint
+msEdgeNotPinnedToTaskbarTrigger
+msEdgeTaskbarPinCheck
+msShowBrowserCustomizationHubEntryPoint
