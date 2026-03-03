@@ -1,5 +1,5 @@
 
-$FullVersionToUse = "147.0.3892.0"
+$FullVersionToUse = "147.0.3893.0"
 
 $Arguments = "--enable-features="
 
