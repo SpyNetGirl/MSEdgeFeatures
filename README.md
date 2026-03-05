@@ -18,30 +18,14 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3897.0
-### Last processed at: 03/05/2026 02:14:13 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3898.0
+### Last processed at: 03/05/2026 18:06:56 (UTC+00:00)
 <details>
-<summary>17 new features were added in the latest Edge Canary update</summary>
+<summary>1 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MSANotSignedInLinkId
-* MSASignedInLinkId
-* MSCopilot
-* msEdgeIncludeExtendedExtensionDiagnosticsInFeedback
-* msM365LinkInsightsDebounceDelaySeconds
-* msM365LinkInsightsMinimumPageContentLength
-* msMdaPriorityOverMam
-* msSensitiveDomains
-* msWhatsNewContentVisibleRewardsHVAEligible
-* msWhatsNewContentVisibleRewardsHVAMSANotSignedIn
-* msWhatsNewContentVisibleRewardsHVAMSASignedIn
-* msWhatsNewRewardsHVAEligible
-* msWhatsNewRewardsHVAMSANotSignedIn
-* msWhatsNewRewardsHVAMSASignedIn
-* msWhatsNewUpdateCompleteVisibleRewardsHVAEligible
-* msWhatsNewUpdateCompleteVisibleRewardsHVAMSANotSignedIn
-* msWhatsNewUpdateCompleteVisibleRewardsHVAMSASignedIn
+* msOpenSearchInNewTab
 </details>
 <!-- Edge-Canary-Version:END -->
 
