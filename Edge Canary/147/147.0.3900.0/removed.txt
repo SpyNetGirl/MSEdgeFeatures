@@ -1,0 +1,6 @@
+msEdgeAutofillAdvancedSuggestionsTag
+msEdgeNativeAuthenticationAPI
+msShorelineSearchDocking
+msShorelineSearchUseServerRedirectUrl
+msUndersideChatClickTrigger
+msUndersideChatHoverTrigger
