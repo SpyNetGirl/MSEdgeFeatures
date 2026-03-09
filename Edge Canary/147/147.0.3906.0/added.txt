@@ -1,0 +1,6 @@
+MsARE1
+msEdgeToolsScrollIntoView
+msSegmentationPlatformFetchPersonalization
+msShortcutsProviderSearchRelevanceTuning
+msSwapUnloadedNtpWithPrerender
+msWChromiumPromoteChat
