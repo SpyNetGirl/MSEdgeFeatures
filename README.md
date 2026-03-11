@@ -18,18 +18,19 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3908.0
-### Last processed at: 03/10/2026 16:58:10 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3909.0
+### Last processed at: 03/11/2026 02:08:54 (UTC+00:00)
 <details>
-<summary>5 new features were added in the latest Edge Canary update</summary>
+<summary>6 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeAutofillCopilotProfileQualityTreatmentA
-* msEdgeAutofillCopilotProfileQualityTreatmentB
-* msEdgeAutofillCopilotSuggestions
-* msEdgeBrowserHasslesRefreshFunctionalTrigger
-* msEdgeBrowserHasslesTriggerHub
+* msCustomizeEdgeShown
+* msDetectDefaultBrowserChanged
+* msEdgeAutofillSupportDropdownFillingForOperator
+* msEdgeNelObserver
+* msPerformActionAutolaunch
+* msPerformActionPinToTaskbar
 </details>
 <!-- Edge-Canary-Version:END -->
 

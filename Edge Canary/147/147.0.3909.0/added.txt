@@ -1,0 +1,6 @@
+msCustomizeEdgeShown
+msDetectDefaultBrowserChanged
+msEdgeAutofillSupportDropdownFillingForOperator
+msEdgeNelObserver
+msPerformActionAutolaunch
+msPerformActionPinToTaskbar
