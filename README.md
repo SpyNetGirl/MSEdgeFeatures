@@ -18,15 +18,16 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 147.0.3912.0
-### Last processed at: 03/12/2026 17:01:05 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 148.0.3920.0
+### Last processed at: 03/17/2026 02:22:35 (UTC+00:00)
 <details>
-<summary>2 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeEnterpriseWorkSearchCache
-* msNurturingUndefinedFeaure
+* msClearEmptyStartupUrlsPref
+* msEdgeAutofillExtensionFormParsing
+* msEdgePipAlignedUI
 </details>
 <!-- Edge-Canary-Version:END -->
 
