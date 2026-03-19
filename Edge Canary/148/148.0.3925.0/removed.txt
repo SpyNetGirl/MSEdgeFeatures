@@ -1,0 +1,3 @@
+MSCopilot
+msAutofillEdgeTablesRowsCount
+msEnableEdgeStartupTelemetryDebugMode
