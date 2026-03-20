@@ -1,0 +1,3 @@
+msOmniboxDraggableEmptyArea
+msWalletPasswordCategorization
+msWalletPasswordCategorizationPlatformExpansion
