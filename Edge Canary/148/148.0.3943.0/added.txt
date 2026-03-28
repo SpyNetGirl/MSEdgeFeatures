@@ -1,0 +1,4 @@
+msCopilotPerTab
+msEdgeImportPreventDisallowedExtensionsInstall
+msEdgeReaderModeReadAloudClicked
+msUndersideV2ComponentExtension
