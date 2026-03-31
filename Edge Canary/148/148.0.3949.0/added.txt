@@ -1,0 +1,4 @@
+msBrowsingStreakReminderEligibleDays
+msBrowsingStreakReminderMaxConsecutiveMisses
+msBrowsingStreakReminderShortDwellThresholdSeconds
+msEdgeM365PopupDecider
