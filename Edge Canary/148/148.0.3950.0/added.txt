@@ -1,0 +1,2 @@
+msEdgeEnablePostTaskTracing
+msM365BrowsingSignalsCanInstallExtension
