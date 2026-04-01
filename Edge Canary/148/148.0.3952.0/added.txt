@@ -1,0 +1,6 @@
+msAutoLaunchSuppressedSession
+msEdgeSessionRestoreLogger
+msEdgeToolsBlockNavigationToIpAddressUrls
+msInteractiveReadAloudCEP
+msSendCustomSignalsInClientDataHeader
+msStartCIInAutolaunchSuppression
