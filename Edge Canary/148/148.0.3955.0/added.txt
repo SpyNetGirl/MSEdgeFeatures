@@ -1,0 +1,2 @@
+msEdgeWebView2WebUsbNotifications
+msWebView2GranularProcessFailedReason
