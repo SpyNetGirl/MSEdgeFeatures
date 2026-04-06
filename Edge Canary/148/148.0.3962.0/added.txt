@@ -1,0 +1,3 @@
+MSADEGRADED
+msEdgeCopilotNewTabPageEnabledAADDefault
+msEdgeDownloadInterceptUninstallPage
