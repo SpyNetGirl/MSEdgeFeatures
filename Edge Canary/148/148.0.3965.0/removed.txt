@@ -1,0 +1,2 @@
+msGPUBlockListTestGroupTrigger
+msGPUDriverBugListTestGroupTrigger

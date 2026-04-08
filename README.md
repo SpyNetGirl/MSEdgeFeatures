@@ -18,19 +18,13 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 148.0.3964.0
-### Last processed at: 04/07/2026 17:02:09 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 148.0.3965.0
+### Last processed at: 04/08/2026 02:36:41 (UTC+00:00)
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>0 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeToolsAutoScrollProgrammatic
-* msM365LinkInsightsFooterShowCount
-* msM365LinkInsightsMinPageWidthPixels
-* msM365LinkInsightsQuickDismissMaxCount
-* msM365LinkInsightsQuickDismissThresholdSec
-* msWebView2EnableMinimalWindow
 </details>
 <!-- Edge-Canary-Version:END -->
 
