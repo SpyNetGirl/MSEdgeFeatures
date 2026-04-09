@@ -1,0 +1,8 @@
+MsW59J
+MsWShG
+msBrowserSideAreaSelection
+msCopilotComponentExtensionAllowlist
+msEdgeJourneysComparisonMode
+msEdgeSuperDragDefaultEnabledChina
+msEdgeSuperDragDropSupportedChina
+msSusCmdUrlFgDetection
