@@ -18,19 +18,16 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 149.0.3981.0
-### Last processed at: 04/16/2026 17:18:04 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 149.0.3982.0
+### Last processed at: 04/17/2026 02:44:14 (UTC+00:00)
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msCopilotWebSourceTracker
-* msEdgeComposeVoiceInput
-* msEdgeWorkJourneysTop3OnNtp
-* msNurturingMSStartYJCompeteTextVolumn
-* msV2StaticSitesForENPPinning
-* msWebUIBlueprint
+* msEdgeSpaceworksEmoji
+* msLotusLatchPrecomputationForNonCIUsers
+* msReverseFlightWindowsConsent
 </details>
 <!-- Edge-Canary-Version:END -->
 
