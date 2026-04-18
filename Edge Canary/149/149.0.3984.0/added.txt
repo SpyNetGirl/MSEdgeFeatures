@@ -1,0 +1,6 @@
+msEdgeMediaControlsOnMediaProxy
+msEdgeMediaControlsOnMediaProxyAutoSplit
+msEdgeMediaControlsOnMediaProxyPinnedSite
+msPdfOcrMicrofeedback
+msPushServiceBlockShutdown
+msWebView2SyncClipboardRead
