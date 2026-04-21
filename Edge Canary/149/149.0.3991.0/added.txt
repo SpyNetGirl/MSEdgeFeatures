@@ -1,0 +1,2 @@
+msEdgeSpaceworkMenuOpenedTrigger
+msEdgeSpaceworkOpenedTrigger
