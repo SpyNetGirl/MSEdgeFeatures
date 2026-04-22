@@ -1,0 +1,4 @@
+msEdgeCopilotPrivateSendQuery
+msEdgeRendererHardFaultsMetrics
+msEdgeToolsBrowserSandbox
+msEdgeTriggerPasswordResyncForUndecryptablePasswords
