@@ -1,0 +1,6 @@
+msDisableJavascriptOptimizerByDefault
+msNurturingGamingHomepageNotification
+msNurturingPerfGameModeAwarenessC
+msRAMPressurePreReadFileTrigger
+msSleepingTabsAwarenessNotification
+msUCNtpOverride
