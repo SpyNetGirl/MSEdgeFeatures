@@ -1,0 +1,5 @@
+msCopilotOpeningEndDelaySec
+msCopilotOpeningSafetyTimeoutSec
+msDetectDefaultBrowserChangedBadgeTrigger
+msSearchHistoryAggressiveScoringDuration
+msSearchHistoryRelevanceTuning
