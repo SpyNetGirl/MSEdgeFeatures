@@ -1,0 +1,4 @@
+msEdgeBrowserHasslesThirdPartyCookieShowUx
+msEdgeBrowserHasslesThirdPartyCookieTrigger
+msThirdPartyCookiePreconditionMetTrigger
+msThirdPartyCookieStrategyFiredTrigger
