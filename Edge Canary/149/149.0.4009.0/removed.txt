@@ -1,0 +1,4 @@
+msEdgeCopilotModeBypassPolicy
+msEdgeSyncSessionOptimizations
+msPdfUndoRedo
+msToolbarDeclutterIncludeFavorites
