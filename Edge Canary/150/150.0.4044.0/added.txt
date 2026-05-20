@@ -1,0 +1,7 @@
+MSRtE1
+msCookiesSelectedForImport
+msEntertainmentChinaMinAppNetworkUsageMB
+msNurturingIncludeProngsInWSBTarget
+msNurturingProngsTrigger
+msPasswordsSelectedForImport
+msPaymentsSelectedForImport
