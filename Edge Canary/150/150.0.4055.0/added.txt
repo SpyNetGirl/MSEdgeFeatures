@@ -1,0 +1,7 @@
+MSvu6H
+msAutoOpenInternalsBtr
+msIEReactivationBtr
+msShowBrowserCustomizationHubEntryPointForRubyNtp
+msWUE1
+msWcfTasksPolicyManagerKillSwitch
+msgCompressError
