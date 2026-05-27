@@ -1,0 +1,5 @@
+msDataUpdateInterval
+msDisplayInterval
+msInitialDelay
+msSearchBoxInToolbarTrendingRotation
+msUseV2Api
