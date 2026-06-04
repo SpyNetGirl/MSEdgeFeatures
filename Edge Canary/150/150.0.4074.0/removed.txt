@@ -1,0 +1,2 @@
+msDetectDefaultBrowserChangedBadgeTrigger
+msFeatureGroupSegmentationPlatformNotification
