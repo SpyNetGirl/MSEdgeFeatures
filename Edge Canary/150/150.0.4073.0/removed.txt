@@ -1,0 +1,4 @@
+msEnhanceEdgeNTPhijackingMitigation
+msPdfOverrideSharedLibrary
+msPdfSharedLibraryHighCores
+msPdfSharedLibraryLowCores
