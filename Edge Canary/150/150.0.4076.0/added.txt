@@ -1,0 +1,4 @@
+msEdgePurviewDlpGenuineEdgeTokenProtocolVersion
+msEdgeShoppingPersistentStorage
+msOmniboxGuaranteedHistoryURLSlots
+msWebView2SolidColorLayerBackground
