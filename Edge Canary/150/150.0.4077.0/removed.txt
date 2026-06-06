@@ -1,0 +1,4 @@
+msOmniboxCopilotSearchEntrypoint
+msOmniboxCopilotSearchEntrypointPlaceholder
+msPrimaryScreenResolution1280X1024
+msSegmentationPlatformClientSignalsFeature
