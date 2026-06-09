@@ -1,0 +1,4 @@
+msEnableMaiDesignSystemForMica
+msEntertainmentSpotifyClientDetected
+msEntertainmentSpotifyDetected
+msEntertainmentSpotifyWebDetected
