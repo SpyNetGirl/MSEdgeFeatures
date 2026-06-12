@@ -1,0 +1,3 @@
+msFavoritesBarBTR
+msUseLabelingService
+msWebUIProfile
