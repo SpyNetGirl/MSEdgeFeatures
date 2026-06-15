@@ -1,0 +1,8 @@
+msEdgeCMMoreMenuOpenedFirstTime
+msEdgeCMMoreMenuOpenedFirstTimeNPB
+msEdgeCMMoreMenuOpenedFirstTimePB
+msEdgeCopilotModeMoreMenuToggle
+msEdgePwaSidebarOpenedTrigger
+msExcludeSidebarSearchInPwa
+msM365LinksSkipBlockingDialog
+msWebPushBuiltinClient
