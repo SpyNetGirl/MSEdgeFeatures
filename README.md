@@ -18,14 +18,16 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 151.0.4097.0
-### Last processed at: 06/16/2026 04:20:18 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 151.0.4098.0
+### Last processed at: 06/16/2026 12:55:38 (UTC+00:00)
 <details>
-<summary>1 new features were added in the latest Edge Canary update</summary>
+<summary>3 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MsComposeInlineBlueDotTooltip
+* msEdgeLimitAutoOpenCopilotToSignedInUsers
+* msEdgeSettingsDefaultBrowserNotDefault
+* msEdgeSettingsDefaultBrowserPage
 </details>
 <!-- Edge-Canary-Version:END -->
 
