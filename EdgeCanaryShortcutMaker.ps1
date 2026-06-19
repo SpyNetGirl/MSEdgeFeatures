@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "151.0.4102.0"
+$FullVersionToUse = "151.0.4103.0"
 
-$Arguments = "--enable-features=msEdgeCopilotVisionScreenPickerBypass"
+$Arguments = "--enable-features=msEdgeEDropShowSunSetTips,msEdgeStudioFalconGenuineEdgeTokenProtocolVersion,msWelcomeChromePB,msWelcomeContentVisible,msWelcomeCoverVisible,msWelcomeEdgePB,msWelcomeUnknownPB"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"

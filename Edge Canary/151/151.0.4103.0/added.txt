@@ -1,0 +1,7 @@
+msEdgeEDropShowSunSetTips
+msEdgeStudioFalconGenuineEdgeTokenProtocolVersion
+msWelcomeChromePB
+msWelcomeContentVisible
+msWelcomeCoverVisible
+msWelcomeEdgePB
+msWelcomeUnknownPB
