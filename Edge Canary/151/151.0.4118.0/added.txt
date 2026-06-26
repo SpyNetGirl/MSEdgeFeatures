@@ -1,0 +1,3 @@
+MsaPuid
+msOfferPinToTaskbarInSettings
+msRootCheck
