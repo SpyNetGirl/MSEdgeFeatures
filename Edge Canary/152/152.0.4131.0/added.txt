@@ -1,0 +1,6 @@
+msEdgeClearDataOnExitPolicyOnlyMode
+msEdgeJourneysUseUnifiedBackend
+msSwapInMaxAttempts
+msSwapMustCompress
+msSwapOutDelaySeconds
+msTopChromeWebUIPreloadedTrigger
