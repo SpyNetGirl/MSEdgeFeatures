@@ -1,0 +1,7 @@
+msEdgeAutofillTools
+msEdgeOmniboxNavigateToCopilotSearch
+msEdgePasswordTools
+msEdgePostCrashLaunch
+msEdgeWebAppSidebarV2FindOnPage
+msEnhancedWindowsSearchOpenTab
+msSearchOpenCSTab
