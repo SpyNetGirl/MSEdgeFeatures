@@ -1,0 +1,4 @@
+msoridCopilotDeviceFileUploadEnabled
+msoridCopilotDeviceReadEnabled
+msoridCopilotDeviceSearchEnabled
+msoridCopilotDeviceWriteEnabled
