@@ -1,0 +1,5 @@
+msEdgeAccountNameEmailProfile
+msEdgeBrowserHasslesExtensionsShowUx
+msEdgeCopilotCrReadAllScope
+msEdgeCopilotIframelessInteractiveAuth
+msSwapPreProd
