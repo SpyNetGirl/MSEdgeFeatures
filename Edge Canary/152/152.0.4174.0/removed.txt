@@ -1,0 +1,4 @@
+msCopilotPrivateConnectApiBridge
+msPrismExplorerDomainActions
+msPrismExplorerTriggeringExclusionList
+msSidebarSearchOpened
