@@ -1,0 +1,3 @@
+MSUndockedHost
+MSUndockedHostDev
+MSUndockedHostInternal
