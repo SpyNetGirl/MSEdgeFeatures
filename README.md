@@ -18,16 +18,13 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 152.0.4175.0
-### Last processed at: 07/24/2026 17:39:59 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 152.0.4176.0
+### Last processed at: 07/25/2026 02:45:15 (UTC+00:00)
 <details>
-<summary>3 new features were added in the latest Edge Canary update</summary>
+<summary>0 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MSUndockedHost
-* MSUndockedHostDev
-* MSUndockedHostInternal
 </details>
 <!-- Edge-Canary-Version:END -->
 
