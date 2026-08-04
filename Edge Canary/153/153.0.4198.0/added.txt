@@ -1,0 +1,2 @@
+MsaPolicyBlocked
+msPdfInternalLinkBackForwardNavigation
