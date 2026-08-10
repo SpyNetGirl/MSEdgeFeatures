@@ -1,0 +1,3 @@
+msDesktopModeChatIcon
+msDesktopModeNewBingOptin
+msEdgePurviewDlpGenuineEdgeTokenProtocolVersion
