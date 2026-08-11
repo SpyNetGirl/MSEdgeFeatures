@@ -1,0 +1,4 @@
+msEdgeContextMenuTranslateInSearchSidebar
+msEdgeMiniMenuTranslateInSearchSidebar
+msEdgeTranslateSelectionOnWebInSidePane
+msEdgeTranslateSelectionOnWebOOUIInSidePane
