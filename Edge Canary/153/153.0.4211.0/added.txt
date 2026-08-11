@@ -1,0 +1,4 @@
+msCopilotNaaInteractiveAuthQueue
+msCopilotNaaSilentAuthCoalescing
+msDisableCrHostAuthPrivate
+msDisableCrHostInteractiveAuth
