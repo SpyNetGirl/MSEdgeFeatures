@@ -1,0 +1,3 @@
+msComposeForAAD
+msComposeUseM365BizChatToken
+msEdgeCopilotCrHostNaaRequestShape
