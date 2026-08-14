@@ -1,0 +1,4 @@
+msDesktopModeSnipToSearchIcon
+msEdgeDlpInCopilotApp
+msEdgeToolsAgentTabOffscreenHosting
+msWebView2DirectExecuteScript
