@@ -1,0 +1,4 @@
+msEdgeProtectPinnedTabs
+msEdgeToolsBridgeDispatchTimeoutSeconds
+msEdgeToolsResponseCollectionTimeoutSeconds
+msEdgeToolsToolExecutionTimeoutSeconds
