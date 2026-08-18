@@ -1,0 +1,5 @@
+MS01E1
+msDelayLoadSandboxPolicy
+msSkipSnapDelayLoadsInBrowserProcess
+msSkipSnapDelayLoadsInRenderProcess
+msSnapDelayLoads
