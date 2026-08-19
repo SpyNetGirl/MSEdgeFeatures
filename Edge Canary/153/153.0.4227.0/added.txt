@@ -1,0 +1,5 @@
+msDelayLoadSandboxPolicy
+msEdgeAutofillComplexFormDetection
+msSkipSnapDelayLoadsInBrowserProcess
+msSkipSnapDelayLoadsInRenderProcess
+msSnapDelayLoads
