@@ -18,14 +18,17 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 153.0.4228.0
-### Last processed at: 08/19/2026 16:34:26 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 153.0.4229.0
+### Last processed at: 08/20/2026 01:17:52 (UTC+00:00)
 <details>
-<summary>1 new features were added in the latest Edge Canary update</summary>
+<summary>4 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEnableCrHostAuthPrivate
+* msEdgeCopilotHarmonyNaaRequestShape
+* msEdgeIntentsNurturing
+* msEdgeTranslateGenuineEdgeHeaders
+* msEdgeTranslateGenuineEdgeTokenProtocolVersion
 </details>
 <!-- Edge-Canary-Version:END -->
 
