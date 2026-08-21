@@ -1,0 +1,8 @@
+msEdgeCollectionsShortcut
+msEdgeExportToExcel
+msEdgeExportToOneNote
+msEdgeExportToWord
+msMoreMenuMoveCollections
+msTaskbarXUseSystemTray
+msToolbarDeclutterIncludeCollections
+msToolbarDeclutterIncludeFavorites
