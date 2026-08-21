@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "153.0.4231.0"
+$FullVersionToUse = "153.0.4232.0"
 
-$Arguments = "--enable-features=msEdgeEmailVerifiedToast,msEdgeIntentsRerank,msEdgeSplitWindowConvergeTabContextMenu,msMSNAnidHeader,msXh2g"
+$Arguments = "--enable-features=msEdgeCollectionsShortcut,msMoreMenuMoveCollections,msToolbarDeclutterIncludeCollections,msToolbarDeclutterIncludeFavorites"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"

@@ -1,0 +1,4 @@
+msEdgeCollectionsShortcut
+msMoreMenuMoveCollections
+msToolbarDeclutterIncludeCollections
+msToolbarDeclutterIncludeFavorites
