@@ -1,0 +1,5 @@
+msOmniboxPrefetchClientSide
+msOmniboxPrefetchControlGroup
+msOmniboxPrefetchTrigger
+msOmniboxPrefetchTrigger4Chars
+msOmniboxPrefetchTrigger5Chars
