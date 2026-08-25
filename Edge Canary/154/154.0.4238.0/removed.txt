@@ -1,0 +1,4 @@
+msCopilotFlexPaneDraggable
+msCopilotFlexPaneResizable
+msEdgeToolsPageScreenshot
+msOmniboxRelatedSearchesOnZeroInputPreferOrigin
