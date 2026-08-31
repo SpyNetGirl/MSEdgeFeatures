@@ -18,23 +18,15 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 154.0.4245.0
-### Last processed at: 08/29/2026 00:28:32 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 154.0.4250.0
+### Last processed at: 08/31/2026 15:56:26 (UTC+00:00)
 <details>
-<summary>10 new features were added in the latest Edge Canary update</summary>
+<summary>2 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msCardRoamingMSAv2
-* msEdgeReadingModeExtractionImprovements
-* msEdgeSkipPreReadMainDllWhileWindowless
-* msEdgeSuppressPreReadMainDllWhenNoActiveBrowser
-* msMsnNtpRendererFamilyOverrideForTesting
-* msOmniboxQFAcceptedAtLeastOncePerDay
-* msOmniboxQFAcceptedAtLeastTwicePerDay
-* msOmniboxZIAcceptedAtLeastOncePerDay
-* msOmniboxZIAcceptedAtLeastTwicePerDay
-* msSegmentationPlatformDefaultsNotificationTriggeringModelUseCU
+* msCloudProfileReportingVersionChannelMigration
+* msWeb2NativeSignInRecommendation
 </details>
 <!-- Edge-Canary-Version:END -->
 
