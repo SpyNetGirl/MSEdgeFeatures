@@ -1,0 +1,6 @@
+msEdgeEfficiencyModeChildProcessBatterySaver
+msEdgeGlobalFrameRateThrottling
+msEdgeGlobalFrameRateThrottlingFrameRateHz
+msEdgeSelectPassword
+msEdgeToolsCoworkReviewHostSidePanel
+msNetErrorPageC1BFeatures
