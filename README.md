@@ -18,19 +18,55 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 154.0.4255.0
-### Last processed at: 09/03/2026 03:24:03 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 155.0.4264.0
+### Last processed at: 09/07/2026 14:04:01 (UTC+00:00)
 <details>
-<summary>6 new features were added in the latest Edge Canary update</summary>
+<summary>42 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeEfficiencyModeChildProcessBatterySaver
-* msEdgeGlobalFrameRateThrottling
-* msEdgeGlobalFrameRateThrottlingFrameRateHz
-* msEdgeSelectPassword
-* msEdgeToolsCoworkReviewHostSidePanel
-* msNetErrorPageC1BFeatures
+* MsW0I2
+* MsWShG
+* msBrowserAppsSupported
+* msBrowserExtensionsSupported
+* msBrowserFavoritesSupported
+* msBrowserNewTabSupported
+* msBrowserOmniboxSupported
+* msBrowserOptimizationGuideInternalsSupported
+* msBrowserResetPasswordSupported
+* msBrowserSidebarInternalsSupported
+* msBrowserSyncConfirmationSupported
+* msBrowserVersionSupported
+* msBrowserWdagInternalsSupported
+* msBrowserWebRtcLogsSupported
+* msComposeVoiceInputCopilotChat
+* msCopilotAdminSignal
+* msEdgeAffiliationLookup
+* msEdgeChangePasswordUrlAffiliationSource
+* msEdgeCopilotPulseLoggerFrameDetails
+* msEdgeCoworkAutofillAutoStuffKillSwitch
+* msEdgeJourneysShowIntentCards
+* msEdgeMarketingPagePrivateCopilotEligibility
+* msEdgeOnDeviceModelExecution
+* msEdgePerformanceDetector
+* msEdgeShoppingExperiencesGenericFlag0
+* msEdgeShoppingExperiencesGenericFlag1
+* msEdgeShoppingExperiencesGenericFlag2
+* msEdgeShoppingExperiencesGenericFlag3
+* msEdgeShoppingExperiencesGenericFlag4
+* msEdgeShoppingExperiencesGenericFlag5
+* msEdgeShoppingExperiencesGenericFlag6
+* msEdgeShoppingExperiencesGenericFlag7
+* msEdgeShoppingExperiencesGenericFlag8
+* msEdgeShoppingExperiencesGenericFlag9
+* msEdgeVerticalTabsConvergence
+* msIEModeWipPageInfoIntegration
+* msPerformanceInterventionActionableTabsTrigger
+* msPerformanceInterventionShadowBackend
+* msSSOBrowserHintPhase2
+* msSendVariationIdsHeaderFromAnyTopLevelOrigin
+* msSwapDiscard
+* msWebUIGsaInternals
 </details>
 <!-- Edge-Canary-Version:END -->
 
