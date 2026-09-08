@@ -18,55 +18,20 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 155.0.4264.0
-### Last processed at: 09/07/2026 14:04:01 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 155.0.4266.0
+### Last processed at: 09/08/2026 19:19:16 (UTC+00:00)
 <details>
-<summary>42 new features were added in the latest Edge Canary update</summary>
+<summary>7 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* MsW0I2
-* MsWShG
-* msBrowserAppsSupported
-* msBrowserExtensionsSupported
-* msBrowserFavoritesSupported
-* msBrowserNewTabSupported
-* msBrowserOmniboxSupported
-* msBrowserOptimizationGuideInternalsSupported
-* msBrowserResetPasswordSupported
-* msBrowserSidebarInternalsSupported
-* msBrowserSyncConfirmationSupported
-* msBrowserVersionSupported
-* msBrowserWdagInternalsSupported
-* msBrowserWebRtcLogsSupported
-* msComposeVoiceInputCopilotChat
-* msCopilotAdminSignal
-* msEdgeAffiliationLookup
-* msEdgeChangePasswordUrlAffiliationSource
-* msEdgeCopilotPulseLoggerFrameDetails
-* msEdgeCoworkAutofillAutoStuffKillSwitch
-* msEdgeJourneysShowIntentCards
-* msEdgeMarketingPagePrivateCopilotEligibility
-* msEdgeOnDeviceModelExecution
-* msEdgePerformanceDetector
-* msEdgeShoppingExperiencesGenericFlag0
-* msEdgeShoppingExperiencesGenericFlag1
-* msEdgeShoppingExperiencesGenericFlag2
-* msEdgeShoppingExperiencesGenericFlag3
-* msEdgeShoppingExperiencesGenericFlag4
-* msEdgeShoppingExperiencesGenericFlag5
-* msEdgeShoppingExperiencesGenericFlag6
-* msEdgeShoppingExperiencesGenericFlag7
-* msEdgeShoppingExperiencesGenericFlag8
-* msEdgeShoppingExperiencesGenericFlag9
-* msEdgeVerticalTabsConvergence
-* msIEModeWipPageInfoIntegration
-* msPerformanceInterventionActionableTabsTrigger
-* msPerformanceInterventionShadowBackend
-* msSSOBrowserHintPhase2
-* msSendVariationIdsHeaderFromAnyTopLevelOrigin
-* msSwapDiscard
-* msWebUIGsaInternals
+* msCompactNeutralThemeAppliedTrigger
+* msCompactThemedThemeAppliedTrigger
+* msDefaultBlueThemeAppliedTrigger
+* msEEUseHeadMarkerFallbackClassifier
+* msEEUseLogisticProductPageClassifier
+* msNonColorThemeAppliedTrigger
+* msOneAuthWAMOnWCOS
 </details>
 <!-- Edge-Canary-Version:END -->
 

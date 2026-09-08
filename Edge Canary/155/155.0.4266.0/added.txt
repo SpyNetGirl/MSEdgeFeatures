@@ -1,0 +1,7 @@
+msCompactNeutralThemeAppliedTrigger
+msCompactThemedThemeAppliedTrigger
+msDefaultBlueThemeAppliedTrigger
+msEEUseHeadMarkerFallbackClassifier
+msEEUseLogisticProductPageClassifier
+msNonColorThemeAppliedTrigger
+msOneAuthWAMOnWCOS
