@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "155.0.4283.0"
+$FullVersionToUse = "156.0.4284.0"
 
-$Arguments = "--enable-features=MsW59J,msEdgeAllowLegacyMV2Extensions,msEdgeExtensionManifestV2DeprecationWarning,msEdgeExtensionManifestV2Disabled,msEdgeExtensionManifestV2ExceptionList,msEdgeExtensionManifestV2Unsupported,msEdgeExtensionsManifestV3Only,msEdgeTranslateSettingsCard,msForceOneAuthWAM,msPdfMipProtectionHttpTransportRefactor"
+$Arguments = "--enable-features=msNurturingSpaceworksInlineSwitch"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
