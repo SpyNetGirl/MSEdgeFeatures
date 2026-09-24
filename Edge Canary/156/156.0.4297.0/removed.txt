@@ -1,0 +1,2 @@
+msEdgeIncludeCollectionsDataInFeedback
+msEdgeOptimizationGuideManifestBroker
