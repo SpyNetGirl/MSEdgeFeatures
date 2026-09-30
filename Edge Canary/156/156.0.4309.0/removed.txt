@@ -1,0 +1,3 @@
+msEdgeAddWebCapturetoCollections
+msEdgeAppsWebUI2
+msNewEdgeAppsHandlers
