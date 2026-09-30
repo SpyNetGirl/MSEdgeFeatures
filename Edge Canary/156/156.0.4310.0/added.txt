@@ -1,0 +1,2 @@
+msPreservePrerenderOnNavigateAway
+msWebView2AllowRendererProvidedExternalProtocolUserGesture
