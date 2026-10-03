@@ -1,0 +1,5 @@
+msEdgeOmniboxPinToTaskbarEligibilityTracker
+msEdgeOmniboxPinToTaskbarTrackerConfig
+msNurturingUndefinedFeaure
+msShortcutsProviderSearchRelevanceTuningV2
+msWebView2PerProfileWorkerTargets
