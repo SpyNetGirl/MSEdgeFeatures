@@ -1,0 +1,7 @@
+msDockEdgeChatOnLinkOpen
+msEdgeAADChatHoverPinV2
+msEdgeMSAChatHoverPinV2
+msPhoenixVerticalTabAnimationTimings
+msPhoenixVerticalTabCollapseAnimation
+msShorelineAdaptiveWidth
+msUnifySearchHeaderWithShorelineAppHeaders
