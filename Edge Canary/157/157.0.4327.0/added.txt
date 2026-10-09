@@ -1,0 +1,5 @@
+msEdgeAutofillPasswordFormDataParserEntra
+msEdgeAutofillPasswordFormDataParserMSA
+msEdgeToolsHiddenTabRecycle
+msPdfTranslateScriptContradictionCheck
+msPrerenderNtpIdleFallbackTimer
