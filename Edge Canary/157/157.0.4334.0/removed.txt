@@ -1,0 +1,5 @@
+msAddPinningToSearchHeader
+msEdgeEDropAutoDownload
+msEdgeEDropUI
+msSearchSelectTextFeature
+msWalletHubPaymentGiftCard
