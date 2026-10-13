@@ -1,0 +1,7 @@
+msEdgeActiveTabInCollapsedGroups
+msEdgeEnableTabDragVelocity
+msEdgeTabCollapsedGroupSeparateContainer
+msEdgeTabDragToGroupHeuristic
+msEdgeTabGroupMenuDetach
+msEdgeTabGroupMenuV2
+msTyposquattingUX
