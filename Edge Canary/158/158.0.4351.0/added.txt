@@ -1,0 +1,2 @@
+msEdgeMV2DisabledNotification
+msEdgeSkipChildPreReadMainDllWhileWindowless
