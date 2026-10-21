@@ -1,0 +1,7 @@
+msAADSSOBrowserHint
+msBingAIMFeatures
+msBingSearchJumplistTask
+msCopilotUnificationEnterpriseRollout
+msCopilotUnificationPublicCloudGate
+msEnableProfileMSAAccountSSO
+msMSASSOBrowserHint
