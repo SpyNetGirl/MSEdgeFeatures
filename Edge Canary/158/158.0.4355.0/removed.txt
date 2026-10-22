@@ -1,0 +1,4 @@
+msEdgeAdaptiveCPUThrottling
+msFadeDiscardedTabs
+msFadeFrozenTabs
+msFadeUnloadedTabs

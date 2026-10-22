@@ -1,0 +1,2 @@
+msCopilotSidePanelBypassSignInForTesting
+msDownloadsWebUIFramework
