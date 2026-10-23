@@ -1,0 +1,3 @@
+msEdgeCopilotPulseLoggerTabState
+msEdgePdfPageOrganizer
+msImportantFileReader
