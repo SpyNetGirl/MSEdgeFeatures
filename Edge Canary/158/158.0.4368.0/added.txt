@@ -1,0 +1,9 @@
+msEdgeAgentIdentityProfiles
+msEdgeCollectionsPriceComparison
+msEdgeCollectionsUndo
+msEdgeResourceControlsMainToggleNewBadge
+msEdgeSyncSettingsIris
+msExtensionsPersistentHubScopedTrigger
+msHubAppsNotificationsSettings
+msSidebarVisibilityHidden
+msSidebarVisibilityShown
