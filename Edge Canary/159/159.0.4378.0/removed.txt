@@ -1,0 +1,9 @@
+msAccessiblePDFFormRead
+msEdgeDirectLaunchManager
+msEdgeDirectLaunchManagerOnLaunch
+msEdgeJourneysAADSupportInEurope
+msForceNoRoundedCornerAndMargin
+msPreservePrerenderOnNavigateAway
+msWChromiumFavoriteSuggestionsEnabled
+msWChromiumMinCharsForUrlProviders
+mss1E1
