@@ -18,25 +18,13 @@ Make sure you select the ***Watch*** option at the top of this page to receive n
 
 ## [Last Run Details](#last-run-details-) <img src="https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/images/Gifs/i%20just%20dont%20know.gif">
 <!-- Edge-Canary-Version:START -->
-### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 159.0.4378.0
-### Last processed at: 11/02/2026 17:56:59 (UTC+00:00)
+### <a href="https://github.com/SpyNetGirl/MSEdgeFeatures"><img width="35" src="https://github.com/HotCakeX/Harden-Windows-Security/raw/main/images/WebP/Edge%20Canary.webp"></a> Latest Edge Canary version: 159.0.4379.0
+### Last processed at: 11/03/2026 05:42:50 (UTC+00:00)
 <details>
-<summary>12 new features were added in the latest Edge Canary update</summary>
+<summary>0 new features were added in the latest Edge Canary update</summary>
 
 <br>
 
-* msEdgeCopilotPulseLoggerAllocatorBreakdown
-* msEdgeCopilotPulseLoggerProcessDetails
-* msEdgeOofCandidateDiagnostics
-* msEdgeWebUIOmniboxPopupFrontend
-* msFileSystemAccessWriteBlocklistCheck
-* msHubAppsFramework
-* msIEModeSiteListBackgroundParsing
-* msNotificationSpamClassifier
-* msNurturingMSStartYJCompeteTextVolumn
-* msOmniboxFluentSpyglass
-* msPdfUpsellFlyoutRedesign
-* msPrerenderNtpNavigateAwayBackoff
 </details>
 <!-- Edge-Canary-Version:END -->
 
