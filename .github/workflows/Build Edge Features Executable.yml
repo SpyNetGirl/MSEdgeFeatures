@@ -1,0 +1,114 @@
+name: Build Executable
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly on Sunday at 03:17 UTC.
+    - cron: '17 3 * * 0'
+
+# Prevent this workflow from running more than once at a time.
+concurrency:
+  group: BuildEdgeFeaturesExecutableWorkFlow
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-2025
+    permissions:
+      contents: write # Required for pushing the rebuilt executable to the repository.
+    steps:
+      - name: Check out the repository code
+        uses: actions/checkout@v7
+
+      - name: Build edge_features executable
+        shell: pwsh
+        working-directory: './edge_features'
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          #region --- Installing Rust ---
+          Write-Host -Object 'The version of Winget currently in use:'
+          Write-Host -Object (winget --version)
+          winget source update
+
+          Write-Host -Object "`nInstalling Rust toolchain" -ForegroundColor Magenta
+          $null = winget install --id Rustlang.Rustup --exact --accept-package-agreements --accept-source-agreements --uninstall-previous --force --source winget
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed to install the Rust toolchain: $LASTEXITCODE") }
+
+          # Refresh environment variables so the current session detects the Rust installation.
+          $Env:Path = [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine) + ';' +
+              [System.Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::User)
+          #endregion
+
+          #region --- Rust project ---
+          rustup toolchain install nightly
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed installing nightly Rust toolchain. Exit Code: $LASTEXITCODE") }
+
+          rustup default nightly
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed setting Rust toolchain to Nightly. Exit Code: $LASTEXITCODE") }
+
+          rustup target add x86_64-pc-windows-msvc
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed adding x86_64-pc-windows-msvc target to Rust toolchain. Exit Code: $LASTEXITCODE") }
+
+          # Required by the "-Z build-std" flag used in the build_x64 cargo alias.
+          rustup component add rust-src --toolchain nightly-x86_64-pc-windows-msvc
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed adding X64 rust-src component to Nightly toolchain. Exit Code: $LASTEXITCODE") }
+
+          rustup update
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed updating Rust. Exit Code: $LASTEXITCODE") }
+
+          cargo version
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed checking Cargo version. Exit Code: $LASTEXITCODE") }
+
+          if (Test-Path -PathType Leaf -LiteralPath 'Cargo.lock') {
+              Remove-Item -Force -LiteralPath 'Cargo.lock'
+          }
+
+          cargo clean
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed cleaning the Rust project. Exit Code: $LASTEXITCODE") }
+
+          cargo update --verbose
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed updating Rust dependencies. Exit Code: $LASTEXITCODE") }
+
+          cargo tree
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed displaying the dependency tree. Exit Code: $LASTEXITCODE") }
+
+          rustup show active-toolchain
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed showing active Rust toolchain. Exit Code: $LASTEXITCODE") }
+
+          cargo build_x64
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed building x64 edge_features project. Exit Code: $LASTEXITCODE") }
+          #endregion
+
+      - name: Replace executable and push it to the repository
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          Copy-Item -LiteralPath '.\edge_features\target\x86_64-pc-windows-msvc\release\edge_features.exe' -Destination '.\edge_features.exe' -Force
+
+          [System.String]$RustVersion = (rustc --version).Trim()
+          [System.String]$Hash = (Get-FileHash -LiteralPath '.\edge_features.exe' -Algorithm SHA256).Hash
+          Write-Host -Object "Built with: $RustVersion`nSHA256: $Hash"
+
+          git config --global user.email 'spynetgirl@outlook.com'
+          git config --global user.name 'HotCakeX'
+          git add 'edge_features.exe'
+
+          # Avoid failing scheduled runs when a rebuild produces an identical executable.
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+              Write-Host -Object 'edge_features.exe is unchanged. Nothing to commit.'
+              exit 0
+          }
+          if ($LASTEXITCODE -ne 1) { throw [System.InvalidOperationException]::New("Failed checking staged changes. Exit Code: $LASTEXITCODE") }
+
+          git commit -m "Rebuilt edge_features.exe with $RustVersion"
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed committing the executable. Exit Code: $LASTEXITCODE") }
+
+          # The Update workflow or another repository write may have pushed in the meantime.
+          git pull --rebase
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed pulling the latest changes. Exit Code: $LASTEXITCODE") }
+
+          git push
+          if ($LASTEXITCODE -ne 0) { throw [System.InvalidOperationException]::New("Failed pushing the executable. Exit Code: $LASTEXITCODE") }
