@@ -1,15 +1,16 @@
 use anyhow::{Result, anyhow};
 use chrono::Utc;
 use regex::Regex;
-use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::{Command, Stdio};
+use std::thread::sleep;
 use std::time::Duration;
-use tokio::time::sleep;
 use walkdir::WalkDir;
+
+mod http;
 
 #[derive(Serialize, Deserialize, Debug)]
 struct GitHubRelease {
@@ -37,9 +38,7 @@ struct UpdateReleaseRequest {
     body: String,
 }
 
-struct EdgeUpdater {
-    client: Client,
-}
+struct EdgeUpdater;
 
 /// Compare two dotted-version strings (e.g. "110.0.1587.0") by numeric segments.
 fn compare_versions(a: &str, b: &str) -> std::cmp::Ordering {
@@ -62,28 +61,27 @@ fn compare_versions(a: &str, b: &str) -> std::cmp::Ordering {
 
 impl EdgeUpdater {
     fn new() -> Self {
-        let client: Client = Client::new();
-        Self { client }
+        Self
     }
 
-    async fn run(&self) -> Result<()> {
+    fn run(&self) -> Result<()> {
         println!(
             "Current username is: '{}'",
             std::env::var("USERNAME").unwrap_or_default()
         );
 
         // Download Edge Canary installer
-        let edge_installer_path: PathBuf = self.download_edge_canary().await?;
+        let edge_installer_path: PathBuf = self.download_edge_canary()?;
 
         // Download strings64.exe
-        let strings_exe_path: PathBuf = self.download_strings64().await?;
+        let strings_exe_path: PathBuf = self.download_strings64()?;
 
         // Install Edge Canary
         self.install_edge_canary(&edge_installer_path)?;
 
         // Wait for installation to complete
         let app_path: PathBuf = self.get_edge_app_path();
-        self.wait_for_edge_installation(&app_path).await?;
+        self.wait_for_edge_installation(&app_path)?;
 
         // Accept Strings64 EULA
         self.accept_strings_eula()?;
@@ -118,7 +116,7 @@ impl EdgeUpdater {
 
         // Extract features using strings64
         let current_features: HashSet<String> =
-            self.extract_features(&strings_exe_path, &dll_path).await?;
+            self.extract_features(&strings_exe_path, &dll_path)?;
 
         // Save current features
         self.save_features(
@@ -179,13 +177,12 @@ impl EdgeUpdater {
         self.commit_and_push()?;
 
         // Create GitHub release
-        self.create_github_release(&full_version, &added, &removed)
-            .await?;
+        self.create_github_release(&full_version, &added, &removed)?;
 
         Ok(())
     }
 
-    async fn download_edge_canary(&self) -> Result<PathBuf> {
+    fn download_edge_canary(&self) -> Result<PathBuf> {
         let url1: &str =
             "https://go.microsoft.com/fwlink/?linkid=2084706&Channel=Canary&language=en";
         let url2: &str = "https://c2rsetup.edog.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeInsiderPage&Channel=Canary&language=en";
@@ -197,34 +194,31 @@ impl EdgeUpdater {
 
         // Try primary URL first
         println!("Trying the primary URL");
-        let result: Result<(), anyhow::Error> = self.download_file(url1, &installer_path).await;
+        let result: Result<(), anyhow::Error> = self.download_file(url1, &installer_path);
 
         if result.is_err() {
             println!("Downloading from the primary URL failed, trying the secondary URL");
             self.download_file(url2, &installer_path)
-                .await
                 .map_err(|_| anyhow!("Failed to download Edge from both URLs"))?;
         }
 
         Ok(installer_path)
     }
 
-    async fn download_strings64(&self) -> Result<PathBuf> {
+    fn download_strings64(&self) -> Result<PathBuf> {
         let url: &str = "https://live.sysinternals.com/strings64.exe";
         let temp_dir: PathBuf = std::env::temp_dir();
         let strings_path: PathBuf = temp_dir.join("strings64.exe");
 
         println!("Downloading Strings64.exe");
         self.download_file(url, &strings_path)
-            .await
             .map_err(|_| anyhow!("Failed to download Strings64"))?;
 
         Ok(strings_path)
     }
 
-    async fn download_file(&self, url: &str, path: &Path) -> Result<()> {
-        let response: reqwest::Response = self.client.get(url).send().await?;
-        let bytes: bytes::Bytes = response.bytes().await?;
+    fn download_file(&self, url: &str, path: &Path) -> Result<()> {
+        let bytes: Vec<u8> = http::get(url)?;
         std::fs::write(path, bytes)?;
         Ok(())
     }
@@ -246,7 +240,7 @@ impl EdgeUpdater {
         ))
     }
 
-    async fn wait_for_edge_installation(&self, app_path: &Path) -> Result<()> {
+    fn wait_for_edge_installation(&self, app_path: &Path) -> Result<()> {
         println!("Waiting for Edge Canary to be downloaded and installed");
 
         let timeout: Duration = Duration::from_secs(60 * 60); // 60 minutes
@@ -268,7 +262,7 @@ impl EdgeUpdater {
             }
 
             println!("File not found. Waiting for 5 seconds...");
-            sleep(Duration::from_secs(5)).await;
+            sleep(Duration::from_secs(5));
         }
     }
 
@@ -427,11 +421,7 @@ impl EdgeUpdater {
     }
 
     // Extract features: lines that begin with "ms" (case-Insensitive) followed by at least 4 more alphanumeric characters
-    async fn extract_features(
-        &self,
-        strings_exe: &Path,
-        dll_path: &Path,
-    ) -> Result<HashSet<String>> {
+    fn extract_features(&self, strings_exe: &Path, dll_path: &Path) -> Result<HashSet<String>> {
         println!("Strings64 Running...");
 
         let output = Command::new(strings_exe).arg(dll_path).output()?;
@@ -623,7 +613,7 @@ $content | Out-File -FilePath "C:\Users\$env:USERNAME\Downloads\EDGECAN Launcher
         Ok(())
     }
 
-    async fn create_github_release(
+    fn create_github_release(
         &self,
         full_version: &str,
         added: &[String],
@@ -687,27 +677,30 @@ $content | Out-File -FilePath "C:\Users\$env:USERNAME\Downloads\EDGECAN Launcher
         };
 
         // Make the API call with required User-Agent header
-        let response = self
-            .client
-            .post("https://api.github.com/repos/SpyNetGirl/MSEdgeFeatures/releases")
-            .header("Authorization", format!("token {}", github_token))
-            .header("User-Agent", "edge-canary-updater/1.0")
-            .json(&create_request)
-            .send()
-            .await?;
+        let authorization: String = format!("token {}", github_token);
+        let create_body: Vec<u8> = serde_json::to_vec(&create_request)?;
+        let response: http::Response = http::request(
+            "POST",
+            "https://api.github.com/repos/SpyNetGirl/MSEdgeFeatures/releases",
+            &[
+                ("Authorization", authorization.as_str()),
+                ("User-Agent", "edge-canary-updater/1.0"),
+                ("Content-Type", "application/json"),
+            ],
+            Some(&create_body),
+        )?;
 
         // Check if the response is successful
-        if !response.status().is_success() {
-            let status: reqwest::StatusCode = response.status();
-            let error_text: String = response
-                .text()
-                .await
-                .unwrap_or_else(|_| "Unknown error".to_string());
-            return Err(anyhow!("GitHub API error: {} - {}", status, error_text));
+        if !response.is_success() {
+            return Err(anyhow!(
+                "GitHub API error: {} - {}",
+                response.status,
+                response.text()
+            ));
         }
 
         // Parse the response
-        let response_text: String = response.text().await?;
+        let response_text: String = response.text();
         let release: GitHubRelease = serde_json::from_str(&response_text).map_err(|e| {
             anyhow!(
                 "Failed to parse GitHub API response: {}. Response: {}",
@@ -766,29 +759,26 @@ $content | Out-File -FilePath "C:\Users\$env:USERNAME\Downloads\EDGECAN Launcher
         let update_request: UpdateReleaseRequest = UpdateReleaseRequest { body: final_body };
 
         // Update release
-        let update_response = self
-            .client
-            .patch(&format!(
+        let update_body: Vec<u8> = serde_json::to_vec(&update_request)?;
+        let update_response: http::Response = http::request(
+            "PATCH",
+            &format!(
                 "https://api.github.com/repos/SpyNetGirl/MSEdgeFeatures/releases/{}",
                 release.id
-            ))
-            .header("Authorization", format!("token {}", github_token))
-            .header("User-Agent", "edge-canary-updater/1.0")
-            .header("Content-Type", "application/json")
-            .json(&update_request)
-            .send()
-            .await?;
+            ),
+            &[
+                ("Authorization", authorization.as_str()),
+                ("User-Agent", "edge-canary-updater/1.0"),
+                ("Content-Type", "application/json"),
+            ],
+            Some(&update_body),
+        )?;
 
-        if !update_response.status().is_success() {
-            let status: reqwest::StatusCode = update_response.status();
-            let error_text: String = update_response
-                .text()
-                .await
-                .unwrap_or_else(|_| "Unknown error".to_string());
+        if !update_response.is_success() {
             return Err(anyhow!(
                 "Failed to update GitHub release: {} - {}",
-                status,
-                error_text
+                update_response.status,
+                update_response.text()
             ));
         }
 
@@ -796,13 +786,12 @@ $content | Out-File -FilePath "C:\Users\$env:USERNAME\Downloads\EDGECAN Launcher
     }
 }
 
-#[tokio::main]
-async fn main() -> Result<()> {
+fn main() -> Result<()> {
     // Validate that GITHUB_TOKEN environment variable exists
     if std::env::var("GITHUB_TOKEN").is_err() {
         return Err(anyhow!("GITHUB_TOKEN environment variable is required"));
     }
 
     let updater: EdgeUpdater = EdgeUpdater::new();
-    updater.run().await
+    updater.run()
 }

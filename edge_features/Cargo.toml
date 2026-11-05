@@ -10,18 +10,13 @@ publish = false
 rust-version = "1.99"
 
 [dependencies]
-tokio = { version = "*", features = ["full"] }
-reqwest = { version = "*", features = ["json", "stream"] }
 serde = { version = "*", features = ["derive"] }
 serde_json = "*"
 anyhow = "*"
 regex = "*"
 chrono = { version = "*", features = ["serde"] }
-futures-util = "*"
-base64 = "*"
 walkdir = "*"
 winreg = "*"
-bytes = "*"
 
 [profile.release]
 codegen-units = 1
