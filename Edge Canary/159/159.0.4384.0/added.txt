@@ -1,5 +1,0 @@
-MSdu5H
-msEdgeDocUploadAutofillOpenTabs
-msEdgeDocUploadAutofillValueRotation
-msSettingsCenterSearchBar
-msToolbarDeclutterIncludeFavorites
