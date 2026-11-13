@@ -1,0 +1,6 @@
+msBrowserWebAppsSupported
+msPrerenderNtpAttemptAtMost500MiB
+msPrerenderNtpAttemptAtMost600MiB
+msPrerenderNtpAttemptAtMost700MiB
+msPrerenderNtpAttemptAtMost800MiB
+msPrerenderNtpAttemptAtMost900MiB
