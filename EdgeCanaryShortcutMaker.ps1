@@ -1,7 +1,7 @@
 
-$FullVersionToUse = "160.0.4409.0"
+$FullVersionToUse = "160.0.4411.0"
 
-$Arguments = "--enable-features=msEdgeAutofillAiUsePrivateAi,msMarketingPageHVAAdditionalSignals"
+$Arguments = "--enable-features=MSEdgePrint,MsGetOffice,msComposeVoiceInputKeepOpenOnBlur,msComposeVoiceInputRealtimeInsertion,msEdgeHJMediaFoundationCorrelationIds,msFirstBrowserSessionTracking,msPdfNotesInkGrouping,msPdfNotesPane,msf00006,msm00013"
 
 $content = @"
 powershell.exe -WindowStyle hidden -Command "`$UserSID = [System.Security.Principal.WindowsIdentity]::GetCurrent().user.value;`$UserName = (Get-LocalUser | where-object -FilterScript {`$_.SID -eq `$UserSID}).name;Get-Process | where-object -FilterScript {`$_.path -eq \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`"} | ForEach-Object -Process {Stop-Process -Id `$_.id -Force -ErrorAction SilentlyContinue};& \`"C:\Users\`$UserName\AppData\Local\Microsoft\Edge SxS\Application\msedge.exe\`" $Arguments"
