@@ -1,0 +1,6 @@
+msEdgeAutofillOnTypingIgnoresAutocompleteOff
+msEdgeIntentsBingAiMode
+msEdgeIntentsBingAiModePageContent
+msEdgeShoppingWaitForDatabaseLoad
+msSearchBoxInToolbarChina
+msSearchBoxInToolbarTrendingRotationChina
